@@ -1,0 +1,4 @@
+{
+	"parent":"item/bow",
+	"textures":{"layer0":"custom/sets/soul_netherite/soul_netherite_bow"}
+}

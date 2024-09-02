@@ -1,0 +1,49 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:is_member%'
+previous-menu: true
+
+pattern:
+  - ''
+  - '# @ @ @ @ @ @ @ #'
+  - '# @ @ @ @ @ @ @ #'
+  - '# @ @ @ @ @ @ @ #'
+  - '# @ @ @ @ @ @ @ #'
+  - '# % # # * # # ^ #'
+
+slots: '@'
+previous-page: '%'
+current-page: '*'
+next-page: '^'
+
+items:
+  '@':
+    type: PLAYER_HEAD
+    name: '&e{0}'
+    lore:
+      - '&eRole: &7{1}'
+  '%':
+    type: PAPER
+    customModel: 9999
+    name: '{0}Previous Page'
+  '*':
+    type: PAPER
+    customModel: 9999
+    name: '&aCurrent Page'
+    lore:
+      - '&7Page {0}'
+  '^':
+    type: PAPER
+    customModel: 9999
+    name: '{0}Next Page'
+
+sounds:
+  '@':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1

@@ -1,0 +1,95 @@
+panels:
+  InvisibleShears:
+    perm: "default"
+    pre-load-commands:
+      # Vanilla Item
+      - "set-data= shears %hrn_getItemAmount:VANILLA:SHEARS%"
+      - "set-data= shards %hrn_getItemAmount:VANILLA:AMETHYST_SHARD%"
+      # Custom Item
+      - "set-data= ruby_ingot %hrn_getItemAmount:HYRONIC:ruby_ingot%"
+      - "set-data= topaz_ingot %hrn_getItemAmount:HYRONIC:topaz_ingot%"
+    panelType:
+      - unmovable
+      - nocommand
+    commands-on-open:
+      - "sound= BLOCK_ANVIL_USE 1 1"
+    rows: 5
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:blacksmith_forging%"
+    item:
+      "10":
+        material: SHEARS
+        name: "&fShears &a%cp-data-shears%&8/&f1"
+      "11":
+        material: AMETHYST_SHARD
+        stack: 5
+        name: "&fAmethyst Shard &a%cp-data-shards%&8/&f5"
+
+      "14":
+        material: PAPER
+        stack: 5
+        customdata: 207
+        name: "&fTopaz Ingot &a%cp-data-topaz_ingot%&8/&f10"
+        duplicate: "15"
+      "16":
+        material: PAPER
+        customdata: 203
+        stack: 5
+        name: "&fRuby Ingot &a%cp-data-ruby_ingot%&8/&f5"
+
+      "40":
+        material: SHEARS
+        customdata: 1
+        name: "&fInvisible Shears"
+        lore:
+          - ""
+          - "&a→ Click to start forging"
+          - "&athis item."
+          - ""
+          - "#d2dae2ꜰᴏʀɢɪɴɢ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%5000"
+        commands:
+          # Check player's gem, if have enought, action below will run
+          - "paywall= 500"
+          # Remove player material for forging item.
+          - "console= hyronic remove-blacksmith-materials %player_name% invisible_shears"
+          # Give player the forging item
+          - "console= hyronic give-relic %player_name% invisible_shears 1"
+          # Play forging sound
+          - "sound= UI_TOAST_CHALLENGE_COMPLETE 1 1"
+          # Reopen the GUI to update everything. (IMPORTANT)
+          - "open= InvisibleShears"
+        has0: # Check player inventory empty slot
+          value0: "%player_empty_slots%"
+          compare0: "0"
+          material: SHEARS
+          customdata: 1
+          name: "&fInvisible Shears"
+          lore:
+            - ""
+            - "&f%hrn_getIcon:error%&c You dont have enought"
+            - "&cinventory space to start"
+            - ""
+            - "#d2dae2ꜰᴏʀɢɪɴɢ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%500"
+        has1: # Check Item have enought materials to forging
+          value1: "%hrn_hasForgeMaterial:invisible_shears%"
+          compare1: "false"
+          material: SHEARS
+          customdata: 1
+          name: "&fInvisible Shears"
+          lore:
+            - ""
+            - "&f%hrn_getIcon:error%&c You dont have enought"
+            - "&cmaterial to forge this item"
+            - ""
+            - "&8- &c%cp-data-shears%&8/&a1&f Shears"
+            - "&8- &c%cp-data-shards%&8/&a5&f Amethyst Shards"
+            - "&8- &c%cp-data-topaz_ingot%&8/&a10&f Topaz Ingots"
+            - "&8- &c%cp-data-ruby_ingot%&8/&a5&f Ruby Ingots"
+            - ""
+            - "#d2dae2ꜰᴏʀɢɪɴɢ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%500"
+
+      "44":
+        material: PAPER
+        customdata: 9999
+        name: "&fBack"
+        commands:
+          - "open= BlackSmithMaterial"

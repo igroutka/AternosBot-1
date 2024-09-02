@@ -1,0 +1,379 @@
+settings:
+  menu: 'shop-layout'
+  buy-more: true
+  shop-name: 'Mob Drops'
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: FEATHER
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.01
+        placeholder: '{amount}⛂'
+        start-apply: 0
+  
+
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MUTTON
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.1
+        placeholder: '{amount}⛂'
+        start-apply: 0
+  
+
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ARROW
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.4
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PORKCHOP
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.6
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CHICKEN
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.6
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: LEATHER
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.7
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BEEF
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  H:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GUNPOWDER
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.2
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  I:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ROTTEN_FLESH
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.35
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  J:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BONE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 3
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  K:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: STRING
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 3
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  L:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPIDER_EYE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 3.5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  M:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BLAZE_ROD
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 4
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  N:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: POPPY
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 8.5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  O:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MAGMA_CREAM
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 7.5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  P:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GOLD_NUGGET
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 19.3
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  Q:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MUSHROOM_STEW
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 20
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  R:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COBWEB
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.1
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  S:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ENDER_PEARL
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  T:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GOLDEN_CARROT
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 15
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  U:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GHAST_TEAR
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 100
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  V:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PRISMARINE_SHARD
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 150
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  W:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ENDER_EYE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 250
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  X:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: NETHER_STAR
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  Y:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SLIME_BALL
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 75
+        placeholder: '{amount}⛂'
+        start-apply: 0

@@ -1,0 +1,24 @@
+blocks:
+  enable: false
+  only-natural-ore: true
+  list:
+    IRON_ORE:
+      block-vanilla-drop: false
+      drop-item: topaz_ingot # the item id of Oraxen/ItemsAdder item
+      amount: 1-5 # This mean random from 1 to 3
+      chance: 9 # equal to 10%
+    GOLD_ORE:
+      block-vanilla-drop: false
+      drop-item: ruby_ingot # the item id of Oraxen/ItemsAdder item
+      amount: 1-4 # This mean random from 1 to 3
+      chance: 24 # equal to 10%
+    DIAMOND_ORE:
+      block-vanilla-drop: false
+      drop-item: hyronium_ingot # the item id of Oraxen/ItemsAdder item
+      amount: 1-3 # This mean random from 1 to 3
+      chance: 32 # equal to 10%
+    EMERALD_ORE:
+      block-vanilla-drop: false
+      drop-item: gem_ingot # the item id of Oraxen/ItemsAdder item
+      amount: 1-2 # This mean random from 1 to 3
+      chance: 40 # equal to 10%

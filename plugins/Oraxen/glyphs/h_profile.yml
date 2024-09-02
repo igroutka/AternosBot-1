@@ -1,0 +1,5 @@
+profile:
+  texture: custom/ui/containers/profile
+  ascent: 19
+  height: 256
+  char: ꑤ

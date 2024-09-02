@@ -1,0 +1,311 @@
+# Only for texture displaying, this item will not
+# working. This item being handled by HyronicSkyblockCore
+
+totem_of_keeping:
+  displayname: <red>Totem of Keeping
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by HyronicSkyblockCore.
+  - <red>Do not give this to player.
+  material: PAPER
+  Pack:
+    custom_model_data: 500
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/totem_of_keeping
+
+experience_bottle:
+  displayname: <red>Experience Bottle
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by Vouchers.
+  - <red>Do not give this to player.
+  material: PAPER
+  Pack:
+    custom_model_data: 501
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/experience_bottle
+
+
+flying_boots:
+  displayname: <red>Flying Boots
+  material: LEATHER_BOOTS
+  lore:
+  - <red>This is an display item. Flying
+  - <red>Boots handled by fjetpack2reloaded.
+  - <red>Do not give this to player.
+  color: 0, 144, 208
+  Mechanics:
+    durability:
+      value: 643
+  Pack:
+    custom_model_data: 503
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/items/flying_boots
+      - custom/items/flying_boots
+
+
+cosmetic_key:
+  displayname: <red>Cosmetic Crate Key
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by ExcellentCrate.
+  - <red>Do not give this to player.
+  material: PAPER
+  Pack:
+    custom_model_data: 504
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/cosmetic_key
+
+relic_key:
+  displayname: <red>Relic Crate Key
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by ExcellentCrate.
+  - <red>Do not give this to player.
+  material: PAPER
+  Pack:
+    custom_model_data: 505
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/relic_key
+
+daily_key:
+  displayname: <red>Daily Crate Key
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by ExcellentCrate.
+  - <red>Do not give this to player.
+  material: PAPER
+  Pack:
+    custom_model_data: 506
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/daily_key
+
+lucky_clover:
+  displayname: <red>Lucky Clover
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by HyronicSkyblockCore.
+  - <red>Do not give this to player.
+  material: PAPER
+  Pack:
+    custom_model_data: 507
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/lucky_clover
+
+blue_shiny_pearl:
+  displayname: <red>Blye Shiny Pearl
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by HyronicSkyblockCore.
+  - <red>Do not give this to player.
+  material: PAPER
+  Pack:
+    custom_model_data: 508
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/fish/blue_shiny_pearl
+
+stringy_worm:
+  displayname: <red>Strings Worn
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by EvenMoreFish.
+  - <red>Do not give this to player.
+  material: FLINT
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/fish/strings_worm
+
+basic_float:
+  displayname: <red>Basic Float
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by HyronicSkyblockCore.
+  - <red>Do not give this to player.
+  material: FLINT
+  Pack:
+    custom_model_data: 2
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/fish/basic_float
+
+good_float:
+  displayname: <red>Good Float
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by HyronicSkyblockCore.
+  - <red>Do not give this to player.
+  material: FLINT
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/fish/good_float
+
+magic_float:
+  displayname: <red>Magic Float
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by HyronicSkyblockCore.
+  - <red>Do not give this to player.
+  material: FLINT
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/fish/magic_float
+
+invisible_shears:
+  displayname: <red>Invisible Shears
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by HyronicSkyblockCore.
+  - <red>Do not give this to player.
+  material: SHEARS
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/invisible_shears
+
+icon_free:
+  displayname: <red>Icon Free
+  material: NAME_TAG
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/icon_free
+
+icon_paid:
+  displayname: <red>Icon Paid
+  material: NAME_TAG
+  Pack:
+    custom_model_data: 2
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/icon_paid
+
+icon_exclusive:
+  displayname: <red>Icon Exclusive
+  material: NAME_TAG
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/icon_exclusive
+
+
+icon_locked:
+  displayname: <red>Icon Locked
+  material: NAME_TAG
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/icon_locked
+
+
+
+quest_easy:
+  displayname: <red>Quest Easy
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by ODailyQuest.
+  - <red>Do not give this to player.
+  material: BOOK
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/quest_easy
+
+quest_medium:
+  displayname: <red>Quest Medium
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by ODailyQuest.
+  - <red>Do not give this to player.
+  material: BOOK
+  Pack:
+    custom_model_data: 2
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/quest_medium
+
+quest_hard:
+  displayname: <red>Quest Hard
+  lore:
+  - <red>This is an relic item, should be
+  - <red>handled by ODailyQuest.
+  - <red>Do not give this to player.
+  material: BOOK
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/quest_hard
+
+
+
+trade_status:
+  displayname: <red>Trade Status
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    custom_model_data: 9997
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/trade_status
+
+trade_gem:
+  displayname: <red>Trade Gem
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    custom_model_data: 9998
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/trade_gem
+
+empty:
+  displayname: <red>Empty Item
+  material: PAPER
+  excludeFromInventory: true
+  Pack:
+    custom_model_data: 9999
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/empty

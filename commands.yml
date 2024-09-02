@@ -1,0 +1,15 @@
+command-block-overrides: []
+ignore-vanilla-permissions: false
+aliases:
+  withdraw:
+  - island withdraw $1
+  deposit:
+  - island deposit $1
+  icanhasbukkit:
+  - version $1-
+  auction:
+  - ah sell $1
+  shop:
+  - ultimateshop menu crops
+  gshop:
+  - ultimateshop menu crops

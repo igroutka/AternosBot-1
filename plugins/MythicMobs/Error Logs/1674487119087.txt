@@ -1,0 +1,21 @@
+java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.adapters.AbstractEntity.getHealth()" because "entity" is null
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.core.skills.placeholders.PlaceholderExecutor.lambda$load$70(PlaceholderExecutor.java:350)
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.core.skills.placeholders.types.EntityPlaceholder.apply(EntityPlaceholder.java:19)
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.core.skills.placeholders.PlaceholderParser.parse(PlaceholderParser.java:108)
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderStringImpl.get(PlaceholderStringImpl.java:50)
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.core.skills.placeholders.parsers.PlaceholderStringImpl.get(PlaceholderStringImpl.java:42)
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.core.mobs.ActiveMob.updateBossBar(ActiveMob.java:738)
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.core.mobs.ActiveMob.tick(ActiveMob.java:260)
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.core.skills.SkillExecutor.runTimerSkills(SkillExecutor.java:174)
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.bukkit.clock.MythicClock.runSkillClock(MythicClock.java:182)
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToConsumer.accept(Delegates.java:93)
+	at MythicMobs-5.2.1.jar//io.lumine.mythic.bukkit.utils.Schedulers$LumineTask.run(Schedulers.java:162)
+	at org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_19_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+MythicMobs version: 5.2.1-fd1d0777
+Bukkit version: git-Paper-367 (MC: 1.19.3)

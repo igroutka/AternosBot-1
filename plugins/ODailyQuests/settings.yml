@@ -1,0 +1,29 @@
+texture-pack-manager:
+  enable: false
+  core-pack-namespace: hyronic_core # DO NO CHANGE THIS.
+  sub-namespaces:
+  - hyronic_friend
+  - hyronic_lobby
+
+# Use this to format your world, %hyronic_world%
+custom-world-displayname:
+  world: "Survival World"
+  world_the_end: "The End"
+  world_nether: "Nether"
+  custom_world_name: "Aether"
+
+# Use to custom the region name from World Guard, if you're not in a region, default string will apply
+# %hyronic_region%
+custom-region-displayname:
+  skyblock-island:
+    your-island: "Your Island"
+    player-island: "%player% island"
+  worlds:
+    world:
+      default: "Survival World"
+      shop: "Money Shop"
+
+# %hyronic_var_<variable>%
+custom-variables:
+  server-name: "Hyronic Skyblock"
+  server-ip: "play.hyronic.dev"

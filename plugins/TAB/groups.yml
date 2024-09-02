@@ -1,0 +1,49 @@
+#Owner:
+#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#  tagprefix: "&2&lOwner &a"
+player:
+  tabprefix: "%hrn_getIcon:rank_player% "
+  customtagname: "%alonsotags_tag_scoreboard%&7%essentials_nickname%"
+  abovename: "%hrn_getIcon:rank_player%"
+  
+vip:
+  tabprefix: "%hrn_getIcon:rank_vip%#badc58 "
+  customtagname: "%alonsotags_tag_scoreboard%#badc58%essentials_nickname%"
+  abovename: "%hrn_getIcon:rank_vip%"
+  
+mvp:
+  tabprefix: "%hrn_getIcon:rank_mvp%#58fdff "
+  customtagname: "%alonsotags_tag_scoreboard%#58fdff%essentials_nickname%"
+  abovename: "%hrn_getIcon:rank_mvp%"
+  
+elite:
+  tabprefix: "%hrn_getIcon:rank_elite%#fc895f "
+  customtagname: "%alonsotags_tag_scoreboard%#fc895f%essentials_nickname%"
+  abovename: "%hrn_getIcon:rank_elite%"
+  
+moderator:
+  tabprefix: "%hrn_getIcon:rank_moderator%#4834d4 "
+  customtagname: "%alonsotags_tag_scoreboard%#4834d4%essentials_nickname%"
+  abovename: "%hrn_getIcon:rank_moderator%"
+  
+admin:
+  tabprefix: "%hrn_getIcon:rank_admin%#eb2f06 "
+  customtagname: "%alonsotags_tag_scoreboard%#eb2f06%essentials_nickname%"
+  abovename: "%hrn_getIcon:rank_admin%"
+  
+owner:
+  tabprefix: "%hrn_getIcon:rank_owner%#2bcbba "
+  customtagname: "%alonsotags_tag_scoreboard%#2bcbba%essentials_nickname%"
+  abovename: "%hrn_getIcon:rank_owner%"
+  
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabsuffix: " &f%alonsotags_tag_scoreboard%"
+  customtabname: "%essentials_nickname%"
+  belowname: "%hrn_getHPBar:DEFAULT%"
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

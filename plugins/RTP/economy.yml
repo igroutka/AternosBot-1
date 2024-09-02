@@ -1,0 +1,21 @@
+#prices of things, using economy interface
+
+#whether to refund price and cooldown on cancellation
+refundOnCancel: true
+
+#base price for teleporting
+price: 0
+
+#price for teleporting other people
+priceOther: 0
+
+#price for using custom teleport parameters
+paramsPrice: 0
+
+#price to use biome parameter
+biomePrice: 0
+
+#disallow balances below this number
+balanceFloor: 0.0
+
+version: "1.0"

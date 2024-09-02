@@ -1,0 +1,312 @@
+warden_helmet:
+  displayname: <#FFFFFF>Warden Helmet
+  lore:
+  - <#535c68>Bonus <#12CBC4>2 Max Health <#535c68>when
+  - <#535c68>you equiped this armor.
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: LEATHER_HELMET
+  color: 0,0,4
+  unbreakable: true
+  Mechanics:
+    durability:
+      value: 643
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 7bfcf804-b75a-40a5-97f5-f23282703d0e
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: 7bfcf804-b75a-40a5-97f5-f23282703d0e
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    amount: 0.3
+    operation: 0
+    uuid: df667d9d-c620-462e-952c-5e27bb31daa9
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 2
+    operation: 0
+    uuid: fe312994-290b-44ba-ba6a-f1c4cbe3be8d
+    slot: HEAD
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/warden/warden_helmet
+      - custom/sets/warden/warden_helmet
+
+warden_chestplate:
+  displayname: <#FFFFFF>Warden Chestplate
+  lore:
+  - <#535c68>Bonus <#12CBC4>2 Max Health <#535c68>when
+  - <#535c68>you equiped this armor.
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: LEATHER_CHESTPLATE
+  color: 0,0,4
+  unbreakable: true
+  Mechanics:
+    durability:
+      value: 643
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 8
+    operation: 0
+    uuid: 11ba6bc7-32a7-4598-b057-883922561f8d
+    slot: CHEST
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: 3a7d973a-004c-4f9d-9bb6-06ee85775ed9
+    slot: CHEST
+  - name: oraxen
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    amount: 0.3
+    operation: 0
+    uuid: f3e43a94-630b-4f93-b6a1-8d0536ee8e71
+    slot: CHEST
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 2
+    operation: 0
+    uuid: 72aace5f-3320-49e1-8341-7d699a90735f
+    slot: CHEST
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/warden/warden_chestplate
+      - custom/sets/warden/warden_chestplate
+
+warden_leggings:
+  displayname: <#FFFFFF>Warden Leggings
+  lore:
+  - <#535c68>Bonus <#12CBC4>2 Max Health <#535c68>when
+  - <#535c68>you equiped this armor.
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: LEATHER_LEGGINGS
+  color: 0,0,4
+  unbreakable: true
+  Mechanics:
+    durability:
+      value: 643
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 6
+    operation: 0
+    uuid: 6cdfa59b-f9fd-400a-8d18-135100e7f1f0
+    slot: LEGS
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: a6d8ebe1-f08e-4d5a-afa8-4e25fb49ac0e
+    slot: LEGS
+  - name: oraxen
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    amount: 0.3
+    operation: 0
+    uuid: fe8af7e5-655f-4376-ba75-a21481791a53
+    slot: LEGS
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 2
+    operation: 0
+    uuid: ec0e38f2-d17a-432a-a689-6adc3092a826
+    slot: LEGS
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/warden/warden_leggings
+      - custom/sets/warden/warden_leggings
+
+warden_boots:
+  displayname: <#FFFFFF>Warden Boots
+  lore:
+  - <#535c68>Bonus <#12CBC4>2 Max Health <#535c68>when
+  - <#535c68>you equiped this armor.
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: LEATHER_BOOTS
+  color: 0,0,4
+  unbreakable: true
+  Mechanics:
+    durability:
+      value: 643
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 5120200b-69fc-4ac9-a16e-afc6db6ce834
+    slot: FEET
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: ababd3f9-b42b-4908-9934-2c6a006ab30e
+    slot: FEET
+  - name: oraxen
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    amount: 0.3
+    operation: 0
+    uuid: d9be4b37-d997-4359-8c8f-f2e0f973b3a3
+    slot: FEET
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 2
+    operation: 0
+    uuid: 9293cbbd-3191-44ad-a79f-c4bc20364670
+    slot: FEET
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/warden/warden_boots
+      - custom/sets/warden/warden_boots
+
+
+
+warden_pickaxe:
+  displayname: <#FFFFFF>Warden Pickaxe
+  lore:
+  - ''
+  - <white>Increases damage dealt to
+  - <white>the <#00d2d3>Warden Boss <white>by <#00d2d3>20%
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: NETHERITE_PICKAXE
+  unbreakable: true
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/warden/warden_pickaxe
+
+warden_sword:
+  displayname: <#FFFFFF>Warden Sword
+  lore:
+  - ''
+  - <white>Increases damage dealt to
+  - <white>the <#00d2d3>Warden Boss <white>by <#00d2d3>20%
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: NETHERITE_SWORD
+  unbreakable: true
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/warden/warden_sword
+
+warden_shovel:
+  displayname: <#FFFFFF>Warden Shovel
+  lore:
+  - ''
+  - <white>Increases damage dealt to
+  - <white>the <#00d2d3>Warden Boss <white>by <#00d2d3>20%
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: NETHERITE_SHOVEL
+  unbreakable: true
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/warden/warden_shovel
+
+
+warden_axe:
+  displayname: <#FFFFFF>Warden Axe
+  lore:
+  - ''
+  - <white>Increases damage dealt to
+  - <white>the <#00d2d3>Warden Boss <white>by <#00d2d3>20%
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: NETHERITE_AXE
+  unbreakable: true
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/warden/warden_axe
+
+warden_hoe:
+  displayname: <#FFFFFF>Warden Hoe
+  lore:
+  - ''
+  - <white>Increases damage dealt to
+  - <white>the <#00d2d3>Warden Boss <white>by <#00d2d3>20%
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: NETHERITE_HOE
+  unbreakable: true
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/warden/warden_hoe
+
+warden_bow:
+  displayname: <#FFFFFF>Warden Bow
+  lore:
+  - ''
+  - <#535c68>Slightly increase the flight
+  - <#535c68>speed of arrows and dmg.
+  - ''
+  - <white>Increases damage dealt to
+  - <white>the <#00d2d3>Warden Boss <white>by <#00d2d3>20%
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: BOW
+  unbreakable: true
+  Pack:
+    custom_model_data: 3
+    generate_model: false
+    model: custom/bows/warden/warden_bow
+    pulling_models:
+    - custom/bows/warden/warden_bow_pulling_0
+    - custom/bows/warden/warden_bow_pulling_1
+    - custom/bows/warden/warden_bow_pulling_2
+
+
+
+warden_ingot:
+  displayname: <#FFFFFF>Warden Ingot
+  lore:
+  - <#535c68>Has a small chance to drop
+  - <#535c68>when the Warden dies, can be
+  - <#535c68>used to upgrade Netherite
+  - <#535c68>armor or tool.
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: PAPER
+  Pack:
+    custom_model_data: 602
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/warden/warden_ingot

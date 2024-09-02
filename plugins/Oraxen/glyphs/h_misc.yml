@@ -1,0 +1,115 @@
+skyblock:
+  texture: custom/ui/skyblock
+  ascent: 8
+  height: 9
+  char: ꑃ
+time:
+  texture: custom/ui/time
+  ascent: 9
+  height: 10
+  char: ꑄ
+location:
+  texture: custom/ui/location
+  ascent: 9
+  height: 10
+  char: ꑅ
+hammer:
+  texture: custom/ui/hammer
+  ascent: 9
+  height: 10
+  char: ꑆ
+gem:
+  texture: custom/ui/gem
+  ascent: 8
+  height: 9
+  char: ⛂
+present:
+  texture: custom/ui/present
+  ascent: 8
+  height: 10
+  char: ꑇ
+hp_full:
+  texture: custom/ui/hp_full
+  ascent: 8
+  height: 9
+  char: ꑈ
+hp_start:
+  texture: custom/ui/hp_start
+  ascent: 8
+  height: 9
+  char: ꑉ
+hp_end:
+  texture: custom/ui/hp_end
+  ascent: 8
+  height: 9
+  char: ꑊ
+hp_bar:
+  texture: custom/ui/hp_bar
+  ascent: 8
+  height: 9
+  char: ꑋ
+hp_bar_empty:
+  texture: custom/ui/hp_bar_empty
+  ascent: 8
+  height: 9
+  char: ꑌ
+server_logo:
+  texture: custom/logo
+  ascent: 11
+  height: 24
+  char: パ
+server_logo_board:
+  texture: custom/logo
+  ascent: 18
+  height: 24
+  char: ꑍ
+server_logo_big:
+  texture: custom/logo
+  ascent: 11
+  height: 40
+  char: ꑎ
+black_background:
+  texture: custom/background
+  ascent: 256
+  height: 2500
+  char: ꑏ
+welcome:
+  texture: custom/welcome
+  ascent: 19
+  height: 256
+  char: ꑐ
+error:
+  texture: custom/ui/error
+  ascent: 7
+  height: 7
+  char: ꑚ
+success:
+  texture: custom/ui/success
+  ascent: 7
+  height: 7
+  char: ꑛ
+warn:
+  texture: custom/ui/warn
+  ascent: 7
+  height: 7
+  char: ꑜ
+top_1:
+  texture: custom/ui/top_1
+  ascent: 9
+  height: 10
+  char: ꑑ
+top_2:
+  texture: custom/ui/top_2
+  ascent: 9
+  height: 10
+  char: ꑒ
+top_3:
+  texture: custom/ui/top_3
+  ascent: 9
+  height: 10
+  char: ꑓ
+esc_banner:
+  texture: custom/ui/esc_banner
+  ascent: -14
+  height: 256
+  char: ꑔ

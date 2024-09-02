@@ -1,0 +1,145 @@
+Title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:profile%"
+Rows: 4
+Settings:
+  RightShiftClickOpenProfile:
+    Enable: true
+    BlacklistWorlds:
+      - example_worlds
+SpecialButtons:
+  PlayerHead:
+    Material: PLAYER_HEAD
+    ModelData: 4
+    Slot: 6
+    Name: "&f%luckperms_prefix% %player_name%"
+  EmptyHelmet:
+    Material: PAPER
+    ModelData: 705
+    Slot: 0
+    Name: "&fʜᴇʟᴍᴇᴛ"
+    Lore:
+      - "&8→ ᴇᴍᴘᴛʏ"
+  EmptyChestplate:
+    Material: PAPER
+    ModelData: 700
+    Slot: 9
+    Name: "&fᴄʜᴇsᴛᴘʟᴀᴛᴇ"
+    Lore:
+      - "&8→ ᴇᴍᴘᴛʏ"
+  EmptyLeggings:
+    Material: PAPER
+    ModelData: 706
+    Slot: 18
+    Name: "&fʟᴇɢɢɪɴɢs"
+    Lore:
+      - "&8→ ᴇᴍᴘᴛʏ"
+  EmptyBoots:
+    Material: PAPER
+    ModelData: 702
+    Slot: 27
+    Name: "&fʙᴏᴏᴛs"
+    Lore:
+      - "&8→ ᴇᴍᴘᴛʏ"
+  EmptyHat:
+    Material: PAPER
+    ModelData: 704
+    Slot: 1
+    Name: "&fʜᴀᴛ"
+    Lore:
+      - "&8→ ᴇᴍᴘᴛʏ"
+  EmptyBackpack:
+    Material: PAPER
+    ModelData: 701
+    Slot: 10
+    Name: "&fʙᴀᴄᴋᴘᴀᴄᴋ"
+    Lore:
+      - "&8→ ᴇᴍᴘᴛʏ"
+  EmptyMainHand:
+    Material: PAPER
+    ModelData: 707
+    Slot: 29
+    Name: "&fᴍᴀɪɴʜᴀɴᴅ"
+    Lore:
+      - "&8→ ᴇᴍᴘᴛʏ"
+  EmptyHandheld: # Cosmetic hand/ Offhand
+    Material: PAPER
+    ModelData: 703
+    Slot: 19
+    Name: "&fʜᴀɴᴅʜᴇʟᴅ"
+    Lore:
+      - "&8→ ᴇᴍᴘᴛʏ"
+  EmptyBalloon:
+    Material: PAPER
+    ModelData: 707
+    Slot: 28
+    Name: "&fʙᴀʟʟᴏᴏɴ"
+    Lore:
+      - "&8→ ᴇᴍᴘᴛʏ"
+FunctionalButtons:
+  Teleport:
+    Material: PAPER
+    ModelData: 9999
+    Slot: 35
+    Name: "&f→ ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ"
+    Close: true
+    Commands:
+      - "tpa %player_name%"
+  Trade:
+    Material: PAPER
+    ModelData: 9999
+    Slot: 34
+    Name: "&f→ ᴛʀᴀᴅᴇ ʀᴇǫᴜᴇsᴛ"
+    Close: true
+    Commands:
+      - "trade %player_name%"
+  Auction:
+    Material: PAPER
+    ModelData: 9999
+    Slot: 33
+    Name: "&f→ ᴠɪᴇᴡ ᴀᴜᴄᴛɪᴏɴ"
+    Close: false
+    Commands:
+      - "pa open all -search %player_name%"
+  AddFriend:
+    Material: PAPER
+    ModelData: 9999
+    Slot: 32
+    Name: "&f→ ᴀᴅᴅ ꜰʀɪᴇɴᴅ"
+    Lore:
+      - "&8ᴄᴏᴍɪɴɢ sᴏᴏɴ"
+    Close: false
+  Dual:
+    Material: PAPER
+    ModelData: 9999
+    Slots: [30,31]
+    Name: "&f→ ᴅᴜᴀʟ ʀᴇǫᴜᴇsᴛ"
+    Lore:
+      - "&8ᴄᴏᴍɪɴɢ sᴏᴏɴ"
+    Close: false
+  IslandInfo:
+    Material: PAPER
+    ModelData: 9999
+    Slot: 23
+    Name: "&fᴄᴏᴍᴍᴏɴ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ"
+    Lore:
+      - "&r "
+      - "&fɴᴀᴍᴇ: &b%player_name%"
+      - "&fʀᴀɴᴋ: &f%luckperms_prefix%"
+      - "&fᴊᴏɪɴ: &b%player_first_join_date%"
+      - "&r "
+      - "&fᴋɪʟʟs: &6%statistic_player_kills%"
+      - "&fᴅᴇᴀᴛʜs: &c%statistic_deaths%"
+  Gems:
+    Material: PAPER
+    ModelData: 9999
+    Slot: 22
+    Name: "&#D6A2E8ɢᴇᴍ: &f%vault_eco_balance_commas%%hrn_getIcon:gem%"
+  Discord:
+    Material: PAPER
+    ModelData: 9999
+    Slot: 21
+    Name: "&#5352edᴅɪsᴄᴏʀᴅ: &8ᴄᴏᴍɪɴɢ sᴏᴏɴ"
+  PlayTime:
+    Material: PAPER
+    ModelData: 9999
+    Slot: 20
+    Name: "&#009432ᴘʟᴀʏᴛɪᴍᴇ: &f%playtime_time%"

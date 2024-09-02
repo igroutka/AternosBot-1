@@ -1,0 +1,28 @@
+location: world_spawn:-72.350:124.144:-16.321
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: FLINT {CustomModelData:2}'
+    height: 0.6
+  - content: '&b&lꜰɪsʜɪɴɢ ᴄᴏɴᴛᴇsᴛ ʀᴀɴᴋɪɴɢ'
+    height: 0.3
+  - content: '&8&m                                    &r'
+    height: 0.3
+  - content: '%hrn_getIcon:top_1% &6%emf_competition_place_player_1% &8- &f%emf_competition_place_fish_1%'
+    height: 0.3
+  - content: '%hrn_getIcon:top_2% &b%emf_competition_place_player_2% &8- &f%emf_competition_place_fish_2%'
+    height: 0.3
+  - content: '%hrn_getIcon:top_3% &f%emf_competition_place_player_3% &8- &f%emf_competition_place_fish_3%'
+    height: 0.3
+  - content: '&74. &7%emf_competition_place_player_4% &8- &f%emf_competition_place_fish_4%'
+    height: 0.3
+  - content: '&75. &7%emf_competition_place_player_5% &8- &f%emf_competition_place_fish_5%'
+    height: 0.3
+  - content: '&8&m &r &8&m  &r &8&m       &r &8&m  &r &8&m '
+    height: 0.3
+  actions: {}

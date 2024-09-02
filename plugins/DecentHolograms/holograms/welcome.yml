@@ -1,0 +1,32 @@
+location: world_spawn:1.685:126.999:-100.650
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '%hrn_getIcon:server_logo_big%'
+    height: 0.3
+  - content: ' '
+    height: 0.3
+  - content: ' '
+    height: 0.3
+  - content: ' '
+    height: 0.3
+  - content: '&fWelcome &b%player_name%&f to our server.'
+    height: 0.3
+  - content: '&fIf this is your first time here, lets visit'
+    height: 0.3
+  - content: '&fall the NPCs in this hud island to explore'
+    height: 0.3
+  - content: '&four server features.'
+    height: 0.3
+  - content: '&f'
+    height: 0.3
+  - content: '&fUsing the &b/warp&f command to quickly'
+    height: 0.3
+  - content: '&fnavigate to different places on the server.'
+    height: 0.3
+  actions: {}

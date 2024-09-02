@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.102.113.199
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1723557033270
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1723565557825
+  login: 1723565323430
+money: '26007.00'
+last-account-name: Gh0st152
+lastlocation:
+  world: 79cb02c2-64ef-4607-81dd-66a9043891fb
+  world-name: world_islands
+  x: 600.5
+  y: 100.0
+  z: 0.5
+  yaw: -89.5150146484375
+  pitch: 14.390337944030762
+logoutlocation:
+  world: 4a089b90-93ea-4125-82c5-f52f7cea6a2d
+  world-name: world_spawn
+  x: 40.66278902845514
+  y: 116.0
+  z: -85.06504905266928
+  yaw: -162.6990966796875
+  pitch: 4.049947738647461
+homes:
+  home:
+    world: 69e15ea5-4ce0-474b-89e5-1e1b06451e63
+    world-name: world
+    x: -3802.705734724224
+    y: 18.0
+    z: 1265.5285854463443
+    yaw: 146.2734375
+    pitch: 40.05017852783203

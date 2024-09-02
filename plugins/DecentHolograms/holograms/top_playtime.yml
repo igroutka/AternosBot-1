@@ -1,0 +1,30 @@
+location: world_spawn:17.842:120.5:-75.302
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '%hrn_getIcon:top_playtime%'
+    height: 0.3
+  - content: '&8&m &r &8&m  &r &8&m                &r &8&m  &r &8&m '
+    height: 0.3
+  - content: '%hrn_getIcon:top_1% &6%playtime_top_1_name% &8- &f%playtime_top_1_time%'
+    height: 0.3
+  - content: '%hrn_getIcon:top_2% &b%playtime_top_2_name% &8- &f%playtime_top_2_time%'
+    height: 0.3
+  - content: '%hrn_getIcon:top_3% &f%playtime_top_3_name% &8- &f%playtime_top_3_time%'
+    height: 0.3
+  - content: '&74. &7%playtime_top_4_name% &8- &f%playtime_top_4_time%'
+    height: 0.3
+  - content: '&75. &7%playtime_top_5_name% &8- &f%playtime_top_5_time%'
+    height: 0.3
+  - content: '&76. &7%playtime_top_6_name% &8- &f%playtime_top_6_time%'
+    height: 0.3
+  - content: '&8&m &r &8&m  &r &8&m       &r &8&m  &r &8&m '
+    height: 0.3
+  - content: '&c%playtime_position%. &fYou &7- &f%playtime_time%'
+    height: 0.3
+  actions: {}

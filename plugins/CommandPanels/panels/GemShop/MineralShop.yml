@@ -1,0 +1,349 @@
+panels:
+  MineralShop:
+    perm: 'default'
+    commands: 
+    - mineral
+    rows: 6
+    title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:gem_shop%'
+    pre-load-commands:
+      - 'console= sbc play-sound %player_name% hyronic:hyronic.sound.menu'
+    item:
+
+
+      # 
+      #   SHOP ITEMS
+      #
+      '0':
+        material: RAW_COPPER
+        name: '#26de81Raw Copper'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂5'
+        - '&c→ &7Sell&f ⛂1'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:5] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1] [back:MineralShop]" # SELL
+      '1':
+        material: COPPER_INGOT
+        name: '#26de81Copper Ingot'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂5'
+        - '&c→ &7Sell&f ⛂1'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:5] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1] [back:MineralShop]" # SELL
+      '2':
+        material: RAW_COPPER_BLOCK
+        name: '#26de81Block of Raw Copper'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂45'
+        - '&c→ &7Sell&f ⛂4'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:45] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:4] [back:MineralShop]" # SELL
+      '3':
+        material: COPPER_BLOCK
+        name: '#26de81Block of Copper'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂45'
+        - '&c→ &7Sell&f ⛂5'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:45] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:5] [back:MineralShop]" # SELL
+      '4':
+        material: REDSTONE
+        name: '#26de81Redstone'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂100'
+        - '&c→ &7Sell&f ⛂10'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:100] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:10] [back:MineralShop]" # SELL
+      '5':
+        material: REDSTONE_BLOCK
+        name: '#26de81Redstone Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂900'
+        - '&c→ &7Sell&f ⛂90'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:900] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:90] [back:MineralShop]" # SELL
+      '6':
+        material: COAL
+        name: '#26de81Coal'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂250'
+        - '&c→ &7Sell&f ⛂25'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:250] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:25] [back:MineralShop]" # SELL
+      '7':
+        material: COAL_BLOCK
+        name: '#26de81Coal Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂2.250'
+        - '&c→ &7Sell&f ⛂225'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:2250] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:225] [back:MineralShop]" # SELL
+      '8':
+        material: RAW_IRON
+        name: '#26de81Raw Icon'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂350'
+        - '&c→ &7Sell&f ⛂25'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:350] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:25] [back:MineralShop]" # SELL
+      '9':
+        material: IRON_INGOT
+        name: '#26de81Iron Ingot'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂350'
+        - '&c→ &7Sell&f ⛂25'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:350] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:25] [back:MineralShop]" # SELL
+      '10':
+        material: RAW_IRON_BLOCK
+        name: '#26de81Block of Raw Icon'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂3.150'
+        - '&c→ &7Sell&f ⛂225'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:3150] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:225] [back:MineralShop]" # SELL
+      '11':
+        material: IRON_BLOCK
+        name: '#26de81Block of Icon'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂3.150'
+        - '&c→ &7Sell&f ⛂225'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:3150] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:225] [back:MineralShop]" # SELL
+      '12':
+        material: LAPIS_LAZULI
+        name: '#26de81Lapis Lazuli'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂675'
+        - '&c→ &7Sell&f ⛂68'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:675] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:68] [back:MineralShop]" # SELL
+      '13':
+        material: LAPIS_BLOCK
+        name: '#26de81Block of Lapis'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂6.075'
+        - '&c→ &7Sell&f ⛂608'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:6075] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:608] [back:MineralShop]" # SELL
+      '14':
+        material: RAW_GOLD
+        name: '#26de81Raw Gold'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂1.500'
+        - '&c→ &7Sell&f ⛂148'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:1500] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:148] [back:MineralShop]" # SELL
+      '15':
+        material: GOLD_INGOT
+        name: '#26de81Gold Ingot'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂1.850'
+        - '&c→ &7Sell&f ⛂185'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:1850] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:185] [back:MineralShop]" # SELL
+      '16':
+        material: RAW_GOLD_BLOCK
+        name: '#26de81Raw Gold Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂16.650'
+        - '&c→ &7Sell&f ⛂1.332'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:16650] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1332] [back:MineralShop]" # SELL
+      '17':
+        material: GOLD_BLOCK
+        name: '#26de81Gold Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂16.650'
+        - '&c→ &7Sell&f ⛂1.665'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:16650] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1665] [back:MineralShop]" # SELL
+      '18':
+        material: DIAMOND
+        name: '#26de81Diamond'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂3.000'
+        - '&c→ &7Sell&f ⛂300'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:3000] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:300] [back:MineralShop]" # SELL
+      '19':
+        material: DIAMOND_BLOCK
+        name: '#26de81Diamond Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂27.000'
+        - '&c→ &7Sell&f ⛂2.700'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:27000] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:2700] [back:MineralShop]" # SELL
+      '20':
+        material: EMERALD
+        name: '#26de81Emerald'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂5.000'
+        - '&c→ &7Sell&f ⛂500'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:5000] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:500] [back:MineralShop]" # SELL
+      '21':
+        material: EMERALD_BLOCK
+        name: '#26de81Emerald Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂45.000'
+        - '&c→ &7Sell&f ⛂4.500'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:45000] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:4500] [back:MineralShop]" # SELL
+      '22':
+        material: NETHERITE_INGOT
+        name: '#26de81Netherite Ingot'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂500.000'
+        - '&c→ &7Sell&f ⛂50.000'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:500000] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:50000] [back:MineralShop]" # SELL
+      '23':
+        material: NETHERITE_BLOCK
+        name: '#26de81Netherite Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂5.0000.000'
+        - '&c→ &7Sell&f ⛂500.000'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:5000000] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:500000] [back:MineralShop]" # SELL
+      '23':
+        material: NETHERITE_BLOCK
+        name: '#26de81Netherite Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂5.0000.000'
+        - '&c→ &7Sell&f ⛂500.000'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:5000000] [back:MineralShop]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:500000] [back:MineralShop]" # SELL
+
+        
+      # 
+      #   SHOP CATEGORIES
+      #
+
+      # 
+      #   SHOP CATEGORIES
+      #
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMxZGYzYjA5NWU2YTc3NGUyNjg1MjkwMWRiMjM0MDAzOTc5YzdhNzVjZTM1ZDhkMjY5YmIzNjUxZTA5Y2ZhMiJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #ff793fᴄʀᴏᴘs'
+        lore: []
+        commands:
+          - "open= GemShop"
+
+      '46':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE5ZTg1NmVhYjRlZmU5Mzc4OTI3MDFkNjk2NGRlNmFiYmVhNGU1ZDVmMjA3MmMzZmQ2YjM4OWNmODgzYjViOSJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #706fd3ʙʟᴏᴄᴋs'
+        lore: []
+        commands:
+          - "open= BlockShop1"
+      '47':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJiNDFmMWYwZDhlZmM2ZmM5MzgzYTZiODE0NjE1OWUxNjVhMzlhNDA5ZWYwZmVkYmM0NTg0MmI2NTY0NDFlNyJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #ffb8b8ꜰʟᴏᴡᴇʀs'
+        lore: []
+        commands:
+        - "open= FlowerShop"
+
+      '48':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNlN2Y2ZDhmYzY4Y2Q1OWYzYTc5Yjc2MjE4ZWUzNWFiZTQyNjM2YWMzZWM4ZDA0NjY3MzlmY2YwNDM0NTc5ZiJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #fff200ᴍᴏʙ ᴅʀᴏᴘs'
+        lore: []
+        commands:
+          - "open= MobShop"
+
+      '49':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5YzE5YjA1ZGY0ZTQ2N2E3OTEzNjk2NGU2ZmM4MzE1ZmY0NTU5YWYzNGQzOTA3YjQzNGQzMTk1ODg4MTUzNCJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #ffb142ᴍɪɴᴇʀᴀʟs'
+        lore: []
+        commands:
+          - "open= MineralShop"
+      '50':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVlNGNiNGZjMTRiYTY5ZDQ5YjJkZDJiMDQxOGQ2NTYyZGZmZGViZDBlYmYwMTY1YzQ0MTZhMDczZTYyZGRmOCJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #cd6133ᴍɪsᴄᴇʟʟᴀɴᴇᴏᴜs'
+        lore: []
+        commands:
+          - "open= MicsShop"
+      '51':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdmMjQzYTA3MmZjZmE2ZTZmZTU3OTJkZGU2YTM5NzQwNGU5M2JkZWQyMTExMGQyZGViNDc5NmUyYTA1N2UyNSJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #25CCF7ᴘʟᴀʏᴇʀ ᴀᴜᴄᴛɪᴏɴ'
+        lore: []
+        commands:
+        - "ah"
+      #
+      #   SHOP CONTROLLER
+      #
+
+      '40':
+        material: PAPER
+        customdata: 9999
+        name: '&fɢᴇᴍs: &f⛂%vault_eco_balance_commas%'
+        duplicate: "39,39,40,41,42"
+        
+        
+
+      '37':
+        material: PAPER
+        customdata: 9999
+        name: '#ffda79← ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ'
+        duplicate: "37,36"
+
+      '43':
+        material: PAPER
+        customdata: 9999
+        name: '#ffda79→ ɴᴇxᴛ ᴘᴀɢᴇ'
+        duplicate: "43,44"

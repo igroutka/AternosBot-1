@@ -1,0 +1,58 @@
+Asssasin:
+  Skills:
+  - command{c='hyronic send-bossbar <mob.name> "&f%hrn_getCP:Asssasin%" 2'} @Self
+  - sound{s=entity.player.attack.crit} @Self
+  - potion{type=SPEED;duration=80;level=1} @Self
+  - potion{type=FAST_DIGGING;duration=80;level=1} @Self
+  - delay 80
+  - potion{type=SLOW;duration=40;level=1} @Self
+
+
+HellfireSpread:
+  Skills:
+  - playanimation{a=0;audience=World} @Self
+  - command{c='hyronic send-bossbar <mob.name> "&f%hrn_getCP:HellfireSpread%" 2'} @Self
+  - potion{type=SLOW;duration=10;level=3} @Self
+  - damage{amount=3} @EntitiesInRadius{r=7;limit=5;sort=NEAREST;ignore=animals}
+  - ignite{ticks=100} @EntitiesInRadius{r=7;limit=5;sort=NEAREST;ignore=animals}
+  - effect:flames @Self
+  - sound{s=entity.blaze.burn} @Self
+  - sound{s=entity.blaze.hurt} @Self
+  - sound{s=entity.blaze.shoot} @Self
+  - effect:particletornado{p=flame;mr=1;h=3;i=4;d=20;rs=1;sh=1;cs=1;ca=0;chs=0.1;cvs=0.1;cps=1;cyo=2} @EntitiesInRadius{r=7;limit=5;sort=NEAREST;ignore=animals}
+  - effect:particleline{particle=flame;amount=1;fromOrigin=true,startYOffset=0.5} @EntitiesInRadius{r=7;limit=5;sort=NEAREST;ignore=animals}
+
+
+FrozenSmash:
+  Skills:
+  - command{c='hyronic send-bossbar <mob.name> "&f%hrn_getCP:FrozenSmash%" 2'} @Self
+  - playanimation{a=0;audience=World} @Self
+  - potion{type=SLOW;duration=10;level=3} @Self
+  - sound{s=entity.egg.throw} @Self
+  - skill{s=FlyingHammer} @EntitiesInRadius{r=7;limit=5;sort=NEAREST;ignore=animals}
+
+
+FlyingHammer:
+  Skills:
+  - projectile{onTick=FlyingHammer-Tick;onHit=FlyingHammer-Hit;v=30;i=1;sB=false;hR=1;vR=1;hnp=true;bulletType=MYTHICITEM;material=IcyBlueHammer}
+FlyingHammer-Tick:
+  Skills:
+  - effect:particles{particle=reddust;color=#74b9ff;amount=6;speed=1;hS=0.15;vS=.15} @origin
+FlyingHammer-Hit:
+  Skills:
+  - damage{a=5}
+  - potion{type=SLOW;duration=100;lvl=10}
+  - effect:blockmask{m=ice;r=1;d=60;s=cube}
+  - effect:particlering{particle=snowball;radius=1;points=10;amount=5;hS=1;vS=0}
+  - sound{s=block.anvil.land}
+  - sound{s=block.glass.break}
+
+
+
+#
+# MOB SKILL
+#
+UpdateMobName:
+  Skills:
+  - setname{name=<caster.name>;delay=2} @self ~onDamaged
+  - setname{name=<caster.name>;delay=2} @self ~onTimer:10 ?incombat{}

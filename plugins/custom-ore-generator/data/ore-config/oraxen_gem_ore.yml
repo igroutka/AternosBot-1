@@ -1,0 +1,55 @@
+# Only edit this file if you 10000% sure you know what you are doing. 
+# You can set everything via the plugin commands, no need to edit this file manully.
+
+value:
+  ==: CustomOreGenerator#OreConfig
+  name: oraxen_gem_ore
+  material: NOTE_BLOCK
+  ore-generator: SINGLE_ORE_GENERATOR
+  block-selector: COUNT_RANGE
+  activated: true
+  generated-all: true
+  biomes:
+  - DESERT
+  - BEACH
+  - BIRCH_FOREST
+  - SNOWY_TAIGA
+  - JUNGLE
+  - MUSHROOM_FIELDS
+  - SWAMP
+  - MANGROVE_SWAMP
+  - FROZEN_OCEAN
+  - FOREST
+  - RIVER
+  - FROZEN_RIVER
+  - OCEAN
+  - TAIGA
+  - WINDSWEPT_HILLS
+  - SPARSE_JUNGLE
+  - PLAINS
+  - DEEP_OCEAN
+  replace-materials:
+  - REDSTONE_ORE
+  - COPPER_ORE
+  - DEEPSLATE
+  - GOLD_ORE
+  - DEEPSLATE_REDSTONE_ORE
+  - DEEPSLATE_COPPER_ORE
+  - DEEPSLATE_COAL_ORE
+  - IRON_ORE
+  - DEEPSLATE_IRON_ORE
+  - STONE
+  - COAL_ORE
+  - DEEPSLATE_GOLD_ORE
+  custom-data:
+    ORAXEN: gem_ore
+  ore-generator-settings:
+    ==: CustomOreGenerator#OreSettingsContainer
+    ore-settings:
+      VEIN_SIZE: 20.0
+  block-selector-settings:
+    ==: CustomOreGenerator#OreSettingsContainer
+    ore-settings:
+      VEINS_PER_CHUNK: 12.0
+      HEIGHT_RANGE: 50.0
+      MINIMUM_HEIGHT: -50.0

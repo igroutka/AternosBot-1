@@ -1,0 +1,445 @@
+panels:
+  BlockShop1:
+    perm: 'default'
+    commands: 
+    - block
+    rows: 6
+    title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:gem_shop%'
+    pre-load-commands:
+      - 'console= sbc play-sound %player_name% hyronic:hyronic.sound.menu'
+    item:
+
+
+      # 
+      #   SHOP ITEMS
+      #
+      '0':
+        material: COBBLESTONE
+        name: '#26de81Cobblestone'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂12'
+        - '&c→ &7Sell&f ⛂1.1'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:12] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1.1] [back:BlockShop1]" # SELL
+      '1':
+        material: STONE
+        name: '#26de81Stone'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂12'
+        - '&c→ &7Sell&f ⛂1.5'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:12] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1.5] [back:BlockShop1]" # SELL
+      '2':
+        material: GRANITE
+        name: '#26de81Diorite'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂12'
+        - '&c→ &7Sell&f ⛂1.5'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:12] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1.5] [back:BlockShop1]" # SELL
+      '3':
+        material: DIORITE
+        name: '#26de81Diorite'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂12'
+        - '&c→ &7Sell&f ⛂1.5'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:12] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1.5] [back:BlockShop1]" # SELL
+      '4':
+        material: ANDESITE
+        name: '#26de81Andesite'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂12'
+        - '&c→ &7Sell&f ⛂1.5'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:12] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1.5] [back:BlockShop1]" # SELL
+      '5':
+        material: MUD
+        name: '#26de81Mud'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂10'
+        - '&c→ &7Sell&f ⛂2'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:10] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:2] [back:BlockShop1]" # SELL
+      '6':
+        material: DIRT
+        name: '#26de81Dirt'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂6.25'
+        - '&c→ &7Sell&f ⛂0.7'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:6.25] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:0.7] [back:BlockShop1]" # SELL
+      '7':
+        material: GRASS_BLOCK
+        name: '#26de81Grass Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂12'
+        - '&c→ &7Sell&f ⛂1.1'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:12] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1.1] [back:BlockShop1]" # SELL
+      '8':
+        material: COARSE_DIRT
+        name: '#26de81Coarse Dirt'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂64'
+        - '&c→ &7Sell&f ⛂1'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:64] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:1] [back:BlockShop1]" # SELL
+      '9':
+        material: SAND
+        name: '#26de81Sand'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂15.6'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:15.6] [back:BlockShop1]" # BUY
+      '10':
+        material: RED_SAND
+        name: '#26de81Red Sand'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂15.6'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:15.6] [back:BlockShop1]" # BUY
+      '11':
+        material: GLASS
+        name: '#26de81Glass'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂31.2'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:31.2] [back:BlockShop1]" # BUY
+      '12':
+        material: CLAY
+        name: '#26de81Clay'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂9.3'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:9.3] [back:BlockShop1]" # BUY
+      '13':
+        material: TERRACOTTA
+        name: '#26de81Terracotta'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂31.25'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:31.25] [back:BlockShop1]" # BUY
+      '14':
+        material: QUARTZ_BLOCK
+        name: '#26de81Quartz Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂60'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:60] [back:BlockShop1]" # BUY
+      '15':
+        material: OAK_LOG
+        name: '#26de81Oak Log'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂24'
+        - '&c→ &7Sell&f ⛂2.22'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:24] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:2.2] [back:BlockShop1]" # SELL
+      '16':
+        material: SPRUCE_LOG
+        name: '#26de81Spruce Log'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂24'
+        - '&c→ &7Sell&f ⛂2.22'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:24] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:2.2] [back:BlockShop1]" # SELL
+      '17':
+        material: BIRCH_LOG
+        name: '#26de81Birch Log'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂24'
+        - '&c→ &7Sell&f ⛂2.22'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:24] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:2.2] [back:BlockShop1]" # SELL
+      '18':
+        material: JUNGLE_LOG
+        name: '#26de81Jungle Log'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂24'
+        - '&c→ &7Sell&f ⛂2.22'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:24] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:2.2] [back:BlockShop1]" # SELL
+      '19':
+        material: ACACIA_LOG
+        name: '#26de81Acacia Log'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂24'
+        - '&c→ &7Sell&f ⛂2.22'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:24] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:2.2] [back:BlockShop1]" # SELL
+      '20':
+        material: DARK_OAK_LOG
+        name: '#26de81Dark Oak Log'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂24'
+        - '&c→ &7Sell&f ⛂2.22'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:24] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:2.2] [back:BlockShop1]" # SELL
+      '21':
+        material: MANGROVE_LOG
+        name: '#26de81Mangrove Log'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂30'
+        - '&c→ &7Sell&f ⛂3'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:30] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:3] [back:BlockShop1]" # SELL
+      '22':
+        material: MANGROVE_ROOTS
+        name: '#26de81Mangrove Roots'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂24'
+        - '&c→ &7Sell&f ⛂2.22'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:24] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:2.2] [back:BlockShop1]" # SELL
+      '23':
+        material: PRISMARINE
+        name: '#26de81Prismarine Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂47'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:47] [back:BlockShop1]" # BUY
+      '24':
+        material: DARK_PRISMARINE
+        name: '#26de81Dark Prismarine Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂100'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:100] [back:BlockShop1]" # BUY
+      '25':
+        material: SEA_LANTERN
+        name: '#26de81Sea Lantern'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂350'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:350] [back:BlockShop1]" # BUY
+      '26':
+        material: WHITE_WOOL
+        name: '#26de81White Wool'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂47'
+        - '&c→ &7Sell&f ⛂0.5'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:47] [back:BlockShop1]" # BUY
+        - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:0.5] [back:BlockShop1]" # SELL
+      '27':
+        material: GRAVEL
+        name: '#26de81Gravel'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂31.25'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:31.25] [back:BlockShop1]" # BUY
+      '28':
+        material: MOSSY_COBBLESTONE
+        name: '#26de81Mossy Cobblestone'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂62.5'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:62.5] [back:BlockShop1]" # BUY
+      '29':
+        material: MOSSY_STONE_BRICKS
+        name: '#26de81Mossy Stone Brick'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂62.5'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:62.5] [back:BlockShop1]" # BUY
+      '30':
+        material: PURPUR_BLOCK
+        name: '#26de81Purpur Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂75'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:75] [back:BlockShop1]" # BUY
+      '31':
+        material: ICE
+        name: '#26de81Ice Block'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂75'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:75] [back:BlockShop1]" # BUY
+      '32':
+        material: BLUE_ICE
+        name: '#26de81Blue Ice'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂375'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:375] [back:BlockShop1]" # BUY
+      '33':
+        material: SPONGE
+        name: '#26de81Sponge'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂3.200'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:3200] [back:BlockShop1]" # BUY
+      '34':
+        material: GLOWSTONE
+        name: '#26de81Glowstone'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂70'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:70] [back:BlockShop1]" # BUY
+      '35':
+        material: NETHERRACK
+        name: '#26de81Netherrack'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂31.25'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:31.25] [back:BlockShop1]" # BUY
+      '35':
+        material: NETHERRACK
+        name: '#26de81Netherrack'
+        lore:
+        - ''
+        - '&a→ &7Buy&f ⛂45.3'
+        commands:
+        - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:45.3] [back:BlockShop1]" # BUY
+
+
+
+
+
+
+
+
+
+      # 
+      #   SHOP CATEGORIES
+      #
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMxZGYzYjA5NWU2YTc3NGUyNjg1MjkwMWRiMjM0MDAzOTc5YzdhNzVjZTM1ZDhkMjY5YmIzNjUxZTA5Y2ZhMiJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #ff793fᴄʀᴏᴘs'
+        lore: []
+        commands:
+          - "open= GemShop"
+
+      '46':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE5ZTg1NmVhYjRlZmU5Mzc4OTI3MDFkNjk2NGRlNmFiYmVhNGU1ZDVmMjA3MmMzZmQ2YjM4OWNmODgzYjViOSJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #706fd3ʙʟᴏᴄᴋs'
+        lore: []
+        commands:
+          - "open= BlockShop11"
+      '47':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJiNDFmMWYwZDhlZmM2ZmM5MzgzYTZiODE0NjE1OWUxNjVhMzlhNDA5ZWYwZmVkYmM0NTg0MmI2NTY0NDFlNyJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #ffb8b8ꜰʟᴏᴡᴇʀs'
+        lore: []
+        commands:
+        - "open= FlowerShop"
+
+      '48':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNlN2Y2ZDhmYzY4Y2Q1OWYzYTc5Yjc2MjE4ZWUzNWFiZTQyNjM2YWMzZWM4ZDA0NjY3MzlmY2YwNDM0NTc5ZiJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #fff200ᴍᴏʙ ᴅʀᴏᴘs'
+        lore: []
+        commands:
+          - "open= MobShop"
+
+      '49':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5YzE5YjA1ZGY0ZTQ2N2E3OTEzNjk2NGU2ZmM4MzE1ZmY0NTU5YWYzNGQzOTA3YjQzNGQzMTk1ODg4MTUzNCJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #ffb142ᴍɪɴᴇʀᴀʟs'
+        lore: []
+        commands:
+          - "open= MineralShop"
+      '50':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVlNGNiNGZjMTRiYTY5ZDQ5YjJkZDJiMDQxOGQ2NTYyZGZmZGViZDBlYmYwMTY1YzQ0MTZhMDczZTYyZGRmOCJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #cd6133ᴍɪsᴄᴇʟʟᴀɴᴇᴏᴜs'
+        lore: []
+        commands:
+          - "open= MicsShop"
+      '51':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdmMjQzYTA3MmZjZmE2ZTZmZTU3OTJkZGU2YTM5NzQwNGU5M2JkZWQyMTExMGQyZGViNDc5NmUyYTA1N2UyNSJ9fX0=
+        stack: 1
+        name: '&7ᴄᴀᴛᴇɢᴏʀʏ: #25CCF7ᴘʟᴀʏᴇʀ ᴀᴜᴄᴛɪᴏɴ'
+        lore: []
+        commands:
+        - "ah"
+        
+      #
+      #   SHOP CONTROLLER
+      #
+
+      '40':
+        material: PAPER
+        customdata: 9999
+        name: '&fɢᴇᴍs: &f⛂%vault_eco_balance_commas%'
+        duplicate: "39,39,40,41,42"
+        
+        
+
+      '37':
+        material: PAPER
+        customdata: 9999
+        name: '#ffda79← ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ'
+      '38':
+        material: PAPER
+        customdata: 9999
+        name: '#ffda79← ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ'
+
+      '43':
+        material: PAPER
+        customdata: 9999
+        name: '#ffda79→ ɴᴇxᴛ ᴘᴀɢᴇ'
+        commands:
+          - "open= BlockShop2"
+      '44':
+        material: PAPER
+        customdata: 9999
+        name: '#ffda79→ ɴᴇxᴛ ᴘᴀɢᴇ'
+        commands:
+          - "open= BlockShop2"

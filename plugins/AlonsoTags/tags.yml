@@ -1,0 +1,278 @@
+#Create as many tags as you want here.
+#Just make sure you FOLLOW the format.
+#Tags will appear in the same order.
+Tags:
+
+
+
+
+
+
+
+  # FREE DEFAULT ICONS
+  free_hyronic:
+    Material: NAME_TAG
+    Custom-model-data: 1
+    Tag: "ऄ"
+    Displayname: "&fऄ&fYourName &8(hyronic)"
+    Permission: "hyronic.icons.free"
+    Lore:
+      Locked:
+      - "&7This is a free icon, if you"
+      - "&7dont have permission to use"
+      - "&7Please contact server owner"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  free_pride:
+    Material: NAME_TAG
+    Custom-model-data: 1
+    Tag: "अ"
+    Displayname: "&fअ&fYourName &8(pride)"
+    Permission: "hyronic.icons.free"
+    Lore:
+      Locked:
+      - "&7This is a free icon, if you"
+      - "&7dont have permission to use"
+      - "&7Please contact server owner"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  free_snowball:
+    Material: NAME_TAG
+    Custom-model-data: 1
+    Tag: "आ"
+    Displayname: "&fआ&fYourName &8(snowball)"
+    Permission: "hyronic.icons.free"
+    Lore:
+      Locked:
+      - "&7This is a free icon, if you"
+      - "&7dont have permission to use"
+      - "&7Please contact server owner"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+
+
+
+
+
+
+
+  # PAID ICONS
+  bough:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "इ"
+    Displayname: "&fइ&fYourName &8(bough)"
+    Permission: "hyronic.icons.vip"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Its"
+      - "&7required rank:&f ৅"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  clover:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "ई"
+    Displayname: "&fई&fYourName &8(clover)"
+    Permission: "hyronic.icons.vip"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Its"
+      - "&7required rank:&f ৅"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  bell:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "उ"
+    Displayname: "&fउ&fYourName &8(bell)"
+    Permission: "hyronic.icons.vip"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Its"
+      - "&7required rank:&f ৅"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  dual_swords:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "ऊ"
+    Displayname: "&fऊ&fYourName &8(dual_swords)"
+    Permission: "hyronic.icons.mvp"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Its"
+      - "&7required rank:&f ৆"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  knife:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "ऋ"
+    Displayname: "&fऋ&fYourName &8(knife)"
+    Permission: "hyronic.icons.mvp"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Its"
+      - "&7required rank:&f ৆"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  axe:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "ऌ"
+    Displayname: "&fऌ&fYourName &8(axe)"
+    Permission: "hyronic.icons.mvp"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Its"
+      - "&7required rank:&f ৆"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  shield:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "ऍ"
+    Displayname: "&fऍ&fYourName &8(shield)"
+    Permission: "hyronic.icons.elite"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Its"
+      - "&7required rank:&f ে"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  clown_hat:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "ऎ"
+    Displayname: "&fऎ&fYourName &8(clown_hat)"
+    Permission: "hyronic.icons.elite"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Its"
+      - "&7required rank:&f ে"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+
+  hyronium:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "ए"
+    Displayname: "&fए&fYourName &8(hyronium)"
+    Permission: "hyronic.icons.elite"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Its"
+      - "&7required rank:&f ে"
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  ruby:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "ऐ"
+    Displayname: "&fऐ&fYourName &8(ruby)"
+    Permission: "hyronic.icons.ruby"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Contact"
+      - "&7server owner for more info."
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  diamond:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "ऑ"
+    Displayname: "&fऑ&fYourName &8(diamond)"
+    Permission: "hyronic.icons.diamond"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Contact"
+      - "&7server owner for more info."
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"
+
+  heart:
+    Material: NAME_TAG
+    Custom-model-data: 2
+    Tag: "ऒ"
+    Displayname: "&fऒ&fYourName &8(heart)"
+    Permission: "hyronic.icons.heart"
+    Lore:
+      Locked:
+      - "&7This is a premium icon. Contact"
+      - "&7server owner for more info."
+      Unlocked:
+      - "&e→ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟᴇᴄᴛ"
+      Selected:
+      - "&a→ ʏᴏᴜ sᴇʟᴇᴄᴛᴇᴅ ᴛʜɪs."
+    No-permission-message: "ꑚ &cYoy dont have permission, please contact the server owner!"
+    Not-enough-money-message: "ꑚ &cYou don't have enough money to purchase this cion!"

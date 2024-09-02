@@ -1,0 +1,290 @@
+title: "placeholder;%hrn_getIcon:neg_shift_8%%hrn_getIcon:cosmetic%"
+rows: 6
+items:
+  crown_hat:
+    slots:
+      - 0
+    item:
+      material: hmccosmetics:crown_hat
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_crown_hat%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_crown_hat%"
+    type: cosmetic
+    cosmetic: crown_hat
+
+  bear_helmet:
+    slots:
+      - 1
+    item:
+      material: hmccosmetics:bear_helmet
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_bear_helmet%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_bear_helmet%"
+    type: cosmetic
+    cosmetic: bear_helmet
+
+  cowboy_hat:
+    slots:
+      - 2
+    item:
+      material: hmccosmetics:cowboy_hat
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_cowboy_hat%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_cowboy_hat%"
+    type: cosmetic
+    cosmetic: cowboy_hat
+
+  elf_hat:
+    slots:
+      - 3
+    item:
+      material: hmccosmetics:elf_hat
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_elf_hat%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_elf_hat%"
+    type: cosmetic
+    cosmetic: elf_hat
+
+  mushroom_hat:
+    slots:
+      - 4
+    item:
+      material: hmccosmetics:mushroom_hat
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_mushroom_hat%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_mushroom_hat%"
+    type: cosmetic
+    cosmetic: mushroom_hat
+
+  propeller_hat:
+    slots:
+      - 5
+    item:
+      material: hmccosmetics:propeller_hat
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_propeller_hat%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_propeller_hat%"
+    type: cosmetic
+    cosmetic: propeller_hat
+
+  safety_helmet:
+    slots:
+      - 6
+    item:
+      material: hmccosmetics:safety_helmet
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_safety_helmet%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_safety_helmet%"
+    type: cosmetic
+    cosmetic: safety_helmet
+
+  sombrero:
+    slots:
+      - 7
+    item:
+      material: hmccosmetics:sombrero
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_sombrero%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_sombrero%"
+    type: cosmetic
+    cosmetic: sombrero
+
+  stalker_gas_mask:
+    slots:
+      - 8
+    item:
+      material: hmccosmetics:stalker_gas_mask
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_stalker_gas_mask%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_stalker_gas_mask%"
+    type: cosmetic
+    cosmetic: stalker_gas_mask
+
+  straw_hat:
+    slots:
+      - 9
+    item:
+      material: hmccosmetics:straw_hat
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_straw_hat%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_straw_hat%"
+    type: cosmetic
+    cosmetic: straw_hat
+
+  tall_top_hat:
+    slots:
+      - 10
+    item:
+      material: hmccosmetics:tall_top_hat
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_tall_top_hat%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_tall_top_hat%"
+    type: cosmetic
+    cosmetic: tall_top_hat
+
+  top_hat:
+    slots:
+      - 11
+    item:
+      material: hmccosmetics:top_hat
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_top_hat%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_top_hat%"
+    type: cosmetic
+    cosmetic: top_hat
+
+  new_year_2023_hat:
+    slots:
+      - 12
+    item:
+      material: hmccosmetics:new_year_2023_hat
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_new_year_2023_hat%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_new_year_2023_hat%"
+    type: cosmetic
+    cosmetic: new_year_2023_hat
+
+  wolf_helmet:
+    slots:
+      - 13
+    item:
+      material: hmccosmetics:wolf_helmet
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_wolf_helmet%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_wolf_helmet%"
+    type: cosmetic
+    cosmetic: wolf_helmet
+
+  teddy_head:
+    slots:
+      - 14
+    item:
+      material: hmccosmetics:teddy_head
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_teddy_head%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_teddy_head%"
+    type: cosmetic
+    cosmetic: teddy_head
+
+  box_head:
+    slots:
+      - 15
+    item:
+      material: hmccosmetics:box_head
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_box_head%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_box_head%"
+    type: cosmetic
+    cosmetic: box_head
+
+  book_head:
+    slots:
+      - 16
+    item:
+      material: hmccosmetics:book_head
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_book_head%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_book_head%"
+    type: cosmetic
+    cosmetic: book_head
+
+  bunny_ear:
+    slots:
+      - 17
+    item:
+      material: hmccosmetics:bunny_ear
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_bunny_ear%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_bunny_ear%"
+    type: cosmetic
+    cosmetic: bunny_ear
+
+  frog_head:
+    slots:
+      - 18
+    item:
+      material: hmccosmetics:frog_head
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_frog_head%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_frog_head%"
+    type: cosmetic
+    cosmetic: frog_head
+
+  dino_helmet:
+    slots:
+      - 19
+    item:
+      material: hmccosmetics:dino_helmet
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_dino_helmet%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_dino_helmet%"
+    type: cosmetic
+    cosmetic: dino_helmet
+
+  new_year_2023_bag:
+    slots:
+      - 20
+    item:
+      material: hmccosmetics:new_year_2023_bag
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_new_year_2023_bag%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_new_year_2023_bag%"
+    type: cosmetic
+    cosmetic: new_year_2023_bag
+
+  wolf_tail:
+    slots:
+      - 21
+    item:
+      material: hmccosmetics:wolf_tail
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_wolf_tail%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_wolf_tail%"
+    type: cosmetic
+    cosmetic: wolf_tail
+
+  dino_backpack:
+    slots:
+      - 22
+    item:
+      material: hmccosmetics:dino_backpack
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_dino_backpack%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_dino_backpack%"
+    type: cosmetic
+    cosmetic: dino_backpack
+
+  wolf_claw:
+    slots:
+      - 23
+    item:
+      material: hmccosmetics:wolf_claw
+      lore:
+        - ""
+        - "<gray>Enabled: <#6D9DC5>%HMCCosmetics_equipped_wolf_claw%"
+        - "<gray>Allowed: <#6D9DC5>%HMCCosmetics_unlocked_wolf_claw%"
+    type: cosmetic
+    cosmetic: wolf_claw

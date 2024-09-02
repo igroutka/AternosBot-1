@@ -1,0 +1,40 @@
+ElitePiglin:
+  Type: PIGLIN
+  Display: '<#ffb142>Piglin &f%hrn_getHPBar:MOB:<caster.php>%'
+  Health: 50
+  Damage: 16
+  Skills:
+  - skill:UpdateMobName
+  Drops:
+    - PiglinDrop
+  BossBar:
+    Enabled: false
+    Title: '<caster.name> &f%hrn_getHPBar:MOB:<caster.php>%'
+    Range: 30
+    Color: WHITE
+    Style: SOLID
+  DamageModifiers:
+  - ENTITY_ATTACK 0.25
+  - PROJECTILE 0.50
+  Options:
+    AlwaysShowName: true
+    PreventRenaming: true
+    ShowHealth: true
+    ItemOffhand: IcyBlueHammer
+
+EliteBlaze:
+  Type: BLAZE
+  Display: '<#ffb142>Elite Blaze &f%hrn_getHPBar:MOB:<caster.php>%'
+  Health: 30
+  Damage: 16
+  Skills:
+  - skill:UpdateMobName
+  Drops:
+    - BlazeHeartDrop 1 0.6
+  DamageModifiers:
+  - ENTITY_ATTACK 0.25
+  - PROJECTILE 0.50
+  Options:
+    AlwaysShowName: true
+    PreventRenaming: true
+    ShowHealth: true

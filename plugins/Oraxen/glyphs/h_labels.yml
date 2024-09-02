@@ -1,0 +1,90 @@
+rank_player:
+  texture: custom/ui/labels/ranks/player
+  ascent: 7
+  height: 14
+  char: ৄ
+rank_vip:
+  texture: custom/ui/labels/ranks/vip
+  ascent: 7
+  height: 14
+  char: ৅
+rank_mvp:
+  texture: custom/ui/labels/ranks/mvp
+  ascent: 7
+  height: 14
+  char: ৆
+rank_elite:
+  texture: custom/ui/labels/ranks/elite
+  ascent: 7
+  height: 14
+  char: ে
+rank_moderator:
+  texture: custom/ui/labels/ranks/moderator
+  ascent: 7
+  height: 14
+  char: ৈ
+rank_admin:
+  texture: custom/ui/labels/ranks/admin
+  ascent: 7
+  height: 14
+  char: ৉
+rank_owner:
+  texture: custom/ui/labels/ranks/owner
+  ascent: 7
+  height: 14
+  char: ৻
+common:
+  texture: custom/ui/labels/common
+  ascent: 7
+  height: 14
+  char: ৊
+rare:
+  texture: custom/ui/labels/rare
+  ascent: 7
+  height: 14
+  char: ো
+epic:
+  texture: custom/ui/labels/epic
+  ascent: 7
+  height: 14
+  char: ৌ
+legendary:
+  texture: custom/ui/labels/legendary
+  ascent: 7
+  height: 14
+  char: ্
+exclusive:
+  texture: custom/ui/labels/exclusive
+  ascent: 7
+  height: 14
+  char: ৎ
+top_island_level:
+  texture: custom/ui/labels/top/island_level
+  ascent: 7
+  height: 14
+  char: ꐾ
+top_kills:
+  texture: custom/ui/labels/top/kills
+  ascent: 7
+  height: 14
+  char: ꐿ
+top_gem:
+  texture: custom/ui/labels/top/gem_balance
+  ascent: 7
+  height: 14
+  char: ꑀ
+top_playtime:
+  texture: custom/ui/labels/top/playtime
+  ascent: 7
+  height: 14
+  char: ꑁ
+top_quest:
+  texture: custom/ui/labels/top/quest_streak
+  ascent: 7
+  height: 14
+  char: ꑂ
+island:
+  texture: custom/ui/labels/island
+  ascent: 7
+  height: 14
+  char: ৏

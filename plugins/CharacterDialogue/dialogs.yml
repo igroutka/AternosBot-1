@@ -1,0 +1,178 @@
+dialogue:
+  blacksmith:
+    click: RIGHT
+    display-name: Rumble
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_rumble% &f&l%npc_name% &8(Blacksmith) '
+    - 'SEND: &r             &7Hi &f%player_name%&7! did you know that there '
+    - 'SEND: &r             &7are items that can only be forged by'
+    - 'SEND: &r             &7master blacksmiths?'
+    - 'SEND: &r '
+    - 'WAIT: 1'
+    - 'COMMAND: cp BlackSmith %player_name%'
+  rewards:
+    click: RIGHT
+    display-name: Tristina
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_tristina% &f&l%npc_name% &8(Online Rewards) '
+    - 'SEND: &r             &7Hey &f%player_name%&7! Dont forget to claim your'
+    - 'SEND: &r             &fDaily/Online Rewards.&7 And also vote for us'
+    - 'SEND: &r             &7by using &a/vote&7 command. &f෋'
+    - 'SEND: &r '
+    - 'WAIT: 1'
+    - 'COMMAND: cp Rewards %player_name%'
+  quest:
+    click: RIGHT
+    display-name: Daisy
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_daisy% &f&l%npc_name% &8(Daily Quest) '
+    - 'SEND: &r             &7Hey &f%player_name%&7! Complete &a8 random'
+    - 'SEND: &r             &aquests &7and I will reward you an extra '
+    - 'SEND: &r             &7attractive reward every day.'
+    - 'SEND: &r '
+    - 'WAIT: 1'
+    - 'DISPATCH_COMMAND: quests'
+  gem_shop:
+    click: RIGHT
+    display-name: Vivian
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_vivian% &f&l%npc_name% &8(Gem Shop) '
+    - 'SEND: &r             &7Hey &f%player_name%&7! One of the fastest ways'
+    - 'SEND: &r             &7to make gems is go to the resource world,'
+    - 'SEND: &r             &7mine ores, materials and then sell them to me.'
+    - 'SEND: &r '
+    - 'WAIT: 1'
+    - 'COMMAND: cp GemShop %player_name%'
+  exp_exchange:
+    click: RIGHT
+    display-name: Frogger
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_frogger% &f&l%npc_name% &8(Exp Exchange) '
+    - 'SEND: &r             &7Please store your experience in'
+    - 'SEND: &r             &7a bottle to avoid losing it when you'
+    - 'SEND: &r             &7die or you can also sell it to other'
+    - 'SEND: &r             &7players for gems. I can help you with that.'
+    - 'WAIT: 1'
+    - 'COMMAND: cp ExperienceExchange %player_name%'
+  enchanter:
+    click: RIGHT
+    display-name: Nodamus
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_nodamus% &f&l%npc_name% &8(Enchanter) '
+    - 'SEND: &r             &7You know &f%player_name%&7, Im not a wizard'
+    - 'SEND: &r             &7but I do have some knowledge of enchanting'
+    - 'SEND: &r             &7and I also sell some useful things, you'
+    - 'SEND: &r             &7might be interested.'
+    - 'WAIT: 1'
+    - 'COMMAND: cp Enchanter %player_name%'
+  soma:
+    click: RIGHT
+    display-name: Soma
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_soma% &f&l%npc_name% &8(Server Guard) '
+    - 'SEND: &r             &2Resource World&7 is a dangerous place.'
+    - 'SEND: &r             &7You really want to go there? I can help'
+    - 'SEND: &r             &7you but the limit is &f15 minutes&7 for'
+    - 'SEND: &r             &7each trip you make.&6&l'
+    - 'WAIT: 1'
+    - 'COMMAND: cp ResourceWorld %player_name%'
+  auction:
+    click: RIGHT
+    display-name: Dustin
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_dustin% &f&l%npc_name% &8(Auction House) '
+    - 'SEND: &r             &7Hey &f%player_name%&7, dont miss the opportunity to'
+    - 'SEND: &r             &7do business with the Auction House, I know a'
+    - 'SEND: &r             &7player who bought a house in real life'
+    - 'SEND: &r             &7thanks to it.'
+    - 'WAIT: 1'
+    - 'DISPATCH_COMMAND: ah'
+  fishy:
+    click: RIGHT
+    display-name: Fishy
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_fishy% &f&l%npc_name% &8(Fisherman) '
+    - 'SEND: &r             &fFishing&7 is a good way to make gems. You'
+    - 'SEND: &r             &7can also join &fFishing Competiton&7 at'
+    - 'SEND: &r             &f09:00&7 and &f18:00&7 every day, especially '
+    - 'SEND: &r             &7on sunday when there''re amazing rewards.'
+    - 'WAIT: 1'
+    - 'COMMAND: cp FishingShop %player_name%'
+  
+  jarvis:
+    click: RIGHT
+    display-name: Jarvis
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_jarvis% &f&l%npc_name% &8(Store) '
+    - 'SEND: &r           &7Visit our web store to buy: &fRanks&7,'
+    - 'SEND: &r           &bCrate Keys&7, &eCosmetics&7 and more.'
+    - 'SEND: &r           &7View now: &cstore.hyronic.dev'
+    - 'WAIT: 1'
+    - 'COMMAND: cp Ranks %player_name%'
+  
+  abigail:
+    click: RIGHT
+    display-name: Abigail
+    permission:
+      value: group.default
+      message: ''
+    dialog:
+    - 'EFFECT: SLOW,1,3'
+    - 'SOUND: ENTITY_VILLAGER_TRADE,1,1.3'
+    - 'SEND: %hrn_getIcon:avt_abigail% &f&l%npc_name% &8(Gem Exchange) '
+    - 'SEND: &r             &dGem Ore &7can be found in &2Resource World.'
+    - 'SEND: &r             &7between the height of &f-50 &7to &f50&7. I will'
+    - 'SEND: &r             &7buy your gem ingots in exchange for'
+    - 'SEND: &r             &7balance.'
+    - 'WAIT: 1'
+    - 'COMMAND: cp GemExchange %player_name%'

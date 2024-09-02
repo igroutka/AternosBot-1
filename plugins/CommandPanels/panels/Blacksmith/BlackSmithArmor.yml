@@ -1,0 +1,135 @@
+panels:
+  BlackSmithArmor:
+    perm: "default"
+    commands:
+      - blacksmitharmor
+      - bsa
+    pre-load-commands:
+      - "sound= ITEM_BOOK_PAGE_TURN 1 1"
+    rows: 6
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:blacksmith_list%"
+    item:
+      "10":
+        material: LEATHER_HELMET
+        leatherarmor: 252,3,52
+        customdata: 3
+        name: "&fWarden Helmet"
+        lore:
+          - ""
+          - "#535c68Bonus #12CBC42 Max Health #535c68when"
+          - "#535c68you equiped this armor."
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= WardenHelmet"
+
+      "11":
+        material: LEATHER_CHESTPLATE
+        leatherarmor: 252,3,52
+        customdata: 3
+        name: "&fWarden Chestplate"
+        lore:
+          - ""
+          - "#535c68Bonus #12CBC42 Max Health #535c68when"
+          - "#535c68you equiped this armor."
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= WardenChestplate"
+
+      "12":
+        material: LEATHER_LEGGINGS
+        leatherarmor: 252,3,52
+        customdata: 3
+        name: "&fWarden Leggings"
+        lore:
+          - ""
+          - "#535c68Bonus #12CBC42 Max Health #535c68when"
+          - "#535c68you equiped this armor."
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= WardenLeggings"
+
+      "13":
+        material: LEATHER_BOOTS
+        leatherarmor: 252,3,52
+        customdata: 3
+        name: "&fWarden Boots"
+        lore:
+          - ""
+          - "#535c68Bonus #12CBC42 Max Health #535c68when"
+          - "#535c68you equiped this armor."
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= WardenBoots"
+
+      "14":
+        material: LEATHER_HELMET
+        leatherarmor: 252,3,53
+        customdata: 4
+        name: "#c7eceeIce Helmet"
+        lore:
+          - ""
+          - "&fCan only be forged during"
+          - "&fthe #c7eceeWinter Event 2023"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= IceHelmet"
+
+      "15":
+        material: LEATHER_CHESTPLATE
+        leatherarmor: 252,3,53
+        customdata: 4
+        name: "#c7eceeIce Chestplate"
+        lore:
+          - ""
+          - "&fCan only be forged during"
+          - "&fthe #c7eceeWinter Event 2023"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= IceChestplate"
+
+      "16":
+        material: LEATHER_LEGGINGS
+        leatherarmor: 252,3,53
+        customdata: 4
+        name: "#c7eceeIce Leggings"
+        lore:
+          - ""
+          - "&fCan only be forged during"
+          - "&fthe #c7eceeWinter Event 2023"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= IceLeggings"
+
+      "19":
+        material: LEATHER_BOOTS
+        leatherarmor: 252,3,53
+        customdata: 4
+        name: "#c7eceeIce Boots"
+        lore:
+          - ""
+          - "&fCan only be forged during"
+          - "&fthe #c7eceeWinter Event 2023"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= IceBoots"
+
+      "49":
+        material: PAPER
+        customdata: 9999
+        name: "&fBack"
+        commands:
+          - "open= BlackSmith"
+      "50":
+        material: PAPER
+        customdata: 9999
+        name: "&fBack"
+        commands:
+          - "open= BlackSmith"

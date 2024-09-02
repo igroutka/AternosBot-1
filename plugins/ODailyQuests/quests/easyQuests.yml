@@ -1,0 +1,271 @@
+quests:
+  1:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f32 Stones."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7200&f⛂"
+    quest_type: BREAK
+    required_item: STONE
+    required_amount: 32
+    reward:
+      reward_type: MONEY
+      amount: 200
+  2:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f28 Iron Ore."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7235&f⛂"
+    quest_type: BREAK
+    required_item: IRON_ORE
+    required_amount: 28
+    reward:
+      reward_type: MONEY
+      amount: 235
+
+  3:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f48 Deepslates."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7250&f⛂"
+    quest_type: BREAK
+    required_item: DEEPSLATE
+    required_amount: 48
+    reward:
+      reward_type: MONEY
+      amount: 250
+
+
+  4:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ᴡᴏᴏᴅᴄᴜᴛᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f64 Oak Wood."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7150&f⛂"
+    quest_type: BREAK
+    required_item: OAK_LOG
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 150
+
+  5:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ᴡᴏᴏᴅᴄᴜᴛᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f64 Spruce Wood."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7150&f⛂"
+    quest_type: BREAK
+    required_item: SPRUCE_LOG
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 150
+
+  6:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ᴡᴏᴏᴅᴄᴜᴛᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f64 Birch Wood."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7150&f⛂"
+    quest_type: BREAK
+    required_item: BIRCH_LOG
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 150
+
+  7:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ᴡᴏᴏᴅᴄᴜᴛᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f64 Dark Oak Wood."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7150&f⛂"
+    quest_type: BREAK
+    required_item: DARK_OAK_LOG
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 150
+
+  8:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ᴡᴏᴏᴅᴄᴜᴛᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f64 Jungle Wood."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7200&f⛂"
+    quest_type: BREAK
+    required_item: JUNGLE_LOG
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 200
+
+
+  9:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f sʜᴇᴀʀɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Shear &f10 Sheeps#95afc0 to finish"
+      - " #95afc0this task (any colors)."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7100&f⛂"
+    quest_type: SHEAR
+    required_entity: SHEEP
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 100
+
+  10:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ᴍɪʟᴋɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Milk &f6 Cows#95afc0 to finish"
+      - " #95afc0this task."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7100&f⛂"
+    quest_type: MILKING
+    required_amount: 6
+    reward:
+      reward_type: MONEY
+      amount: 100
+
+
+  11:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ʙʀᴇᴇᴅɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Milk &f13 Animals#95afc0 to finish"
+      - " #95afc0this task (any animals)"
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7135&f⛂"
+    quest_type: BREED
+    required_amount: 13
+    reward:
+      reward_type: MONEY
+      amount: 135
+
+
+  12:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ᴄʀᴀꜰᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Craft &f1 Spyglass#95afc0 to finish"
+      - " #95afc0this task."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7300&f⛂"
+    quest_type: CRAFT
+    required_item: SPYGLASS
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 300
+
+  13:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ʜᴀʀᴠᴇsᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Harvest &f32 Wheats#95afc0 to finish"
+      - " #95afc0this task (fully grown)."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7150&f⛂"
+    quest_type: FARMING
+    required_item: WHEAT
+    required_amount: 32
+    reward:
+      reward_type: MONEY
+      amount: 150
+
+  14:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ʜᴀʀᴠᴇsᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Harvest &f32 Carrots#95afc0 to finish"
+      - " #95afc0this task (fully grown)."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7150&f⛂"
+    quest_type: FARMING
+    required_item: CARROT
+    required_amount: 32
+    reward:
+      reward_type: MONEY
+      amount: 150
+
+  15:
+    name: "&8[#50b47eᴇᴀsʏ&8]&f ʜᴀʀᴠᴇsᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:1"
+
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Harvest &f32 Potatoes#95afc0 to finish"
+      - " #95afc0this task (fully grown)."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7150&f⛂"
+    quest_type: FARMING
+    required_item: POTATO
+    required_amount: 32
+    reward:
+      reward_type: MONEY
+      amount: 150

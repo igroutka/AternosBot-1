@@ -1,0 +1,68 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:is_mission%'
+previous-menu: true
+
+pattern:
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ # $ @ $ % $ ^ $'
+  - '$ $ $ $ $ $ $ $ $'
+
+items:
+  '#':
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkYWZiNzY2MTViMGI2YmNmZjU0MzZkYTRiY2E3MGJjYzQ5ZGE2M2E4ZGY4MjM5MWQxYTk4NGZjNTlmZjBhMyJ9fX0='
+    name: '&fMiner Missions'
+    lore:
+      - '&7Click to start your adventure as a Miner.'
+    flags:
+      - HIDE_ATTRIBUTES
+  '@':
+    type: ZOMBIE_HEAD
+    name: '&eSlayer Missions'
+    lore:
+      - '&7Click to start your adventure as a Slayer.'
+  '%':
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0='
+    name: '&eFarmer Missions'
+    lore:
+      - '&7Click to start your adventure as a Farmer.'
+  '^':
+    type: PLAYER_HEAD
+    skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYyODE3ZWQ0MWVhNTMyYTM2MTZhYzI3OGI5ODRiNWJjNzgwNmQ5Y2EzOTc5NzIwZmU3MzAxNTdmOTgzYTMxNCJ9fX0='
+    name: '&eFisherman Missions'
+    lore:
+      - '&7Click to start your adventure as a Fisherman.'
+  # '&':
+  #   type: MAP
+  #   name: '&eExplorer Missions'
+  #   lore:
+  #     - '&7Click to start your adventure as an Explorer.'
+
+sounds:
+  '#':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1
+  '@':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1
+  '%':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1
+  '^':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1
+  '&':
+    type: BLOCK_CHEST_OPEN
+    volume: 0.8
+    pitch: 1

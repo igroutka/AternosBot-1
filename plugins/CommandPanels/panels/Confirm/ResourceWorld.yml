@@ -1,0 +1,50 @@
+panels:
+  ResourceWorld:
+    perm: "default"
+    commands:
+      - confirm
+    rows: 3
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:confirm%"
+    item:
+      "13":
+        material: PAPER
+        customdata: 9999
+        name: " "
+        lore:
+          - " &7This action will bring you to "
+          - " &7the &2Resource World.&7 Please"
+          - " &7be care full."
+          - ""
+
+      "10":
+        material: PAPER
+        customdata: 9999
+        name: "&fᴄᴏɴꜰɪʀᴍ"
+        lore: []
+        commands:
+          - "sudo= wild"
+          - "cpc"
+
+      "11":
+        material: PAPER
+        customdata: 9999
+        name: "&fᴄᴏɴꜰɪʀᴍ"
+        lore: []
+        commands:
+          - "sudo= wild"
+          - "cpc"
+
+      "15":
+        material: PAPER
+        customdata: 9999
+        name: "&fᴄᴀɴᴄᴇʟ"
+        lore: []
+        commands:
+          - "cpc"
+      "16":
+        material: PAPER
+        customdata: 9999
+        name: "&fᴄᴀɴᴄᴇʟ"
+        lore: []
+        commands:
+          - "cpc"

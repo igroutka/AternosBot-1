@@ -1,0 +1,28 @@
+location: world_spawn:33.836:120.526:-49.447
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: COPPER_INGOT {CustomModelData:17}'
+    height: 0.3
+  - content: '&8&m                                    &r'
+    height: 0.3
+  - content: '&6Auction House &fis a place where players can'
+    height: 0.3
+  - content: '&fsell their items globaly, and buyers can'
+    height: 0.3
+  - content: find specific items and equipment in exchange for gems.
+    height: 0.3
+  - content: ' '
+    height: 0.3
+  - content: '&a/ah&f To access to global Auction House'
+    height: 0.3
+  - content: '&a/auction <price>&f To put the item you are holding for sale'
+    height: 0.3
+  - content: '&8&m                            &r'
+    height: 0.3
+  actions: {}

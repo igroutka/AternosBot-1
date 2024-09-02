@@ -1,0 +1,36 @@
+piglin_coin:
+  displayname: <#ffffff>Piglin Gold Coin
+  material: PAPER
+  lore:
+  - <#ffffff><glyph:epic>
+  Pack:
+    custom_model_data: 1000
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/piglin_coin
+
+blaze_heart:
+  displayname: <#ffffff>Blaze Heart
+  material: PAPER
+  lore:
+  - <#ffffff><glyph:legendary>
+  Pack:
+    custom_model_data: 1001
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/blaze_heart
+
+spawner_fragment:
+  displayname: <#ffffff>Spawner Fragment
+  material: PAPER
+  lore:
+  - <#ffffff><glyph:legendary>
+  Pack:
+    custom_model_data: 1002
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/items/spawner_fragment
+

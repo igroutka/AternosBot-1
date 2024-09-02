@@ -1,0 +1,64 @@
+#----------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------#
+#                            ------------------------                              #
+#                           [SpeedLimit Configuration]                             #
+#                                [By Loving11ish]                                  #
+#                            ------------------------                              #
+#----------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------#
+#                           --[Plugin Messages File]--                             #
+#----------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------#
+#SpeedLimit messages config for 5.5.0
+#----------------------------------------------------------------------------------#
+prefix: "&7[&bSpeed&3Limit&7]"
+
+#----------------------------------------------------------------------------------#
+plugin-no-update:
+  1: "&a*-------------------------------------------*"
+  2: "&aPlugin is up to date"
+  3: "&a*-------------------------------------------*"
+plugin-update-available:
+  1: "&c*-------------------------------------------*"
+  2: "&4A new version is available!"
+  3: "&c*-------------------------------------------*"
+update-check-failure: "&4Unable to check for updates! - &c"
+
+#----------------------------------------------------------------------------------#
+plugin-command-help:
+  - "&7----- &7[&bSpeed&3Limit&7] &7-----&r\n"
+  - "&6SL command usage:\n"
+  - "&f/slreload &7- &dThis command reloads the main config file.\n"
+  - "&f/slhelp &7- &dThis command shows this help menu.\n"
+  - "&6SL permissions:\n"
+  - "&fAll permission &7- &dSpeedLimit.*\n"
+  - "&f/slreload &7- &dSpeedLimit.reload\n"
+  - "&f/slhelp &7- &dSpeedLimit.help\n"
+  - "&fWalking Bypass &7- &dSpeedLimit.bypass.walking\n"
+  - "&fFlying Bypass &7- &dSpeedLimit.bypass.flying\n"
+  - "&fElytra Bypass &7-&dSpeedLimit.bypass.elytra\n"
+  - "&7----- &7[&bSpeed&3Limit&7] &7-----&r"
+
+#----------------------------------------------------------------------------------#
+reload-begin: "&aBeginning plugin reload..."
+reload-successful: "&aConfiguration files have been successfully reloaded!"
+plugin-reload-broadcast: "&aThe plugin is being reloaded, please do not use any SpeedLimit commands until completed!"
+
+#----------------------------------------------------------------------------------#
+no-permission: "&4You do not have permission to execute this command!"
+
+#----------------------------------------------------------------------------------#
+elytras-disabled-warning: "&cElytra's have been disabled by an administrator"
+
+#----------------------------------------------------------------------------------#
+TPS-elytras-disabled-warning: "&cYour elytra has been disabled due to TPS drop!"
+
+#----------------------------------------------------------------------------------#
+elytra-triggered-warning: "&cYou are flying too fast! Slow down!"
+
+#----------------------------------------------------------------------------------#
+console-TPS-task-start: "&aServer auto TPS checking task has been started."
+console-TPS-task-failed-folia-1: "&cIt appears you are running on Folia or a fork."
+console-TPS-task-failed-folia-2: "&cAuto TPS checking task has been disabled."
+console-TPS: "&eServer TPS: &a%TPS%"
+#----------------------------------------------------------------------------------#

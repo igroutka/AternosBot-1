@@ -1,0 +1,148 @@
+gem_ore:
+  displayname: <#ffffff>Gem Ore
+  material: PAPER
+  Pack:
+    generate_model: true
+    custom_model_data: 200
+    parent_model: block/cube_all
+    textures:
+    - custom/minerals/gem_ore
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.stone.break
+        place_sound: block.stone.place
+      custom_variation: 200
+      model: gem_ore
+      hardness: 6
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: IRON
+        best_tools:
+        - PICKAXE
+        loots:
+        - oraxen_item: gem_ingot
+          probability: 1.0
+gem_ingot:
+  displayname: <#ffffff>Gem Ingot
+  material: PAPER
+  Pack:
+    custom_model_data: 201
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/minerals/gem
+
+
+
+ruby_ore:
+  displayname: <#ffffff>Ruby Ore
+  material: PAPER
+  Pack:
+    custom_model_data: 202
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - custom/minerals/ruby_ore
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.stone.break
+        place_sound: block.stone.place
+      custom_variation: 201
+      model: ruby_ore
+      hardness: 6
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: IRON
+        best_tools:
+        - PICKAXE
+        loots:
+        - oraxen_item: ruby_ingot
+          probability: 1.0
+ruby_ingot:
+  displayname: <#ffffff>Ruby Ingot
+  material: PAPER
+  Pack:
+    custom_model_data: 203
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/minerals/ruby_ingot
+
+
+
+hyronium_ore:
+  displayname: <#ffffff>Hyronium Ore
+  material: PAPER
+  Pack:
+    custom_model_data: 204
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - custom/minerals/hyronium_ore
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.stone.break
+        place_sound: block.stone.place
+      custom_variation: 202
+      model: hyronium_ore
+      hardness: 6
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: IRON
+        best_tools:
+        - PICKAXE
+        loots:
+        - oraxen_item: hyronium_ingot
+          probability: 1.0
+hyronium_ingot:
+  displayname: <#ffffff>Hyronium Ingot
+  material: PAPER
+  Pack:
+    custom_model_data: 205
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/minerals/hyronium_ingot
+
+
+topaz_ore:
+  displayname: <#ffffff>Topaz Ore
+  material: PAPER
+  Pack:
+    custom_model_data: 206
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - custom/minerals/topaz_ore
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.stone.break
+        place_sound: block.stone.place
+      custom_variation: 203
+      model: topaz_ore
+      hardness: 6
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: IRON
+        best_tools:
+        - PICKAXE
+        loots:
+        - oraxen_item: topaz_ingot
+          probability: 1.0
+topaz_ingot:
+  displayname: <#ffffff>Topaz Ingot
+  material: PAPER
+  Pack:
+    custom_model_data: 207
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/minerals/topaz_ingot

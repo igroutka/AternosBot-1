@@ -1,0 +1,28 @@
+location: world_spawn:-57.992:124.144:-19.295
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: COPPER_INGOT {CustomModelData:17}'
+    height: 0.6
+  - content: '&8&m                                    &r'
+    height: 0.3
+  - content: 'Custom fish can be caught at the &eFishing Contest '
+    height: 0.3
+  - content: 'event every day at &b9:00 AM &fand &b6:00 PM. '
+    height: 0.3
+  - content: The top 3 winners will receive amazing rewards
+    height: 0.3
+  - content: based on the length of the fish they caught.
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7%emf_competition_time_left%'
+    height: 0.3
+  - content: '&8&m &r &8&m  &r &8&m       &r &8&m  &r &8&m '
+    height: 0.3
+  actions: {}

@@ -1,0 +1,74 @@
+# DO NOT USE THIS FILE AS YOUR REAL SHOP MENU CONFIGS! COPY NEW ONE PLEASE!!
+# OTHERWISE IT WILL MAKE BUGS!!!
+# For example, if you delete buttons section here, plugin will try read their
+# default value in example-shop-menu.yml that saved in jar file, so do not use this file as real
+# shop menu configs!
+
+title: 'placeholder;&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:gem_shop%'
+size: 54
+
+layout:
+  - 'ABCDEFGHI'
+  - 'JKLMNOPQR'
+  - 'STUVWXYZ1'
+  - '23456789a'
+  - '<<=====>>'
+  - '!@#$%^&..'
+
+buttons:
+  "=":
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&fɢᴇᴍs: &f⛂%vault_eco_balance_commas%'
+    actions:
+      - 'shop_menu: crops'
+  "!":
+    display-item:
+      material: PLAYER_HEAD
+      skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMxZGYzYjA5NWU2YTc3NGUyNjg1MjkwMWRiMjM0MDAzOTc5YzdhNzVjZTM1ZDhkMjY5YmIzNjUxZTA5Y2ZhMiJ9fX0
+      name: '&7ᴄᴀᴛᴇɢᴏʀʏ: &#ff793fᴄʀᴏᴘs'
+    actions:
+      - 'shop_menu: crops'
+  "@":
+    display-item:
+      material: PLAYER_HEAD
+      skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE5ZTg1NmVhYjRlZmU5Mzc4OTI3MDFkNjk2NGRlNmFiYmVhNGU1ZDVmMjA3MmMzZmQ2YjM4OWNmODgzYjViOSJ9fX0
+      name: '&7ᴄᴀᴛᴇɢᴏʀʏ: &#706fd3ʙʟᴏᴄᴋs'
+    actions:
+      - 'shop_menu: blocks1'
+  "#":
+    display-item:
+      material: PLAYER_HEAD
+      skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJiNDFmMWYwZDhlZmM2ZmM5MzgzYTZiODE0NjE1OWUxNjVhMzlhNDA5ZWYwZmVkYmM0NTg0MmI2NTY0NDFlNyJ9fX0
+      name: '&7ᴄᴀᴛᴇɢᴏʀʏ: &#ffb8b8ꜰʟᴏᴡᴇʀs'
+    actions:
+      - 'shop_menu: flowers'
+  "$":
+    display-item:
+      material: PLAYER_HEAD
+      skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNlN2Y2ZDhmYzY4Y2Q1OWYzYTc5Yjc2MjE4ZWUzNWFiZTQyNjM2YWMzZWM4ZDA0NjY3MzlmY2YwNDM0NTc5ZiJ9fX0
+      name: '&7ᴄᴀᴛᴇɢᴏʀʏ: &#fff200ᴍᴏʙ ᴅʀᴏᴘs'
+    actions:
+      - 'shop_menu: mob_drops'
+  "%":
+    display-item:
+      material: PLAYER_HEAD
+      skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5YzE5YjA1ZGY0ZTQ2N2E3OTEzNjk2NGU2ZmM4MzE1ZmY0NTU5YWYzNGQzOTA3YjQzNGQzMTk1ODg4MTUzNCJ9fX0
+      name: '&7ᴄᴀᴛᴇɢᴏʀʏ: &#ffb142ᴍɪɴᴇʀᴀʟs'
+    actions:
+      - 'shop_menu: minerals'
+  "^":
+    display-item:
+      material: PLAYER_HEAD
+      skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVlNGNiNGZjMTRiYTY5ZDQ5YjJkZDJiMDQxOGQ2NTYyZGZmZGViZDBlYmYwMTY1YzQ0MTZhMDczZTYyZGRmOCJ9fX0
+      name: '&7ᴄᴀᴛᴇɢᴏʀʏ: &#cd6133ᴍɪsᴄᴇʟʟᴀɴᴇᴏᴜs'
+    actions:
+      - 'shop_menu: misc'
+  "&":
+    display-item:
+      material: PLAYER_HEAD
+      skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdmMjQzYTA3MmZjZmE2ZTZmZTU3OTJkZGU2YTM5NzQwNGU5M2JkZWQyMTExMGQyZGViNDc5NmUyYTA1N2UyNSJ9fX0
+      name: '&7ᴄᴀᴛᴇɢᴏʀʏ: &#25CCF7ᴘʟᴀʏᴇʀ ᴀᴜᴄᴛɪᴏɴ'
+    actions:
+      - 'player_command: ah'

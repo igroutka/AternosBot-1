@@ -1,0 +1,91 @@
+panels:
+  GemExchange:
+    perm: 'default'
+    commands: 
+    - gemexchange
+    - ge
+    rows: 3
+    title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:confirm%'
+    item:
+
+
+
+
+
+      '13':
+        material: PAPER
+        customdata: 9999
+        name: ' '
+        lore:
+          - ' &fThis action will exchange all '
+          - ' &f⛂ item in your inventory to '
+          - ' &fyour balance. &8(/bal)'
+          - ' '
+          - ' &7ɪɴ ɪɴᴠᴇɴᴛᴏʀʏ: &f%hrn_getItemAmount:HYRONIC:gem_ingot%⛂'
+          - ''
+          - ' &7ɪɴ ʙᴀʟᴀɴᴄᴇ: &f%vault_eco_balance_formatted%'
+          - ''
+
+      '10':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄᴏɴꜰɪʀᴍ'
+        lore: []
+        commands:
+          - "sound= ENTITY_PLAYER_LEVELUP"
+          - "sound= ENTITY_VILLAGER_CELEBRATE"
+          - "msg= %hrn_getIcon:success% &aExchanged &f%hrn_getItemAmount:HYRONIC:gem_ingot%⛂&a to your balance. Now you have: &f%vault_eco_balance_formatted%"
+          - "console= eco give %player_name% %hrn_getItemAmount:HYRONIC:gem_ingot%"
+          - "console= hrn remove-custom-item %player_name% gem_ingot -1"
+          - "cpc"
+        has0: # Check player inventory empty slot
+          value0: '%hrn_getItemAmount:HYRONIC:gem_ingot%'
+          compare0: '0'
+          material: PAPER
+          customdata: 9999
+          name: '&fᴄᴏɴꜰɪʀᴍ'
+          lore: []
+          commands:
+          - "sound= ENTITY_VILLAGER_NO"
+          - "msg= %hrn_getIcon:error%&c You dont have any gems item in your inventory"
+          - "cpc"
+
+      '11':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄᴏɴꜰɪʀᴍ'
+        lore: []
+        commands:
+          - "sound= ENTITY_PLAYER_LEVELUP"
+          - "sound= ENTITY_VILLAGER_CELEBRATE"
+          - "msg= %hrn_getIcon:success% &aExchanged &f%hrn_getItemAmount:HYRONIC:gem_ingot%⛂&a to your balance. Now you have: &f%vault_eco_balance_formatted%"
+          - "console= eco give %player_name% %hrn_getItemAmount:HYRONIC:gem_ingot%"
+          - "console= hrn remove-custom-item %player_name% gem_ingot -1"
+          - "cpc"
+        has0: # Check player inventory empty slot
+          value0: '%hrn_getItemAmount:HYRONIC:gem_ingot%'
+          compare0: '0'
+          material: PAPER
+          customdata: 9999
+          name: '&fᴄᴏɴꜰɪʀᴍ'
+          lore: []
+          commands:
+          - "sound= ENTITY_VILLAGER_NO"
+          - "msg= %hrn_getIcon:error%&c You dont have any gems item in your inventory"
+          - "cpc"
+
+
+      '15':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄᴀɴᴄᴇʟ'
+        lore: []
+        commands:
+          - "cpc"
+      '16':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄᴀɴᴄᴇʟ'
+        lore: []
+        commands:
+          - "cpc"

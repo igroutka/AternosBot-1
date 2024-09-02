@@ -1,0 +1,108 @@
+panels:
+  Enchanter:
+    perm: 'default'
+    commands: 
+    - enchanter
+    rows: 4
+    title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:enchanter%'
+    item:
+
+
+
+
+      '11':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzExMDFjNDk4YWFhYzkzZTc2YjhmMTZkMjljYmZhNDczZWQyNGQ5YzZjNzU1NjNjMjdlZWRkNDljOTYzZTk4YiJ9fX0=
+        name: '#0be881ʀᴀʀᴇ ᴍᴀɢɪᴄᴀʟ ᴄᴜʙᴇ'
+        lore:
+          - ''
+          - '#d2dae2This magic cube contains'
+          - "#d2dae2a rare enchantment book."
+          - "#d2dae2To open it will take some exp"
+          - ''
+          - '&fᴏᴘᴇɴ ᴘʀɪᴄᴇ: &71.500 #4cd137Exp'
+        commands:
+          - "xp-paywall= 1500 point"
+          - "console= excellentenchants:eenchants tierbook %player_name% rare -1"
+          - "sound= ENTITY_PLAYER_LEVELUP 1 1"
+          - "open= Enchanter"
+
+
+
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzMTE1OWIyYmI3NDg1NGIyYTM3NzM3MDE2ZjBhNzM1OTM2MDAwNDlhMWYyNjRmZWRhNWRiNzY5ZDMwN2I1YyJ9fX0=
+        name: '#EAB543ʟᴇɢᴇɴᴅᴀʀʏ ᴍᴀɢɪᴄᴀʟ ᴄᴜʙᴇ'
+        lore:
+          - ''
+          - '#d2dae2This magic cube contains'
+          - "#d2dae2a legendary enchantment book."
+          - "#d2dae2To open it will take some exp"
+          - ''
+          - '&fᴏᴘᴇɴ ᴘʀɪᴄᴇ: &710.000 #4cd137Exp'
+        commands:
+          - "xp-paywall= 10000 point"
+          - "console= excellentenchants:eenchants tierbook %player_name% legendary -1"
+          - "sound= ENTITY_PLAYER_LEVELUP 1 1"
+          - "open= Enchanter"
+
+
+
+      '15':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIyMTAwNTFmZjRmZjVhNzM5ZGY5NDUxYzc5YWYwZmQwYTNiMDU1NmMxMzg5M2Y3Yzk2YWY1OTk3ZDAxNjY1MiJ9fX0=
+        name: '#D6A2E8ᴇxᴏᴛɪᴄ ᴍᴀɢɪᴄᴀʟ ᴄᴜʙᴇ'
+        lore:
+          - ''
+          - '#d2dae2This magic cube contains'
+          - "#d2dae2an exotic enchantment book."
+          - "#d2dae2To open it will take some exp"
+          - ''
+          - '&fᴏᴘᴇɴ ᴘʀɪᴄᴇ: &72.500 #4cd137Exp'
+        commands:
+          - "xp-paywall= 2500 point"
+          - "console= excellentenchants:eenchants tierbook %player_name% exotic -1"
+          - "sound= ENTITY_PLAYER_LEVELUP 1 1"
+          - "open= Enchanter"
+
+
+      '29':
+        material: PAPER
+        stack: 1
+        customdata: 9999
+        name: '&fᴜᴘɢʀᴀᴅᴇ ᴇɴᴄʜᴀɴᴛs'
+        lore:
+          - '&c→ ᴄᴏᴍᴍɪɴɢ sᴏᴏɴ'
+
+      '30':
+        material: PAPER
+        stack: 1
+        customdata: 9999
+        name: '&fᴇɴᴄʜᴀɴᴛᴇɴᴛ ʙᴏᴏᴋs'
+        lore: []
+        commands:
+          - "sudo= eenchants list"
+
+      '31':
+        material: PAPER
+        stack: 1
+        customdata: 9999
+        name: '&fᴇɴᴄʜᴀɴᴛᴇɴᴛ ʙᴏᴏᴋs'
+        lore: []
+        commands:
+          - "sudo= eenchants list"
+
+      '32':
+        material: PAPER
+        stack: 1
+        customdata: 9999
+        name: '&fᴇɴᴄʜᴀɴᴛᴇɴᴛ ʙᴏᴏᴋs'
+        lore: []
+        commands:
+          - "sudo= eenchants list"
+
+
+      '33':
+        material: PAPER
+        stack: 1
+        customdata: 9999
+        name: '&7→ ᴄʟᴏsᴇ ᴍᴇɴᴜ'
+        commands:
+          - "cpc"

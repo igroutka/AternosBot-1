@@ -1,0 +1,167 @@
+# %cp-m% <material>
+# %cp-amount% <item amount>
+# %cp-price% <price>
+# %cp-back% <previous panel>
+
+panels:
+  Sell:
+    perm: default
+    rows: 4
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:gem_shop_sell%"
+    pre-load-commands:
+      - "console= sbc play-sound %player_name% hyronic:hyronic.sound.menu"
+    panelType:
+      - nocommand
+      - static
+    sellAStack:
+      #- "item-paywall= %cp-m% 64"
+      - "sell= %cp-price% %cp-m% 64"
+      - refresh
+    item:
+      "13":
+        material: "%cp-m%"
+        name: "#26de81%hrn_getCap:{cp-m}%"
+        stack: "%cp-amount%"
+        lore:
+          - ""
+          - "&7ᴀᴍᴏᴜɴᴛ: &fx%cp-amount%"
+          - "&7ᴛᴏᴛᴀʟ:  &f⛂%math_{cp-amount}*{cp-price}[precision:2]%"
+
+      "9":
+        material: PAPER
+        customdata: 9999
+        stack: 1
+        name: "&fSet to #fc5c651"
+        commands:
+          - "left= open= Sell [m:%cp-m%] [amount:1] [price:%cp-price%] [back:%cp-back%]"
+
+      "10":
+        material: PAPER
+        customdata: 9999
+        stack: 1
+        name: "&fRemove 10"
+        commands:
+          - "left= open= Sell [m:%cp-m%] [amount:%math_{cp-amount}-10%] [price:%cp-price%] [back:%cp-back%]"
+        has0:
+          value0: "NOT %cp-amount% ISGREATER"
+          compare0: 11
+          material: PAPER
+          customdata: 9999
+          stack: 1
+          name: "&fRemove #fc5c6510"
+          commands:
+            - "left= open= Sell [m:%cp-m%] [amount:1] [price:%cp-price%] [back:%cp-back%]"
+
+      "11":
+        material: PAPER
+        customdata: 9999
+        stack: 1
+        name: "&fRemove #fc5c651"
+        commands:
+          - "left= open= Sell [m:%cp-m%] [amount:%math_{cp-amount}-1%] [price:%cp-price%] [back:%cp-back%]"
+        has0:
+          value0: "NOT %cp-amount% ISGREATER"
+          compare0: 2
+          material: PAPER
+          customdata: 9999
+          stack: 1
+          name: "&fRemove #fc5c651"
+
+      # ADD 1
+      "15":
+        material: PAPER
+        customdata: 9999
+        stack: 1
+        name: "&fAdd #26de811"
+        commands:
+          - "left= open= Sell [m:%cp-m%] [amount:%math_{cp-amount}+1%] [price:%cp-price%] [back:%cp-back%]"
+        has0:
+          value0: "%cp-amount% ISGREATER"
+          compare0: 64
+          material: PAPER
+          customdata: 9999
+          stack: 1
+          name: "&fAdd 1"
+
+      # ADD 10
+      "16":
+        material: PAPER
+        customdata: 9999
+        stack: 1
+        name: "&fAdd #26de8110"
+        commands:
+          - "left= open= Sell [m:%cp-m%] [amount:%math_{cp-amount}+10%] [price:%cp-price%] [back:%cp-back%]"
+        has0:
+          value0: "%cp-amount% ISGREATER"
+          compare0: 54
+          material: PAPER
+          customdata: 9999
+          stack: 1
+          name: "&fAdd #26de8110"
+          commands:
+            - "left= open= Sell [m:%cp-m%] [amount:64] [price:%cp-price%] [back:%cp-back%]"
+
+      # ADD 64
+      "17":
+        material: PAPER
+        customdata: 9999
+        stack: 1
+        name: "&fSet to #26de8164"
+        commands:
+          - "left= open= Sell [m:%cp-m%] [amount:64] [price:%cp-price%] [back:%cp-back%]"
+
+      "29":
+        material: PAPER
+        customdata: 9999
+        stack: 1
+        name: "#26de81sᴇʟʟ ꜰᴏʀ &f⛂%math_{cp-amount}*{cp-price}[precision:2]%"
+        commands:
+          - "item-paywall= %cp-m% %math_{cp-amount}[precision:0]%"
+          - "console= eco give %player_name% %math_{cp-amount}*{cp-price}[precision:2]%"
+
+      "30":
+        material: PAPER
+        customdata: 9999
+        stack: 1
+        name: "#26de81sᴇʟʟ ꜰᴏʀ &f⛂%math_{cp-amount}*{cp-price}[precision:2]%"
+        commands:
+          - "item-paywall= %cp-m% %math_{cp-amount}[precision:0]%"
+          - "console= eco give %player_name% %math_{cp-amount}*{cp-price}[precision:2]%"
+
+      "33":
+        material: PAPER
+        customdata: 9999
+        stack: 1
+        name: "#26de81sᴇʟʟ ꜰᴜʟʟ ɪɴᴠᴇɴᴛᴏʀʏ"
+        lore:
+          - ""
+          - "&7Sell all your %cp-m% in"
+          - "&7your inventory."
+          - ""
+          - "&7ᴀᴍᴏᴜɴᴛ: &fx%checkitem_amount_mat:{cp-m}%"
+          - "&7ᴛᴏᴛᴀʟ:  &f⛂%math_({checkitem_amount_mat:{cp-m}})*{cp-price}[precision:0]%"
+        commands:
+          - "sellall= %cp-price% %cp-m%"
+
+      "32":
+        material: PAPER
+        customdata: 9999
+        stack: 1
+        name: "#26de81sᴇʟʟ ꜰᴜʟʟ ɪɴᴠᴇɴᴛᴏʀʏ"
+        lore:
+          - ""
+          - "&7Sell all your %cp-m% in"
+          - "&7your inventory."
+          - ""
+          - "&7ᴀᴍᴏᴜɴᴛ: &fx%checkitem_amount_mat:{cp-m}%"
+          - "&7ᴛᴏᴛᴀʟ:  &f⛂%math_({checkitem_amount_mat:{cp-m}})*{cp-price}[precision:0]%"
+        commands:
+          - "sellall= %cp-price% %cp-m%"
+
+      "31":
+        material: PAPER
+        stack: 1
+        customdata: 9999
+        name: "&cʙᴀᴄᴋ ᴛᴏ ᴛʜᴇ sʜᴏᴘ"
+        commands:
+          - open= %cp-back%

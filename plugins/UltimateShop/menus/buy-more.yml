@@ -1,0 +1,81 @@
+title: 'placeholder;&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:gem_shop_select_amount%'
+
+size: 36
+
+layout:
+  - '000000000'
+  - '4560B0123'
+  - '000000000'
+  - '000DDA000'
+
+amount-items:
+  1:
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&a+1'
+      lore:
+        - '&7Click to add 1 amount.'
+    add-amount: 1
+  2:
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&a+10'
+      lore:
+        - '&7Click to add 10 amount.'
+    add-amount: 10
+  3:
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&a+64'
+      lore:
+        - '&7Click to add 64 amount.'
+    add-amount: 64
+  4:
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&c-1'
+      lore:
+        - '&7Click to remove 1 amount.'
+    add-amount: -1
+  5:
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&c-10'
+      lore:
+        - '&7Click to remove 10 amount.'
+    add-amount: -10
+  6:
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&c-64'
+      lore:
+        - '&7Click to remove 64 amount.'
+    add-amount: -64
+
+display-item: B
+
+confirm-items:
+  D:
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&aConfirm'
+      lore:
+        - '&7Click to finish the trade!'
+
+buttons:
+  A:
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&cBack'
+      lore:
+        - '&7Click to back shop!'
+    actions:
+      - 'shop_menu: {shop}'

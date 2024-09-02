@@ -1,0 +1,1899 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:is_upgrade%'
+previous-menu: true
+
+pattern:
+  - ''
+  - 'X ! X ~ X + X ^ X'
+  - ''
+  - 'X @ X * X & X # X'
+
+items:
+
+upgrades:
+  hoppers-limit:
+    item: '@'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwNzQyMTZiZDA2NTdjMjQxMDA1Y2JjNDBiZDJmOTQzYzBmOGIzMDU3M2NkOWM5MDMzZDgyOWEwMTZmNmIwZiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fHoppers Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_hoppers-limit%⭐'
+          - '&fᴍᴀx ʜᴏᴘᴘᴇʀs: &{HEX:7ed6df}%superior_island_hoppers_limit%'
+          - '&7'
+          - '&7Purchasing the hopper upgrade'
+          - '&7will increase your island''s max'
+          - '&7hoppers limit.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Hoppers: &{HEX:7ed6df}16x Hoppers'
+          - ' &7Price: &f100,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwNzQyMTZiZDA2NTdjMjQxMDA1Y2JjNDBiZDJmOTQzYzBmOGIzMDU3M2NkOWM5MDMzZDgyOWEwMTZmNmIwZiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fHoppers Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_hoppers-limit%⭐'
+          - '&fᴍᴀx ʜᴏᴘᴘᴇʀs: &{HEX:7ed6df}%superior_island_hoppers_limit%'
+          - '&7'
+          - '&7Purchasing the hopper upgrade'
+          - '&7will increase your island''s max'
+          - '&7hoppers limit.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Hoppers: &{HEX:7ed6df}16x Hoppers'
+          - ' &7Price: &f100,000⛂ &c(❌)'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwNzQyMTZiZDA2NTdjMjQxMDA1Y2JjNDBiZDJmOTQzYzBmOGIzMDU3M2NkOWM5MDMzZDgyOWEwMTZmNmIwZiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fHoppers Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_hoppers-limit%⭐'
+          - '&fᴍᴀx ʜᴏᴘᴘᴇʀs: &{HEX:7ed6df}%superior_island_hoppers_limit%'
+          - '&7'
+          - '&7Purchasing the hopper upgrade'
+          - '&7will increase your island''s max'
+          - '&7hoppers limit.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Hoppers: &{HEX:7ed6df}32x Hoppers'
+          - ' &7Price: &f300,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwNzQyMTZiZDA2NTdjMjQxMDA1Y2JjNDBiZDJmOTQzYzBmOGIzMDU3M2NkOWM5MDMzZDgyOWEwMTZmNmIwZiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fHoppers Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_hoppers-limit%⭐'
+          - '&fᴍᴀx ʜᴏᴘᴘᴇʀs: &{HEX:7ed6df}%superior_island_hoppers_limit%'
+          - '&7'
+          - '&7Purchasing the hopper upgrade'
+          - '&7will increase your island''s max'
+          - '&7hoppers limit.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Hoppers: &{HEX:7ed6df}32x Hoppers'
+          - ' &7Price: &f300,000⛂ &c(❌)'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwNzQyMTZiZDA2NTdjMjQxMDA1Y2JjNDBiZDJmOTQzYzBmOGIzMDU3M2NkOWM5MDMzZDgyOWEwMTZmNmIwZiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fHoppers Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_hoppers-limit%⭐'
+          - '&fᴍᴀx ʜᴏᴘᴘᴇʀs: &{HEX:7ed6df}%superior_island_hoppers_limit%'
+          - '&7'
+          - '&7Purchasing the hopper upgrade'
+          - '&7will increase your island''s max'
+          - '&7hoppers limit.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Hoppers: &{HEX:7ed6df}64x Hoppers'
+          - ' &7Price: &f500,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwNzQyMTZiZDA2NTdjMjQxMDA1Y2JjNDBiZDJmOTQzYzBmOGIzMDU3M2NkOWM5MDMzZDgyOWEwMTZmNmIwZiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fHoppers Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_hoppers-limit%⭐'
+          - '&fᴍᴀx ʜᴏᴘᴘᴇʀs: &{HEX:7ed6df}%superior_island_hoppers_limit%'
+          - '&7'
+          - '&7Purchasing the hopper upgrade'
+          - '&7will increase your island''s max'
+          - '&7hoppers limit.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Hoppers: &{HEX:7ed6df}64x Hoppers'
+          - ' &7Price: &f500,000⛂ &c(❌)'
+    '4':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwNzQyMTZiZDA2NTdjMjQxMDA1Y2JjNDBiZDJmOTQzYzBmOGIzMDU3M2NkOWM5MDMzZDgyOWEwMTZmNmIwZiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fHoppers Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_hoppers-limit%⭐'
+          - '&fᴍᴀx ʜᴏᴘᴘᴇʀs: &{HEX:7ed6df}%superior_island_hoppers_limit%'
+          - '&7'
+          - '&7Purchasing the hopper upgrade'
+          - '&7will increase your island''s max'
+          - '&7hoppers limit.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Hoppers: &{HEX:7ed6df}128x Hoppers'
+          - ' &7Price: &f700,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwNzQyMTZiZDA2NTdjMjQxMDA1Y2JjNDBiZDJmOTQzYzBmOGIzMDU3M2NkOWM5MDMzZDgyOWEwMTZmNmIwZiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fHoppers Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_hoppers-limit%⭐'
+          - '&fᴍᴀx ʜᴏᴘᴘᴇʀs: &{HEX:7ed6df}%superior_island_hoppers_limit%'
+          - '&7'
+          - '&7Purchasing the hopper upgrade'
+          - '&7will increase your island''s max'
+          - '&7hoppers limit.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Hoppers: &{HEX:7ed6df}128x Hoppers'
+          - ' &7Price: &f700,000⛂ &c(❌)'
+    '5':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwNzQyMTZiZDA2NTdjMjQxMDA1Y2JjNDBiZDJmOTQzYzBmOGIzMDU3M2NkOWM5MDMzZDgyOWEwMTZmNmIwZiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fHoppers Limit&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_hoppers-limit%⭐'
+          - '&fᴍᴀx ʜᴏᴘᴘᴇʀs: &{HEX:7ed6df}%superior_island_hoppers_limit%'
+          - '&7'
+          - '&7Purchasing the hopper upgrade'
+          - '&7will increase your island''s max'
+          - '&7hoppers limit.'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwNzQyMTZiZDA2NTdjMjQxMDA1Y2JjNDBiZDJmOTQzYzBmOGIzMDU3M2NkOWM5MDMzZDgyOWEwMTZmNmIwZiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fHoppers Limit&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_hoppers-limit%⭐'
+          - '&fᴍᴀx ʜᴏᴘᴘᴇʀs: &{HEX:7ed6df}%superior_island_hoppers_limit%'
+          - '&7'
+          - '&7Purchasing the hopper upgrade'
+          - '&7will increase your island''s max'
+          - '&7hoppers limit.'
+  crop-growth:
+    item: '#'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fCrop Growth&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_crop-growth%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_crops_multiplier%'
+          - '&7'
+          - '&7Purchasing the growth upgrade'
+          - '&7gives all crops within your island'
+          - '&7increased growth speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Growth: &fx2 Speed'
+          - ' &7Price: &f100,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fCrop Growth&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_crop-growth%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_crops_multiplier%'
+          - '&7'
+          - '&7Purchasing the growth upgrade'
+          - '&7gives all crops within your island'
+          - '&7increased growth speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Growth: &fx2 Speed'
+          - ' &7Price: &f100,000⛂ &c(❌)'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fCrop Growth&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_crop-growth%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_crops_multiplier%'
+          - '&7'
+          - '&7Purchasing the growth upgrade'
+          - '&7gives all crops within your island'
+          - '&7increased growth speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Growth: &fx3 Speed'
+          - ' &7Price: &f300,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fCrop Growth&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_crop-growth%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_crops_multiplier%'
+          - '&7'
+          - '&7Purchasing the growth upgrade'
+          - '&7gives all crops within your island'
+          - '&7increased growth speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Growth: &fx3 Speed'
+          - ' &7Price: &f300,000⛂ &c(❌)'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fCrop Growth&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_crop-growth%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_crops_multiplier%'
+          - '&7'
+          - '&7Purchasing the growth upgrade'
+          - '&7gives all crops within your island'
+          - '&7increased growth speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Growth: &fx4 Speed'
+          - ' &7Price: &f500,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fCrop Growth&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_crop-growth%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_crops_multiplier%'
+          - '&7'
+          - '&7Purchasing the growth upgrade'
+          - '&7gives all crops within your island'
+          - '&7increased growth speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Growth: &fx4 Speed'
+          - ' &7Price: &f500,000⛂ &c(❌)'
+    '4':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fCrop Growth&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_crop-growth%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_crops_multiplier%'
+          - '&7'
+          - '&7Purchasing the growth upgrade'
+          - '&7gives all crops within your island'
+          - '&7increased growth speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Growth: &fx5 Speed'
+          - ' &7Price: &f800,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fCrop Growth&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_crop-growth%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_crops_multiplier%'
+          - '&7'
+          - '&7Purchasing the growth upgrade'
+          - '&7gives all crops within your island'
+          - '&7increased growth speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Growth: &fx5 Speed'
+          - ' &7Price: &f800,000⛂ &c(❌)'
+    '5':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fCrop Growth&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_crop-growth%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_crops_multiplier%'
+          - '&7'
+          - '&7Purchasing the growth upgrade'
+          - '&7gives all crops within your island'
+          - '&7increased growth speed.'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjlmOTkxZjFmNzFiM2EzMzFmY2MxMmQ2ZTY0ZGZmMmU3MzdjOTcxZDllODhlOTcwYzc4N2UwZThjZDA2NDA4NiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fCrop Growth&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_crop-growth%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_crops_multiplier%'
+          - '&7'
+          - '&7Purchasing the growth upgrade'
+          - '&7gives all crops within your island'
+          - '&7increased growth speed.'
+  spawner-rates:
+    item: '^'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRlM2E0MDdkMmJlMzg3YjQ1YmViZGQ1MmQzZDRkNzVhNmExYjQ3OWUyYjhjMDMyNjdkMDIxZDRhZjMxZTA3MiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fSpawner Rates&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_spawner-rates%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_spawners_multiplier%'
+          - '&7'
+          - '&7Purchasing spawner upgrade'
+          - '&7gives all spawners within your'
+          - '&7island increased spawn speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Boost: &{HEX:7ed6df}x2 Speed'
+          - ' &7Price: &f200,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRlM2E0MDdkMmJlMzg3YjQ1YmViZGQ1MmQzZDRkNzVhNmExYjQ3OWUyYjhjMDMyNjdkMDIxZDRhZjMxZTA3MiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fSpawner Rates&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_spawner-rates%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_spawners_multiplier%'
+          - '&7'
+          - '&7Purchasing spawner upgrade'
+          - '&7gives all spawners within your'
+          - '&7island increased spawn speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Boost: &{HEX:7ed6df}x2 Speed'
+          - ' &7Price: &f200,000⛂ &a(✔)'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRlM2E0MDdkMmJlMzg3YjQ1YmViZGQ1MmQzZDRkNzVhNmExYjQ3OWUyYjhjMDMyNjdkMDIxZDRhZjMxZTA3MiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fSpawner Rates&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_spawner-rates%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_spawners_multiplier%'
+          - '&7'
+          - '&7Purchasing spawner upgrade'
+          - '&7gives all spawners within your'
+          - '&7island increased spawn speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Boost: &{HEX:7ed6df}x3 Speed'
+          - ' &7Price: &f400,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRlM2E0MDdkMmJlMzg3YjQ1YmViZGQ1MmQzZDRkNzVhNmExYjQ3OWUyYjhjMDMyNjdkMDIxZDRhZjMxZTA3MiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fSpawner Rates&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_spawner-rates%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_spawners_multiplier%'
+          - '&7'
+          - '&7Purchasing spawner upgrade'
+          - '&7gives all spawners within your'
+          - '&7island increased spawn speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Boost: &{HEX:7ed6df}x3 Speed'
+          - ' &7Price: &f400,000⛂ &a(✔)'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRlM2E0MDdkMmJlMzg3YjQ1YmViZGQ1MmQzZDRkNzVhNmExYjQ3OWUyYjhjMDMyNjdkMDIxZDRhZjMxZTA3MiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fSpawner Rates&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_spawner-rates%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_spawners_multiplier%'
+          - '&7'
+          - '&7Purchasing spawner upgrade'
+          - '&7gives all spawners within your'
+          - '&7island increased spawn speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Boost: &{HEX:7ed6df}x4 Speed'
+          - ' &7Price: &f600,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRlM2E0MDdkMmJlMzg3YjQ1YmViZGQ1MmQzZDRkNzVhNmExYjQ3OWUyYjhjMDMyNjdkMDIxZDRhZjMxZTA3MiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fSpawner Rates&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_spawner-rates%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_spawners_multiplier%'
+          - '&7'
+          - '&7Purchasing spawner upgrade'
+          - '&7gives all spawners within your'
+          - '&7island increased spawn speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Boost: &{HEX:7ed6df}x4 Speed'
+          - ' &7Price: &f600,000⛂ &a(✔)'
+    '4':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRlM2E0MDdkMmJlMzg3YjQ1YmViZGQ1MmQzZDRkNzVhNmExYjQ3OWUyYjhjMDMyNjdkMDIxZDRhZjMxZTA3MiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fSpawner Rates&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_spawner-rates%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_spawners_multiplier%'
+          - '&7'
+          - '&7Purchasing spawner upgrade'
+          - '&7gives all spawners within your'
+          - '&7island increased spawn speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Boost: &{HEX:7ed6df}x5 Speed'
+          - ' &7Price: &f800,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRlM2E0MDdkMmJlMzg3YjQ1YmViZGQ1MmQzZDRkNzVhNmExYjQ3OWUyYjhjMDMyNjdkMDIxZDRhZjMxZTA3MiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fSpawner Rates&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_spawner-rates%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_spawners_multiplier%'
+          - '&7'
+          - '&7Purchasing spawner upgrade'
+          - '&7gives all spawners within your'
+          - '&7island increased spawn speed.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Boost: &{HEX:7ed6df}x5 Speed'
+          - ' &7Price: &f800,000⛂ &a(✔)'
+    '5':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRlM2E0MDdkMmJlMzg3YjQ1YmViZGQ1MmQzZDRkNzVhNmExYjQ3OWUyYjhjMDMyNjdkMDIxZDRhZjMxZTA3MiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fSpawner Rates&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_spawner-rates%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_spawners_multiplier%'
+          - '&7'
+          - '&7Purchasing spawner upgrade'
+          - '&7gives all spawners within your'
+          - '&7island increased spawn speed.'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRlM2E0MDdkMmJlMzg3YjQ1YmViZGQ1MmQzZDRkNzVhNmExYjQ3OWUyYjhjMDMyNjdkMDIxZDRhZjMxZTA3MiJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fSpawner Rates&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_spawner-rates%⭐'
+          - '&fsᴘᴇᴇᴅ ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_spawners_multiplier%'
+          - '&7'
+          - '&7Purchasing spawner upgrade'
+          - '&7gives all spawners within your'
+          - '&7island increased spawn speed.'
+  mob-drops:
+    item: '*'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ==
+        name: '&{HEX:7ed6df}◘ &fMob Drops&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_mob-drops%⭐'
+          - '&fᴅʀᴏᴘs ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_drops_multiplier%'
+          - '&7'
+          - '&7Purchasing the drops upgrade'
+          - '&7gives all mobs within your island'
+          - '&7increased loot drops.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Amount: &{HEX:7ed6df}x2 Drops'
+          - ' &7Price: &f500,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ==
+        name: '&{HEX:7ed6df}◘ &fMob Drops&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_mob-drops%⭐'
+          - '&fᴅʀᴏᴘs ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_drops_multiplier%'
+          - '&7'
+          - '&7Purchasing the drops upgrade'
+          - '&7gives all mobs within your island'
+          - '&7increased loot drops.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Amount: &{HEX:7ed6df}x2 Drops'
+          - ' &7Price: &f500,000⛂ &(❌)'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ==
+        name: '&{HEX:7ed6df}◘ &fMob Drops&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_mob-drops%⭐'
+          - '&fᴅʀᴏᴘs ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_drops_multiplier%'
+          - '&7'
+          - '&7Purchasing the drops upgrade'
+          - '&7gives all mobs within your island'
+          - '&7increased loot drops.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Amount: &{HEX:7ed6df}x3 Drops'
+          - ' &7Price: &f800,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ==
+        name: '&{HEX:7ed6df}◘ &fMob Drops&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_mob-drops%⭐'
+          - '&fᴅʀᴏᴘs ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_drops_multiplier%'
+          - '&7'
+          - '&7Purchasing the drops upgrade'
+          - '&7gives all mobs within your island'
+          - '&7increased loot drops.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Amount: &{HEX:7ed6df}x3 Drops'
+          - ' &7Price: &f800,000⛂ &c(❌)'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ==
+        name: '&{HEX:7ed6df}◘ &fMob Drops&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_mob-drops%⭐'
+          - '&fᴅʀᴏᴘs ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_drops_multiplier%'
+          - '&7'
+          - '&7Purchasing the drops upgrade'
+          - '&7gives all mobs within your island'
+          - '&7increased loot drops.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Amount: &{HEX:7ed6df}x4 Drops'
+          - ' &7Price: &f1,200,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ==
+        name: '&{HEX:7ed6df}◘ &fMob Drops&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_mob-drops%⭐'
+          - '&fᴅʀᴏᴘs ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_drops_multiplier%'
+          - '&7'
+          - '&7Purchasing the drops upgrade'
+          - '&7gives all mobs within your island'
+          - '&7increased loot drops.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Amount: &{HEX:7ed6df}x4 Drops'
+          - ' &7Price: &f1,200,000⛂ &c(❌)'
+    '4':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ==
+        name: '&{HEX:7ed6df}◘ &fMob Drops&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_mob-drops%⭐'
+          - '&fᴅʀᴏᴘs ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_drops_multiplier%'
+          - '&7'
+          - '&7Purchasing the drops upgrade'
+          - '&7gives all mobs within your island'
+          - '&7increased loot drops.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Amount: &{HEX:7ed6df}x5 Drops'
+          - ' &7Price: &f1,500,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ==
+        name: '&{HEX:7ed6df}◘ &fMob Drops&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_mob-drops%⭐'
+          - '&fᴅʀᴏᴘs ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_drops_multiplier%'
+          - '&7'
+          - '&7Purchasing the drops upgrade'
+          - '&7gives all mobs within your island'
+          - '&7increased loot drops.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Amount: &{HEX:7ed6df}x5 Drops'
+          - ' &7Price: &f1,500,000⛂ &c(❌)'
+    '5':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ==
+        name: '&{HEX:7ed6df}◘ &fMob Drops&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_mob-drops%⭐'
+          - '&fᴅʀᴏᴘs ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_drops_multiplier%'
+          - '&7'
+          - '&7Purchasing the drops upgrade'
+          - '&7gives all mobs within your island'
+          - '&7increased loot drops.'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ==
+        name: '&{HEX:7ed6df}◘ &fMob Drops&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_mob-drops%⭐'
+          - '&fᴅʀᴏᴘs ᴍᴜʟᴛɪᴘʟᴇʀ: &{HEX:7ed6df}x%superior_island_drops_multiplier%'
+          - '&7'
+          - '&7Purchasing the drops upgrade'
+          - '&7gives all mobs within your island'
+          - '&7increased loot drops.'
+  members-limit:
+    item: '~'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1NzUwMWU4YWI2OWVkMmI1MmQ4Y2E1ZWExZjhiNzViZWFmODk3YzFiMzY1YmEwNmNhNzc2ODlhNGJhOWRhNCJ9fX0='
+        name: '&{HEX:7ed6df}◘ &fMember Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_members-limit%⭐'
+          - '&fᴍᴀx ᴍᴇᴍʙᴇʀ: &{HEX:7ed6df}%superior_island_team_limit%'
+          - '&7'
+          - '&7Purchasing the members'
+          - '&7upgrade will increase the'
+          - '&7maximum allowed members '
+          - '&7in your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Member: &{HEX:7ed6df}8'
+          - ' &7Price: &f20,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1NzUwMWU4YWI2OWVkMmI1MmQ4Y2E1ZWExZjhiNzViZWFmODk3YzFiMzY1YmEwNmNhNzc2ODlhNGJhOWRhNCJ9fX0='
+        name: '&{HEX:7ed6df}◘ &fMember Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_members-limit%⭐'
+          - '&fᴍᴀx ᴍᴇᴍʙᴇʀ: &{HEX:7ed6df}%superior_island_team_limit%'
+          - '&7'
+          - '&7Purchasing the members'
+          - '&7upgrade will increase the'
+          - '&7maximum allowed members '
+          - '&7in your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Member: &{HEX:7ed6df}8'
+          - ' &7Price: &f20,000⛂ &c(❌)'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1NzUwMWU4YWI2OWVkMmI1MmQ4Y2E1ZWExZjhiNzViZWFmODk3YzFiMzY1YmEwNmNhNzc2ODlhNGJhOWRhNCJ9fX0='
+        name: '&{HEX:7ed6df}◘ &fMember Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_members-limit%⭐'
+          - '&fᴍᴀx ᴍᴇᴍʙᴇʀ: &{HEX:7ed6df}%superior_island_team_limit%'
+          - '&7'
+          - '&7Purchasing the members'
+          - '&7upgrade will increase the'
+          - '&7maximum allowed members '
+          - '&7in your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Member: &{HEX:7ed6df}16'
+          - ' &7Price: &f50,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1NzUwMWU4YWI2OWVkMmI1MmQ4Y2E1ZWExZjhiNzViZWFmODk3YzFiMzY1YmEwNmNhNzc2ODlhNGJhOWRhNCJ9fX0='
+        name: '&{HEX:7ed6df}◘ &fMember Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_members-limit%⭐'
+          - '&fᴍᴀx ᴍᴇᴍʙᴇʀ: &{HEX:7ed6df}%superior_island_team_limit%'
+          - '&7'
+          - '&7Purchasing the members'
+          - '&7upgrade will increase the'
+          - '&7maximum allowed members '
+          - '&7in your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Member: &{HEX:7ed6df}16'
+          - ' &7Price: &f50,000⛂ &c(❌)'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1NzUwMWU4YWI2OWVkMmI1MmQ4Y2E1ZWExZjhiNzViZWFmODk3YzFiMzY1YmEwNmNhNzc2ODlhNGJhOWRhNCJ9fX0='
+        name: '&{HEX:7ed6df}◘ &fMember Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_members-limit%⭐'
+          - '&fᴍᴀx ᴍᴇᴍʙᴇʀ: &{HEX:7ed6df}%superior_island_team_limit%'
+          - '&7'
+          - '&7Purchasing the members'
+          - '&7upgrade will increase the'
+          - '&7maximum allowed members '
+          - '&7in your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Member: &{HEX:7ed6df}32'
+          - ' &7Price: &f100,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1NzUwMWU4YWI2OWVkMmI1MmQ4Y2E1ZWExZjhiNzViZWFmODk3YzFiMzY1YmEwNmNhNzc2ODlhNGJhOWRhNCJ9fX0='
+        name: '&{HEX:7ed6df}◘ &fMember Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_members-limit%⭐'
+          - '&fᴍᴀx ᴍᴇᴍʙᴇʀ: &{HEX:7ed6df}%superior_island_team_limit%'
+          - '&7'
+          - '&7Purchasing the members'
+          - '&7upgrade will increase the'
+          - '&7maximum allowed members '
+          - '&7in your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Member: &{HEX:7ed6df}32'
+          - ' &7Price: &f100,000⛂ &c(❌)'
+    '4':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1NzUwMWU4YWI2OWVkMmI1MmQ4Y2E1ZWExZjhiNzViZWFmODk3YzFiMzY1YmEwNmNhNzc2ODlhNGJhOWRhNCJ9fX0='
+        name: '&{HEX:7ed6df}◘ &fMember Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_members-limit%⭐'
+          - '&fᴍᴀx ᴍᴇᴍʙᴇʀ: &{HEX:7ed6df}%superior_island_team_limit%'
+          - '&7'
+          - '&7Purchasing the members'
+          - '&7upgrade will increase the'
+          - '&7maximum allowed members '
+          - '&7in your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Member: &{HEX:7ed6df}48'
+          - ' &7Price: &f150,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1NzUwMWU4YWI2OWVkMmI1MmQ4Y2E1ZWExZjhiNzViZWFmODk3YzFiMzY1YmEwNmNhNzc2ODlhNGJhOWRhNCJ9fX0='
+        name: '&{HEX:7ed6df}◘ &fMember Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_members-limit%⭐'
+          - '&fᴍᴀx ᴍᴇᴍʙᴇʀ: &{HEX:7ed6df}%superior_island_team_limit%'
+          - '&7'
+          - '&7Purchasing the members'
+          - '&7upgrade will increase the'
+          - '&7maximum allowed members '
+          - '&7in your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Max Member: &{HEX:7ed6df}48'
+          - ' &7Price: &f150,000⛂ &c(❌)'
+    '5':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1NzUwMWU4YWI2OWVkMmI1MmQ4Y2E1ZWExZjhiNzViZWFmODk3YzFiMzY1YmEwNmNhNzc2ODlhNGJhOWRhNCJ9fX0='
+        name: '&{HEX:7ed6df}◘ &fMember Limit&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_members-limit%⭐'
+          - '&fᴍᴀx ᴍᴇᴍʙᴇʀ: &{HEX:7ed6df}%superior_island_team_limit%'
+          - '&7'
+          - '&7Purchasing the members'
+          - '&7upgrade will increase the'
+          - '&7maximum allowed members '
+          - '&7in your island.'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1NzUwMWU4YWI2OWVkMmI1MmQ4Y2E1ZWExZjhiNzViZWFmODk3YzFiMzY1YmEwNmNhNzc2ODlhNGJhOWRhNCJ9fX0='
+        name: '&{HEX:7ed6df}◘ &fMember Limit&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_members-limit%⭐'
+          - '&fᴍᴀx ᴍᴇᴍʙᴇʀ: &{HEX:7ed6df}%superior_island_team_limit%'
+          - '&7'
+          - '&7Purchasing the members'
+          - '&7upgrade will increase the'
+          - '&7maximum allowed members '
+          - '&7in your island.'
+  border-size:
+    item: '!'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fBorder Size&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_border-size%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ sɪᴢᴇ: &{HEX:7ed6df}%superior_island_size%'
+          - '&7'
+          - '&7Purchasing the border'
+          - '&7upgrade will increase '
+          - '&7the radius of island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Radius: &{HEX:7ed6df}101 x 101'
+          - ' &7Price: &f10,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fBorder Size&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_border-size%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ sɪᴢᴇ: &{HEX:7ed6df}%superior_island_size%'
+          - '&7'
+          - '&7Purchasing the border'
+          - '&7upgrade will increase '
+          - '&7the radius of island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Radius: &{HEX:7ed6df}101 x 101'
+          - ' &7Price: &f10,000⛂ &c(❌)'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fBorder Size&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_border-size%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ sɪᴢᴇ: &{HEX:7ed6df}%superior_island_size%'
+          - '&7'
+          - '&7Purchasing the border'
+          - '&7upgrade will increase '
+          - '&7the radius of island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Radius: &{HEX:7ed6df}151 x 151'
+          - ' &7Price: &f60,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fBorder Size&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_border-size%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ sɪᴢᴇ: &{HEX:7ed6df}%superior_island_size%'
+          - '&7'
+          - '&7Purchasing the border'
+          - '&7upgrade will increase '
+          - '&7the radius of island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Radius: &{HEX:7ed6df}151 x 151'
+          - ' &7Price: &f60,000⛂ &c(❌)'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fBorder Size&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_border-size%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ sɪᴢᴇ: &{HEX:7ed6df}%superior_island_size%'
+          - '&7'
+          - '&7Purchasing the border'
+          - '&7upgrade will increase '
+          - '&7the radius of island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Radius: &{HEX:7ed6df}251 x 251'
+          - ' &7Price: &f90,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fBorder Size&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_border-size%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ sɪᴢᴇ: &{HEX:7ed6df}%superior_island_size%'
+          - '&7'
+          - '&7Purchasing the border'
+          - '&7upgrade will increase '
+          - '&7the radius of island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Radius: &{HEX:7ed6df}251 x 251'
+          - ' &7Price: &f90,000⛂ &c(❌)'
+    '4':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fBorder Size&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_border-size%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ sɪᴢᴇ: &{HEX:7ed6df}%superior_island_size%'
+          - '&7'
+          - '&7Purchasing the border'
+          - '&7upgrade will increase '
+          - '&7the radius of island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Radius: &{HEX:7ed6df}251 x 251'
+          - ' &7Price: &f90,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fBorder Size&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_border-size%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ sɪᴢᴇ: &{HEX:7ed6df}%superior_island_size%'
+          - '&7'
+          - '&7Purchasing the border'
+          - '&7upgrade will increase '
+          - '&7the radius of island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Radius: &{HEX:7ed6df}251 x 251'
+          - ' &7Price: &f90,000⛂ &c(❌)'
+    '5':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fBorder Size&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_border-size%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ sɪᴢᴇ: &{HEX:7ed6df}%superior_island_size%'
+          - '&7'
+          - '&7Purchasing the border'
+          - '&7upgrade will increase '
+          - '&7the radius of island.'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fBorder Size&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_border-size%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ sɪᴢᴇ: &{HEX:7ed6df}%superior_island_size%'
+          - '&7'
+          - '&7Purchasing the border'
+          - '&7upgrade will increase '
+          - '&7the radius of island.'
+  generator-rates:
+    item: '+'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyZDM4ZWZhZTFlMGE1ODFmMjU4YWEwOWNhNjEwNzQ5ZDNlZmRkZjU4NjUzMDRmMmZhMThiN2ExYTBjM2JjZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fGenerator&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_generator-rates%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ ʀᴀᴛᴇ:'
+          - ' &7 - &a95% &7Stone'
+          - ' &7 - &a5% &7Coal Ore'
+          - '&7'
+          - '&7Generator rate upgrade will'
+          - '&7increase rates of ores from'
+          - '&7cobblestone generators in'
+          - '&7your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Rate:'
+          - '  &7 - &a92% &fStone'
+          - '  &7 - &a5% &fCoal Ore'
+          - '  &7 - &a3% &fRedstone Ore'
+          - '&7'
+          - ' &7Price: &f25,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyZDM4ZWZhZTFlMGE1ODFmMjU4YWEwOWNhNjEwNzQ5ZDNlZmRkZjU4NjUzMDRmMmZhMThiN2ExYTBjM2JjZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fGenerator&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_generator-rates%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ ʀᴀᴛᴇ:'
+          - ' &7 - &a95% &7Stone'
+          - ' &7 - &a5% &7Coal Ore'
+          - '&7'
+          - '&7Generator rate upgrade will'
+          - '&7increase rates of ores from'
+          - '&7cobblestone generators in'
+          - '&7your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Rate:'
+          - '  &7 - &a92% &fStone'
+          - '  &7 - &a5% &fCoal Ore'
+          - '  &7 - &a3% &fRedstone Ore'
+          - '&7'
+          - ' &7Price: &f25,000⛂ &c(❌)'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyZDM4ZWZhZTFlMGE1ODFmMjU4YWEwOWNhNjEwNzQ5ZDNlZmRkZjU4NjUzMDRmMmZhMThiN2ExYTBjM2JjZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fGenerator&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_generator-rates%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ ʀᴀᴛᴇ:'
+          - ' &7 - &a92% &fStone'
+          - ' &7 - &a5% &fCoal Ore'
+          - ' &7 - &a3% &fRedstone Ore'
+          - '&7'
+          - '&7Generator rate upgrade will'
+          - '&7increase rates of ores from'
+          - '&7cobblestone generators in'
+          - '&7your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Rate:'
+          - '  &7 - &a80% &fStone'
+          - '  &7 - &a8% &fCoal Ore'
+          - '  &7 - &a6% &fRedstone Ore'
+          - '  &7 - &a4% &fLapis Ore'
+          - '  &7 - &a2% &fIron Ore'
+          - '&7'
+          - ' &7Price: &f75,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyZDM4ZWZhZTFlMGE1ODFmMjU4YWEwOWNhNjEwNzQ5ZDNlZmRkZjU4NjUzMDRmMmZhMThiN2ExYTBjM2JjZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fGenerator&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_generator-rates%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ ʀᴀᴛᴇ:'
+          - ' &7 - &a92% &fStone'
+          - ' &7 - &a5% &fCoal Ore'
+          - ' &7 - &a3% &fRedstone Ore'
+          - '&7'
+          - '&7Generator rate upgrade will'
+          - '&7increase rates of ores from'
+          - '&7cobblestone generators in'
+          - '&7your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Rate:'
+          - '  &7 - &a80% &fStone'
+          - '  &7 - &a8% &fCoal Ore'
+          - '  &7 - &a6% &fRedstone Ore'
+          - '  &7 - &a4% &fLapis Ore'
+          - '  &7 - &a2% &fIron Ore'
+          - '&7'
+          - ' &7Price: &f75,000⛂ &c(❌)'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyZDM4ZWZhZTFlMGE1ODFmMjU4YWEwOWNhNjEwNzQ5ZDNlZmRkZjU4NjUzMDRmMmZhMThiN2ExYTBjM2JjZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fGenerator&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_generator-rates%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ ʀᴀᴛᴇ:'
+          - ' &7 - &a80% &fStone'
+          - ' &7 - &a8% &fCoal Ore'
+          - ' &7 - &a6% &fRedstone Ore'
+          - ' &7 - &a4% &fLapis Ore'
+          - ' &7 - &a2% &fIron Ore'
+          - '&7'
+          - '&7Generator rate upgrade will'
+          - '&7increase rates of ores from'
+          - '&7cobblestone generators in'
+          - '&7your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Rate:'
+          - '  &7 - &a65% &fStone'
+          - '  &7 - &a10% &fCoal Ore'
+          - '  &7 - &a9% &fRedstone Ore'
+          - '  &7 - &a6% &fLapis Ore'
+          - '  &7 - &a4% &fIron Ore'
+          - '  &7 - &a3% &fGold Ore'
+          - '  &7 - &a2% &fDiamond Ore'
+          - '  &7 - &a1% &fEmerald Ore'
+          - '&7'
+          - ' &7Price: &f150,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyZDM4ZWZhZTFlMGE1ODFmMjU4YWEwOWNhNjEwNzQ5ZDNlZmRkZjU4NjUzMDRmMmZhMThiN2ExYTBjM2JjZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fGenerator&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_generator-rates%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ ʀᴀᴛᴇ:'
+          - ' &7 - &a80% &fStone'
+          - ' &7 - &a8% &fCoal Ore'
+          - ' &7 - &a6% &fRedstone Ore'
+          - ' &7 - &a4% &fLapis Ore'
+          - ' &7 - &a2% &fIron Ore'
+          - '&7'
+          - '&7Generator rate upgrade will'
+          - '&7increase rates of ores from'
+          - '&7cobblestone generators in'
+          - '&7your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Rate:'
+          - '  &7 - &a65% &fStone'
+          - '  &7 - &a10% &fCoal Ore'
+          - '  &7 - &a9% &fRedstone Ore'
+          - '  &7 - &a6% &fLapis Ore'
+          - '  &7 - &a4% &fIron Ore'
+          - '  &7 - &a3% &fGold Ore'
+          - '  &7 - &a2% &fDiamond Ore'
+          - '  &7 - &a1% &fEmerald Ore'
+          - '&7'
+          - ' &7Price: &f150,000⛂ &c(❌)'
+    '4':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyZDM4ZWZhZTFlMGE1ODFmMjU4YWEwOWNhNjEwNzQ5ZDNlZmRkZjU4NjUzMDRmMmZhMThiN2ExYTBjM2JjZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fGenerator&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_generator-rates%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ ʀᴀᴛᴇ:'
+          - ' &7 - &a65% &fStone'
+          - ' &7 - &a10% &fCoal Ore'
+          - ' &7 - &a9% &fRedstone Ore'
+          - ' &7 - &a6% &fLapis Ore'
+          - ' &7 - &a4% &fIron Ore'
+          - ' &7 - &a3% &fGold Ore'
+          - ' &7 - &a2% &fDiamond Ore'
+          - ' &7 - &a1% &fEmerald Ore'
+          - '&7'
+          - '&7Generator rate upgrade will'
+          - '&7increase rates of ores from'
+          - '&7cobblestone generators in'
+          - '&7your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Rate:'
+          - '  &7 - &a60% &fStone'
+          - '  &7 - &a10% &fCoal Ore'
+          - '  &7 - &a9% &fRedstone Ore'
+          - '  &7 - &a7% &fLapis Ore'
+          - '  &7 - &a5% &fIron Ore'
+          - '  &7 - &a4% &fGold Ore'
+          - '  &7 - &a3% &fDiamond Ore'
+          - '  &7 - &a2% &fEmerald Ore'
+          - '&7'
+          - ' &7Price: &f300,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyZDM4ZWZhZTFlMGE1ODFmMjU4YWEwOWNhNjEwNzQ5ZDNlZmRkZjU4NjUzMDRmMmZhMThiN2ExYTBjM2JjZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fGenerator&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_generator-rates%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ ʀᴀᴛᴇ:'
+          - ' &7 - &a65% &fStone'
+          - ' &7 - &a10% &fCoal Ore'
+          - ' &7 - &a9% &fRedstone Ore'
+          - ' &7 - &a6% &fLapis Ore'
+          - ' &7 - &a4% &fIron Ore'
+          - ' &7 - &a3% &fGold Ore'
+          - ' &7 - &a2% &fDiamond Ore'
+          - ' &7 - &a1% &fEmerald Ore'
+          - '&7'
+          - '&7Generator rate upgrade will'
+          - '&7increase rates of ores from'
+          - '&7cobblestone generators in'
+          - '&7your island.'
+          - '&7'
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - ''
+          - ' &7Rate:'
+          - '  &7 - &a60% &fStone'
+          - '  &7 - &a10% &fCoal Ore'
+          - '  &7 - &a9% &fRedstone Ore'
+          - '  &7 - &a7% &fLapis Ore'
+          - '  &7 - &a5% &fIron Ore'
+          - '  &7 - &a4% &fGold Ore'
+          - '  &7 - &a3% &fDiamond Ore'
+          - '  &7 - &a2% &fEmerald Ore'
+          - '&7'
+          - ' &7Price: &f300,000⛂ &c(❌)'
+    '5':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyZDM4ZWZhZTFlMGE1ODFmMjU4YWEwOWNhNjEwNzQ5ZDNlZmRkZjU4NjUzMDRmMmZhMThiN2ExYTBjM2JjZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fGenerator Rate&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_generator-rates%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ ʀᴀᴛᴇ:'
+          - ' &7 - &a60% &fStone'
+          - ' &7 - &a10% &fCoal Ore'
+          - ' &7 - &a9% &fRedstone Ore'
+          - ' &7 - &a7% &fLapis Ore'
+          - ' &7 - &a5% &fIron Ore'
+          - ' &7 - &a4% &fGold Ore'
+          - ' &7 - &a3% &fDiamond Ore'
+          - ' &7 - &a2% &fEmerald Ore'
+          - '&7'
+          - '&7Generator rate upgrade will'
+          - '&7increase rates of ores from'
+          - '&7cobblestone generators in'
+          - '&7your island.'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YyZDM4ZWZhZTFlMGE1ODFmMjU4YWEwOWNhNjEwNzQ5ZDNlZmRkZjU4NjUzMDRmMmZhMThiN2ExYTBjM2JjZCJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fGenerator Rate&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_generator-rates%⭐'
+          - '&fᴄᴜʀʀᴇɴᴛ ʀᴀᴛᴇ:'
+          - ' &7 - &a60% &fStone'
+          - ' &7 - &a10% &fCoal Ore'
+          - ' &7 - &a9% &fRedstone Ore'
+          - ' &7 - &a7% &fLapis Ore'
+          - ' &7 - &a5% &fIron Ore'
+          - ' &7 - &a4% &fGold Ore'
+          - ' &7 - &a3% &fDiamond Ore'
+          - ' &7 - &a2% &fEmerald Ore'
+          - '&7'
+          - '&7Generator rate upgrade will'
+          - '&7increase rates of ores from'
+          - '&7cobblestone generators in'
+          - '&7your island.'
+  minecarts-limit:
+    item: '&'
+    '1':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ1OGQzODYwZDIyMjEyYjkxNTUwMTFhMGU2OWI1YTkzNjJhMTk1MzJjNmUxMzk5OGI4MTI5M2IxMjJlOWRiYyJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fMinecart Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_minecarts-limit%⭐'
+          - '&fᴍᴀx ᴍɪɴᴇᴄᴀʀᴛs: &{HEX:7ed6df}%superior_island_entity_limit_minecart%'
+          - '&7'
+          - '&7Purchasing the minecart upgrade'
+          - '&7will increase your island''s max'
+          - '&7minecarts limit.'
+          - ''
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - '&7'
+          - ' &7Max Amount: &f8x Minecarts'
+          - ' &7Price: &f10,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ1OGQzODYwZDIyMjEyYjkxNTUwMTFhMGU2OWI1YTkzNjJhMTk1MzJjNmUxMzk5OGI4MTI5M2IxMjJlOWRiYyJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fMinecart Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_minecarts-limit%⭐'
+          - '&fᴍᴀx ᴍɪɴᴇᴄᴀʀᴛs: &{HEX:7ed6df}%superior_island_entity_limit_minecart%'
+          - '&7'
+          - '&7Purchasing the minecart upgrade'
+          - '&7will increase your island''s max'
+          - '&7minecarts limit.'
+          - ''
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - '&7'
+          - ' &7Max Amount: &f8x Minecarts'
+          - ' &7Price: &f10,000⛂ &c(❌)'
+    '2':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ1OGQzODYwZDIyMjEyYjkxNTUwMTFhMGU2OWI1YTkzNjJhMTk1MzJjNmUxMzk5OGI4MTI5M2IxMjJlOWRiYyJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fMinecart Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_minecarts-limit%⭐'
+          - '&fᴍᴀx ᴍɪɴᴇᴄᴀʀᴛs: &{HEX:7ed6df}%superior_island_entity_limit_minecart%'
+          - '&7'
+          - '&7Purchasing the minecart upgrade'
+          - '&7will increase your island''s max'
+          - '&7minecarts limit.'
+          - ''
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - '&7'
+          - ' &7Max Amount: &f16x Minecarts'
+          - ' &7Price: &f20,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ1OGQzODYwZDIyMjEyYjkxNTUwMTFhMGU2OWI1YTkzNjJhMTk1MzJjNmUxMzk5OGI4MTI5M2IxMjJlOWRiYyJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fMinecart Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_minecarts-limit%⭐'
+          - '&fᴍᴀx ᴍɪɴᴇᴄᴀʀᴛs: &{HEX:7ed6df}%superior_island_entity_limit_minecart%'
+          - '&7'
+          - '&7Purchasing the minecart upgrade'
+          - '&7will increase your island''s max'
+          - '&7minecarts limit.'
+          - ''
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - '&7'
+          - ' &7Max Amount: &f16x Minecarts'
+          - ' &7Price: &f20,000⛂ &c(❌)'
+    '3':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ1OGQzODYwZDIyMjEyYjkxNTUwMTFhMGU2OWI1YTkzNjJhMTk1MzJjNmUxMzk5OGI4MTI5M2IxMjJlOWRiYyJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fMinecart Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_minecarts-limit%⭐'
+          - '&fᴍᴀx ᴍɪɴᴇᴄᴀʀᴛs: &{HEX:7ed6df}%superior_island_entity_limit_minecart%'
+          - '&7'
+          - '&7Purchasing the minecart upgrade'
+          - '&7will increase your island''s max'
+          - '&7minecarts limit.'
+          - ''
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - '&7'
+          - ' &7Max Amount: &f32x Minecarts'
+          - ' &7Price: &f50,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ1OGQzODYwZDIyMjEyYjkxNTUwMTFhMGU2OWI1YTkzNjJhMTk1MzJjNmUxMzk5OGI4MTI5M2IxMjJlOWRiYyJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fMinecart Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_minecarts-limit%⭐'
+          - '&fᴍᴀx ᴍɪɴᴇᴄᴀʀᴛs: &{HEX:7ed6df}%superior_island_entity_limit_minecart%'
+          - '&7'
+          - '&7Purchasing the minecart upgrade'
+          - '&7will increase your island''s max'
+          - '&7minecarts limit.'
+          - ''
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - '&7'
+          - ' &7Max Amount: &f32x Minecarts'
+          - ' &7Price: &f50,000⛂ &c(❌)'
+    '4':
+      has-next-level:
+        sound:
+          type: ENTITY_EXPERIENCE_ORB_PICKUP
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ1OGQzODYwZDIyMjEyYjkxNTUwMTFhMGU2OWI1YTkzNjJhMTk1MzJjNmUxMzk5OGI4MTI5M2IxMjJlOWRiYyJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fMinecart Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_minecarts-limit%⭐'
+          - '&fᴍᴀx ᴍɪɴᴇᴄᴀʀᴛs: &{HEX:7ed6df}%superior_island_entity_limit_minecart%'
+          - '&7'
+          - '&7Purchasing the minecart upgrade'
+          - '&7will increase your island''s max'
+          - '&7minecarts limit.'
+          - ''
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - '&7'
+          - ' &7Max Amount: &f64x Minecarts'
+          - ' &7Price: &f100,000⛂ &a(✔)'
+          - '&7'
+          - '&a→ Left click to purchase'
+          - '   &aupgrade your island'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ1OGQzODYwZDIyMjEyYjkxNTUwMTFhMGU2OWI1YTkzNjJhMTk1MzJjNmUxMzk5OGI4MTI5M2IxMjJlOWRiYyJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fMinecart Limit&8 (Upgradable)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_minecarts-limit%⭐'
+          - '&fᴍᴀx ᴍɪɴᴇᴄᴀʀᴛs: &{HEX:7ed6df}%superior_island_entity_limit_minecart%'
+          - '&7'
+          - '&7Purchasing the minecart upgrade'
+          - '&7will increase your island''s max'
+          - '&7minecarts limit.'
+          - ''
+          - '&fɴᴇxᴛ ʟᴇᴠᴇʟ:'
+          - '&7'
+          - ' &7Max Amount: &f64x Minecarts'
+          - ' &7Price: &f100,000⛂ &c(❌)'
+    '5':
+      has-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ1OGQzODYwZDIyMjEyYjkxNTUwMTFhMGU2OWI1YTkzNjJhMTk1MzJjNmUxMzk5OGI4MTI5M2IxMjJlOWRiYyJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fMinecart Limit&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_minecarts-limit%⭐'
+          - '&fᴍᴀx ᴍɪɴᴇᴄᴀʀᴛs: &{HEX:7ed6df}%superior_island_entity_limit_minecart%'
+          - '&7'
+          - '&7Purchasing the minecart upgrade'
+          - '&7will increase your island''s max'
+          - '&7minecarts limit.'
+      no-next-level:
+        sound:
+          type: BLOCK_ANVIL_PLACE
+          volume: 0.2
+          pitch: 0.2
+        type: PLAYER_HEAD
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ1OGQzODYwZDIyMjEyYjkxNTUwMTFhMGU2OWI1YTkzNjJhMTk1MzJjNmUxMzk5OGI4MTI5M2IxMjJlOWRiYyJ9fX0=
+        name: '&{HEX:7ed6df}◘ &fMinecart Limit&8 (Max Level)'
+        lore:
+          - '&7'
+          - '&fᴄᴜʀʀᴇɴᴛ ʟᴇᴠᴇʟ: &{HEX:7ed6df}%superior_island_upgrade_minecarts-limit%⭐'
+          - '&fᴍᴀx ᴍɪɴᴇᴄᴀʀᴛs: &{HEX:7ed6df}%superior_island_entity_limit_minecart%'
+          - '&7'
+          - '&7Purchasing the minecart upgrade'
+          - '&7will increase your island''s max'
+          - '&7minecarts limit.'

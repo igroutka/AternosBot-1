@@ -1,0 +1,33 @@
+location: world_spawn:-15.714:120.5:-61.512
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '%hrn_getIcon:top_quest%'
+    height: 0.3
+  - content: '&8&m &r &8&m  &r &8&m                &r &8&m  &r &8&m '
+    height: 0.3
+  - content: '%hrn_getIcon:top_1% &6%ajlb_lb_luckperms_meta_quest_streaks_1_alltime_name%
+      &8- &f%ajlb_lb_luckperms_meta_quest_streaks_1_alltime_value%'
+    height: 0.3
+  - content: '%hrn_getIcon:top_2% &b%ajlb_lb_luckperms_meta_quest_streaks_2_alltime_name%
+      &8- &f%ajlb_lb_luckperms_meta_quest_streaks_2_alltime_value%'
+    height: 0.3
+  - content: '%hrn_getIcon:top_3% &f%ajlb_lb_luckperms_meta_quest_streaks_3_alltime_name%
+      &8- &f%ajlb_lb_luckperms_meta_quest_streaks_3_alltime_value%'
+    height: 0.3
+  - content: '&74. &7%ajlb_lb_luckperms_meta_quest_streaks_4_alltime_name% &8- &f%ajlb_lb_luckperms_meta_quest_streaks_4_alltime_value%'
+    height: 0.3
+  - content: '&75. &7%ajlb_lb_luckperms_meta_quest_streaks_5_alltime_name% &8- &f%ajlb_lb_luckperms_meta_quest_streaks_5_alltime_value%'
+    height: 0.3
+  - content: '&76. &7%ajlb_lb_luckperms_meta_quest_streaks_6_alltime_name% &8- &f%ajlb_lb_luckperms_meta_quest_streaks_6_alltime_value%'
+    height: 0.3
+  - content: '&8&m &r &8&m  &r &8&m       &r &8&m  &r &8&m '
+    height: 0.3
+  - content: '&c%ajlb_position_luckperms_meta_quest_streaks_alltime%. &fYou &8- &f%luckperms_meta_quest_streaks%'
+    height: 0.3
+  actions: {}

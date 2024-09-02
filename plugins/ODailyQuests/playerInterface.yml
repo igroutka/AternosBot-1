@@ -1,0 +1,61 @@
+# ======================================================
+# Here you can create your own player quests interface.
+# ======================================================
+player_interface:
+  size: 36
+  inventory_name: "placeholder;&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:quest%"
+  progress: "&fsᴛᴀᴛᴜs: #50b47e%progress%&7/#50b47e%required%"
+  status: "&7"
+  achieved: "&fsᴛᴀᴛᴜs: #6ab04cᴄᴏᴍᴘʟᴇᴛᴇᴅ"
+  glowing_if_achieved: true
+  complete_get_type: "&eClick to complete this quest !"
+  player_head:
+    enabled: true
+    slot: 17
+    item_name: "&fInformation"
+    custom_model_data: 1
+    item_description:
+      - "&7ᴄᴏᴍᴘʟᴇᴛᴇᴅ: &f%achieved%&7/&a8"
+      - "&7ʀᴇꜰʀᴇsʜ ɪɴ: &f%drawIn%"
+  # ========================================================
+  # Available types : FILL, PLAYER_COMMAND, CONSOLE_COMMAND
+  # Placeholders : %player%
+  # More info on Wiki.
+  # ========================================================
+  quests: # set the position of quests items
+    1: 11
+    2: 12
+    3: 13
+    4: 14
+    5: 15
+    6: 20
+    7: 21
+    8: 22
+
+
+  items:
+    0:
+      type: CLOSE
+      item:
+        material: PAPER
+        name: "&fᴅᴀɪʟʏ ᴄᴏᴍᴘʟᴇᴛɪᴏɴ ʀᴇᴡᴀʀᴅs"
+        lore:
+          - ""
+          - '#95afc0You will get this extra reward'
+          - '#95afc0for completing 8 daily quests'
+          - ""
+          - " &ax1 #badc58Lucky Clover"
+          - " &ax1 &fSmall Rocket Boots &8[20]"
+          - " &ax1 &fRandom &7500 - 1.000&f⛂"
+          - " &ax1 #F79F1F&lCosmetic Crate Key"
+          - '&7'
+        slot: 26
+        custom_model_data: 9999
+    1:
+      type: CLOSE
+      item:
+        material: PAPER
+        name: "&cᴄʟᴏsᴇ ʙᴏᴀʀᴅ"
+        lore: []
+        slot: 35
+        custom_model_data: 9999

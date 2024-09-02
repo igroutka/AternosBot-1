@@ -1,0 +1,454 @@
+settings:
+  menu: 'shop-layout'
+  buy-more: true
+  shop-name: 'Crops page.1'
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CACTUS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0  
+  
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 3
+        placeholder: '{amount}⛂'
+        start-apply: 0
+  
+
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MELON_SLICE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 53
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 7
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: NETHER_WART
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 63
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 7
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GLOW_BERRIES
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 55
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 3
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SWEET_BERRIES
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CARROT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 150
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 18
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: POTATO
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 150
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 18
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  H:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SUGAR_CANE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 195
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 25
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  I:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PUMPKIN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 263
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 30
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  J:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BAMBOO
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 195
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 25
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  K:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BEETROOT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 150
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 15
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  L:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WHEAT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 450
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 55
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  M:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WHEAT_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 150
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  N:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MELON_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 150
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  O:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PUMPKIN_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 150
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  P:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BEETROOT_SEEDS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 150
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  Q:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: OAK_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  R:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPRUCE_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  S:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BIRCH_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  T:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: JUNGLE_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  U:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ACACIA_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  V:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DARK_OAK_SAPLING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  W:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MANGROVE_PROPAGULE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1000
+        placeholder: '{amount}⛂'
+        start-apply: 0

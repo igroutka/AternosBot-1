@@ -1,0 +1,284 @@
+gilded_netherite_helmet:
+  displayname: <#FFFFFF>Gilded Netherite Helmet
+  lore:
+  - <#535c68>Increase <#ffa801>1 Max Health
+  - <#535c68>when wearing this armor.
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: LEATHER_HELMET
+  color: 0,0,1
+  Mechanics:
+    durability:
+      value: 643
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 7bfcf804-b75a-40a5-97f5-f23282703d0e
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: 7bfcf804-b75a-40a5-97f5-f23282703d0e
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    amount: 0.3
+    operation: 0
+    uuid: df667d9d-c620-462e-952c-5e27bb31daa9
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 1
+    operation: 0
+    uuid: fe312994-290b-44ba-ba6a-f1c4cbe3be8d
+    slot: HEAD
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/gilded_netherite/gilded_netherite_helmet
+      - custom/sets/gilded_netherite/gilded_netherite_helmet
+
+gilded_netherite_chestplate:
+  displayname: <#FFFFFF>Gilded Netherite Chestplate
+  material: LEATHER_CHESTPLATE
+  color: 0,0,1
+  lore:
+  - <#535c68>Increase <#ffa801>1 Max Health
+  - <#535c68>when wearing this armor.
+  - ''
+  - <#ffffff><glyph:legendary>
+  Mechanics:
+    durability:
+      value: 643
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 8
+    operation: 0
+    uuid: 11ba6bc7-32a7-4598-b057-883922561f8d
+    slot: CHEST
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: 3a7d973a-004c-4f9d-9bb6-06ee85775ed9
+    slot: CHEST
+  - name: oraxen
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    amount: 0.3
+    operation: 0
+    uuid: f3e43a94-630b-4f93-b6a1-8d0536ee8e71
+    slot: CHEST
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 1
+    operation: 0
+    uuid: 72aace5f-3320-49e1-8341-7d699a90735f
+    slot: CHEST
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/gilded_netherite/gilded_netherite_chestplate
+      - custom/sets/gilded_netherite/gilded_netherite_chestplate
+
+gilded_netherite_leggings:
+  displayname: <#FFFFFF>Gilded Netherite Leggings
+  material: LEATHER_LEGGINGS
+  color: 0,0,1
+  lore:
+  - <#535c68>Increase <#ffa801>1 Max Health
+  - <#535c68>when wearing this armor.
+  - ''
+  - <#ffffff><glyph:legendary>
+  Mechanics:
+    durability:
+      value: 643
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 6
+    operation: 0
+    uuid: 6cdfa59b-f9fd-400a-8d18-135100e7f1f0
+    slot: LEGS
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: a6d8ebe1-f08e-4d5a-afa8-4e25fb49ac0e
+    slot: LEGS
+  - name: oraxen
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    amount: 0.3
+    operation: 0
+    uuid: fe8af7e5-655f-4376-ba75-a21481791a53
+    slot: LEGS
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 1
+    operation: 0
+    uuid: ec0e38f2-d17a-432a-a689-6adc3092a826
+    slot: LEGS
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/gilded_netherite/gilded_netherite_leggings
+      - custom/sets/gilded_netherite/gilded_netherite_leggings
+
+gilded_netherite_boots:
+  displayname: <#FFFFFF>Gilded Netherite Boots
+  material: LEATHER_BOOTS
+  color: 0,0,1
+  lore:
+  - <#535c68>Increase <#ffa801>1 Max Health
+  - <#535c68>when wearing this armor.
+  - ''
+  - <#ffffff><glyph:legendary>
+  Mechanics:
+    durability:
+      value: 643
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 5120200b-69fc-4ac9-a16e-afc6db6ce834
+    slot: FEET
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: ababd3f9-b42b-4908-9934-2c6a006ab30e
+    slot: FEET
+  - name: oraxen
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    amount: 0.3
+    operation: 0
+    uuid: d9be4b37-d997-4359-8c8f-f2e0f973b3a3
+    slot: FEET
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 1
+    operation: 0
+    uuid: 9293cbbd-3191-44ad-a79f-c4bc20364670
+    slot: FEET
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/gilded_netherite/gilded_netherite_boots
+      - custom/sets/gilded_netherite/gilded_netherite_boots
+
+
+gilded_netherite_pickaxe:
+  displayname: <#FFFFFF>Gilded Netherite Pickaxe
+  lore:
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: NETHERITE_PICKAXE
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/gilded_netherite/gilded_netherite_pickaxe
+
+gilded_netherite_sword:
+  displayname: <#FFFFFF>Gilded Netherite Sword
+  lore:
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: NETHERITE_SWORD
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/gilded_netherite/gilded_netherite_sword
+
+gilded_netherite_shovel:
+  displayname: <#FFFFFF>Gilded Netherite Shovel
+  lore:
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: NETHERITE_SHOVEL
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/gilded_netherite/gilded_netherite_shovel
+
+
+gilded_netherite_axe:
+  displayname: <#FFFFFF>Gilded Netherite Axe
+  lore:
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: NETHERITE_AXE
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/gilded_netherite/gilded_netherite_axe
+
+gilded_netherite_hoe:
+  displayname: <#FFFFFF>Gilded Netherite Hoe
+  lore:
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: NETHERITE_HOE
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/gilded_netherite/gilded_netherite_hoe
+
+gilded_netherite_bow:
+  displayname: <#FFFFFF>Gilded Netherite Bow
+  lore:
+  - ''
+  - <#535c68>Slightly increase the flight
+  - <#535c68>speed of arrows and dmg.
+  - ''
+  - <white>Increases damage dealt to
+  - '<white>the <#ffa801>Piglin<white>, <#ffa801>Piglin Brute<white> and '
+  - <#ffa801>Zombified Piglin <white>by <#ffa801>3.0
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: BOW
+  unbreakable: true
+  Pack:
+    custom_model_data: 1
+    generate_model: false
+    model: custom/bows/gilded_netherite/gilded_netherite_bow
+    pulling_models:
+    - custom/bows/gilded_netherite/gilded_netherite_bow_pulling_0
+    - custom/bows/gilded_netherite/gilded_netherite_bow_pulling_1
+    - custom/bows/gilded_netherite/gilded_netherite_bow_pulling_2
+
+gilded_netherite_ingot:
+  displayname: <#FFFFFF>Gilded Netherite Ingot
+  material: PAPER
+  lore:
+  - <gray>Can be used to upgrade
+  - <gray>netherite equipments.
+  - ''
+  - <#ffffff><glyph:legendary>
+  Pack:
+    custom_model_data: 600
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/gilded_netherite/gilded_netherite_ingot

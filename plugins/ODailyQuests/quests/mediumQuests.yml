@@ -1,0 +1,198 @@
+quests:
+  1:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f10 Amethyst Blocks."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7350&f⛂"
+    quest_type: BREAK
+    required_item: AMETHYST_BLOCK
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 350
+
+  2:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f6 Diamond Ores."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7400&f⛂"
+    quest_type: BREAK
+    required_item: DIAMOND_ORE
+    required_amount: 6
+    reward:
+      reward_type: MONEY
+      amount: 400
+
+  3:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f64 Sculks."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7350&f⛂"
+    quest_type: BREAK
+    required_item: SCULK
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 350
+
+  4:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f64 Gold Ores."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7300&f⛂"
+    quest_type: BREAK
+    required_item: GOLD_ORE
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 300
+
+  5:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f64 Redstone Ores."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7250&f⛂"
+    quest_type: BREAK
+    required_item: REDSTONE_ORE
+    required_amount: 64
+    reward:
+      reward_type: MONEY
+      amount: 250
+
+  6:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0kill &f8 Zombies."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7350&f⛂"
+    quest_type: KILL
+    required_entity: ZOMBIE
+    required_amount: 8
+    reward:
+      reward_type: MONEY
+      amount: 350
+
+  7:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0kill &f8 Skeletons."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7350&f⛂"
+    quest_type: KILL
+    required_entity: SKELETON
+    required_amount: 8
+    reward:
+      reward_type: MONEY
+      amount: 350
+
+  8:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0kill &f4 Creepers."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7350&f⛂"
+    quest_type: KILL
+    required_entity: CREEPER
+    required_amount: 4
+    reward:
+      reward_type: MONEY
+      amount: 350
+
+  9:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0kill &f10 Spiders."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7300&f⛂"
+    quest_type: KILL
+    required_entity: SPIDER
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 300
+
+  10:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0kill &f10 Drowned."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7400&f⛂"
+    quest_type: KILL
+    required_entity: DROWNED
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 400
+
+  11:
+    name: "&8[#7ed6dfᴍᴇᴅɪᴜᴍ&8]&f ᴇɴᴄʜᴀɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:2"
+    custom_model_data: 2
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Enchant &f4 items#95afc0 in your"
+      - " #95afc0enchantment table."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7500&f⛂"
+    quest_type: ENCHANT
+    required_amount: 4
+    reward:
+      reward_type: MONEY
+      amount: 500
+      

@@ -1,0 +1,134 @@
+panels:
+  FishingShop:
+    perm: 'default'
+    commands: 
+    - fishingshop
+    - fs
+    - fshop
+    rows: 6
+    title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:fishy_shop%'
+    item:
+
+
+      '0':
+        material: FLINT
+        customdata: 1
+        name: '&f%hrn_getIcon:common% &7Stringy Worm'
+        lore:
+          - ""
+          - "&7Attract fish of Common"
+          - "&7quality"
+          - ""
+          - "&7ᴘʀɪᴄᴇ: &f1.000⛂"
+        commands:
+          - "paywall= 1000"
+          - "op= emf admin bait Stringy Worm"
+
+
+      '1':
+        material: FLINT
+        customdata: 2
+        name: '&f%hrn_getIcon:rare% #6ab04cBasic Float'
+        lore:
+          - ""
+          - "&7Attract fish of Rare"
+          - "&7quality"
+          - ""
+          - "&7ᴘʀɪᴄᴇ: &f3.000⛂"
+        commands:
+          - "paywall= 3000"
+          - "op= emf admin bait Basic Float"
+
+
+      '2':
+        material: FLINT
+        customdata: 3
+        name: '&f%hrn_getIcon:epic% #686de0Good Float'
+        lore:
+          - ""
+          - "&7Attract fish of Epic"
+          - "&7quality"
+          - ""
+          - "&7ᴘʀɪᴄᴇ: &f8.000⛂"
+        commands:
+          - "paywall= 8000"
+          - "op= emf admin bait Good Float"
+
+
+      '3':
+        material: FLINT
+        customdata: 4
+        name: '&f%hrn_getIcon:legendary% &6Magic Float'
+        lore:
+          - ""
+          - "&7Attract fish of Legendary"
+          - "&7quality"
+          - ""
+          - "&7ᴘʀɪᴄᴇ: &f15.000⛂"
+        commands:
+          - "paywall= 15000"
+          - "op= emf admin bait Magic Float"
+
+      '47':
+        material: PAPER
+        customdata: 9999
+        name: '&fsᴇʟʟ ʏᴏᴜʀ ꜰɪsʜ'
+        commands:
+          - 'emf shop'
+
+      '48':
+        material: PAPER
+        customdata: 9999
+        name: '&fsᴇʟʟ ʏᴏᴜʀ ꜰɪsʜ'
+        commands:
+          - 'emf shop'
+
+      '49':
+        material: PAPER
+        customdata: 9999
+        name: '&fsᴇʟʟ ʏᴏᴜʀ ꜰɪsʜ'
+        commands:
+          - 'emf shop'
+
+      '50':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄʟᴇᴀʀ ᴀʟʟ ᴛʜᴇ ʙᴀɪᴛs'
+        lore:
+          - ""
+          - "&fꑜ&e This action will clear all"
+          - "&ethe baits in your fishing rod."
+          - "&eWarning: no return baits."
+          - ""
+          - "&7ᴄʟᴇᴀʀ ʙᴀɪᴛs ᴘʀɪᴄᴇ: &f5.000⛂"
+        has0:
+          value0: '%player_item_in_hand%'
+          compare0: 'AIR'
+          material: PAPER
+          customdata: 9999
+          name: '&fᴄʟᴇᴀʀ ᴀʟʟ ᴛʜᴇ ʙᴀɪᴛs'
+          lore:
+            - ''
+            - '&fꑚ&c Please hold your fishing'
+            - '&crod in your hand to clear'
+            - '&call the baits'
+        has1:
+          value1: '%checkitem_getinfo:mainhand_lorecontains:Bait%'
+          compare1: ''
+          material: PAPER
+          customdata: 9999
+          name: '&fᴄʟᴇᴀʀ ᴀʟʟ ᴛʜᴇ ʙᴀɪᴛs'
+          lore:
+            - ''
+            - '&fꑚ&c Your fishing rod doesnt'
+            - '&chave any attached baits'
+        commands:
+          - "paywall= 5000"
+          - "op= emf admin clearbaits"
+
+      '51':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄʟᴏsᴇ sʜᴏᴘ'
+        commands:
+          - 'cpc'

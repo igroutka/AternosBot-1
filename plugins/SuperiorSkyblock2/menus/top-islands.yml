@@ -1,0 +1,85 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:is_top%'
+previous-menu: true
+
+pattern:
+  - ''
+  - '@ % @ @ # @ @ @ @'
+  - '@ * @ # # # @ @ @'
+  - '@ ^ # # # # # @ @'
+  - '@ # # # # # # $ @'
+  - 'X ! L L W R W + X'
+
+slots: '#'
+previous-page: '!'
+current-page: '-'
+next-page: '+'
+
+player-island: '$'
+sort-glow-when-selected: true
+
+items:
+  '#':
+    island:
+      type: PLAYER_HEAD
+      name: '&fIsland: &6{0}&7 (#{1})'
+      lore:
+        - '&7'
+        - '&fʟᴇᴠᴇʟ: &7{2}'
+        - '&7'
+        - ' &fᴘᴏsɪᴛɪᴏɴ: &e#{1}'
+        - ' &fᴡᴏʀᴛʜ: &7⛂{3}'
+        - ' &fʀᴀᴛɪɴɢ: {8} &7({9})'
+        - ' &fᴘʟᴀʏᴇʀs: &7{10}'
+        - '&7'
+        - '&8ᴍᴇᴍʙᴇʀs:'
+        - ' {4}:&f  - &7{}'
+    no-island:
+      type: PLAYER_HEAD
+      name: '&cInvalid Island'
+  'W':
+    type: PAPER
+    customModel: 9999
+    sorting-type: 'WORTH'
+    name: '&6Sort by Worth'
+  'L':
+    type: PAPER
+    customModel: 9999
+    sorting-type: 'LEVEL'
+    name: '&6Sort by Level'
+  'R':
+    type: PAPER
+    customModel: 9999
+    sorting-type: 'RATING'
+    name: '&6Sort by Rating'
+  'P':
+    type: PAPER
+    customModel: 9999
+    sorting-type: 'PLAYERS'
+    name: '&6Sort by Players'
+  '!':
+    type: PAPER
+    customModel: 9999
+    name: '{0}Previous Page'
+  '-':
+    type: PAPER
+    customModel: 9999
+    name: '&aCurrent Page'
+    lore:
+      - '&7Page {0}'
+  '+':
+    type: PAPER
+    customModel: 9999
+    name: '{0}Next Page'
+
+sounds:
+  '@':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2

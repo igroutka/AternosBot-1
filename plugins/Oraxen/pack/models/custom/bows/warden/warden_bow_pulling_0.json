@@ -1,0 +1,4 @@
+{
+	"parent":"item/bow_pulling_2",
+	"textures":{"layer0":"custom/sets/warden/warden_bow_pulling_0"}
+}

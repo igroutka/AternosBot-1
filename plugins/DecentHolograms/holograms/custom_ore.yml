@@ -1,0 +1,24 @@
+location: world_spawn:21.055:119.156:-89.449
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: COPPER_INGOT {CustomModelData:17}'
+    height: 0.6
+  - content: '&8&m                                    &r'
+    height: 0.3
+  - content: '&fNew ores can be found in &2Resource World&f.'
+    height: 0.3
+  - content: '&fThere''re 4 new ores: #ff7f50Topaz&7, #ff6b81Ruby&7, #dcdde1Hyronium&f'
+    height: 0.3
+  - content: '&fand #ff9ff3Gem&f. There is a chance to get them when'
+    height: 0.3
+  - content: '&fwhen you mining ore.'
+    height: 0.3
+  - content: '&8&m                            &r'
+    height: 0.3
+  actions: {}

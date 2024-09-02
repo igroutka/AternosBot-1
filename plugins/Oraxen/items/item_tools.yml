@@ -1,0 +1,14 @@
+good_fishing_rod:
+  displayname: <green>Good Fishing Rod
+  lore:
+  - ''
+  - <#535c68>A good fishing rod can
+  - <#535c68>boost your loot & luck.
+  - ''
+  - <#ffffff><glyph:rare>
+  material: FISHING_ROD
+  unbreakable: false
+  Enchantments:
+    unbreaking: 3
+    luck_of_the_sea: 3
+    lure: 3

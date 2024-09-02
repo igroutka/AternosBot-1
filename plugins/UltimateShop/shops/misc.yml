@@ -1,0 +1,544 @@
+settings:
+  menu: 'shop-layout'
+  buy-more: true
+  shop-name: 'Misc'
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: FLOWER_BANNER_PATTERN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.000
+        placeholder: '{amount}⛂'
+        start-apply: 0  
+  
+
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CREEPER_BANNER_PATTERN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.000
+        placeholder: '{amount}⛂'
+        start-apply: 0  
+  
+
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SKULL_BANNER_PATTERN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MOJANG_BANNER_PATTERN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GLOBE_BANNER_PATTERN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PIGLIN_BANNER_PATTERN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: FIRE_CORAL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 60
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  H:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BUBBLE_CORAL_FAN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 60
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  I:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: FIRE_CORAL_FAN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 60
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  J:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: HORN_CORAL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 60
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  K:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: HORN_CORAL_FAN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 60
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  L:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: TUBE_CORAL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 60
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  M:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BRAIN_CORAL_FAN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 60
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  N:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BUBBLE_CORAL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 60
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  O:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: TUBE_CORAL_FAN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 60
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  P:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: HANGING_ROOTS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 80
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  Q:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: AMETHYST_SHARD
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.280
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  R:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: AMETHYST_BLOCK
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 5.120
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  S:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BUDDING_AMETHYST
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 5.120
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  T:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: TWISTING_VINES
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 800
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  U:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WEEPING_VINES
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 800
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  V:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BIG_DRIPLEAF
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 800
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  W:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SMALL_DRIPLEAF
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 800
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  X:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GLOW_LICHEN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 800
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  Y:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: LILY_PAD
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 800
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  Z:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BELL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.500
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  1:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WATER_BUCKET
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  2:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: LAVA_BUCKET
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  3:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: POWDER_SNOW_BUCKET
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  4:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SADDLE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 10.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  5:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: NAME_TAG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 20.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  6:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: TOTEM_OF_UNDYING
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 200.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  7:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SHULKER_SHELL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 500.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  8:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: LEAD
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  9:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ELYTRA
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 10.000.000
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  a:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DRAGON_BREATH
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 500
+        placeholder: '{amount}⛂'
+        start-apply: 0

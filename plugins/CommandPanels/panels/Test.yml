@@ -1,0 +1,45 @@
+panels:
+  Test:
+    perm: 'default'
+    commands: 
+    - test
+    rows: 3
+    title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:3_big_slot%%hrn_getIcon:neg_shift_176%'
+    item:
+
+
+      '10':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM5OTQ1YmM0YzQ5OWEyMDQyMTBlMDU3Mjc3OWFkN2JjZTk0ZDlkMzg2ZDUxMDVlYjkyYTJjNzQxNDI2ZTg3YSJ9fX0=
+        name: '&fɢᴇᴛ ɪᴛᴇᴍs'
+        commands:
+          - 'console= hrn give-relic %player_name% blue_shiny_pearl 64'
+          - 'console= hrn give-relic %player_name% lucky_clover 64'
+          - 'console= hrn give-relic %player_name% totem_of_keeping 64'
+          - 'console= hrn give-item %player_name% topaz_ingot 64'
+          - 'console= hrn give-item %player_name% ruby_ingot 64'
+          - 'console= hrn give-item %player_name% hyronium_ingot 64'
+          - 'console= hrn give-item %player_name% piglin_coin 64'
+          - 'console= hrn give-item %player_name% spawner_fragment 64'
+          - 'console= hrn give-item %player_name% blaze_heart 64'
+          - 'console= hrn give-item %player_name% ice_star 64'
+          - 'console= give %player_name% netherscrap 64'
+          - 'console= give %player_name% ironingot 64'
+
+
+
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJiNDMzOTFhOWRiZmY5ZWFkYWUwN2I2ODYyNTk1YzkxZDA0YzU5MzhlMjNjMjg1YWM2MGM0Yjg3NjliMjQifX19
+        name: '&fɢᴇᴛ ʀᴀɴᴋ ে'
+        lore: []
+        commands:
+          - 'console= lp user %player_name% parent set elite'
+
+
+      '16':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmUyNDY5MjVjYmQ0YzA1Mjc5YjljOGRjZjdjMmZkZmM5YmFmOWIxNDI0YWEzNWU1MDE1MzNlYmI5OGUwMDUyMiJ9fX0=
+        name: '&fɢᴇᴛ &71.000.000&f⛂'
+        lore:
+          - '&fɢᴇᴛ &7100.000&a XP'
+        commands:
+          - 'console= eco give %player_name% 1000000'
+          - 'console= xp give %player_name% 10000'

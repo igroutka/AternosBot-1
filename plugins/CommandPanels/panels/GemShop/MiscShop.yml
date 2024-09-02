@@ -1,0 +1,385 @@
+panels:
+  MicsShop:
+    perm: "default"
+    commands:
+      - mics
+    rows: 6
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:gem_shop%"
+    pre-load-commands:
+      - "console= sbc play-sound %player_name% hyronic:hyronic.sound.menu"
+    item:
+      "0":
+        material: FLOWER_BANNER_PATTERN
+        name: "#26de81Flower Banner Pattern"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂2.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:2000] [back:MicsShop]" # BUY
+      "1":
+        material: CREEPER_BANNER_PATTERN
+        name: "#26de81Creeper Banner Pattern"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂2.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:2000] [back:MicsShop]" # BUY
+      "2":
+        material: SKULL_BANNER_PATTERN
+        name: "#26de81Skull Banner Pattern"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂2.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:2000] [back:MicsShop]" # BUY
+      "3":
+        material: MOJANG_BANNER_PATTERN
+        name: "#26de81Mojang Banner Pattern"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂2.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:2000] [back:MicsShop]" # BUY
+      "4":
+        material: GLOBE_BANNER_PATTERN
+        name: "#26de81Globe Banner Pattern"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂2.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:2000] [back:MicsShop]" # BUY
+      "5":
+        material: PIGLIN_BANNER_PATTERN
+        name: "#26de81Piglin Banner Pattern"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂2.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:2000] [back:MicsShop]" # BUY
+      "6":
+        material: FIRE_CORAL
+        name: "#26de81Fire Coral"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂60"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:60] [back:MicsShop]" # BUY
+      "7":
+        material: BUBBLE_CORAL_FAN
+        name: "#26de81Bubble Coral Fan"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂60"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:60] [back:MicsShop]" # BUY
+      "8":
+        material: FIRE_CORAL_FAN
+        name: "#26de81Fire Coral Fan"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂60"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:60] [back:MicsShop]" # BUY
+      "9":
+        material: HORN_CORAL
+        name: "#26de81Horn Coral"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂60"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:60] [back:MicsShop]" # BUY
+      "10":
+        material: HORN_CORAL_FAN
+        name: "#26de81Horn Coral Fan"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂60"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:60] [back:MicsShop]" # BUY
+      "11":
+        material: TUBE_CORAL
+        name: "#26de81Tube Coral"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂60"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:60] [back:MicsShop]" # BUY
+      "12":
+        material: BRAIN_CORAL_FAN
+        name: "#26de81Brain Coral Fan"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂60"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:60] [back:MicsShop]" # BUY
+      "13":
+        material: BUBBLE_CORAL
+        name: "#26de81Bubble Coral"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂60"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:60] [back:MicsShop]" # BUY
+      "14":
+        material: TUBE_CORAL_FAN
+        name: "#26de81Tube Coral Fan"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂60"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:60] [back:MicsShop]" # BUY
+      "15":
+        material: HANGING_ROOTS
+        name: "#26de81Hanging Roots"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂80"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:80] [back:MicsShop]" # BUY
+      "16":
+        material: AMETHYST_SHARD
+        name: "#26de81Amethyst Shard"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂1.280"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:80] [back:MicsShop]" # BUY
+      "17":
+        material: AMETHYST_BLOCK
+        name: "#26de81Amethyst Block"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂5.120"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:320] [back:MicsShop]" # BUY
+      "18":
+        material: BUDDING_AMETHYST
+        name: "#26de81Budding Amethyst"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂5.120"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:320] [back:MicsShop]" # BUY
+      "19":
+        material: TWISTING_VINES
+        name: "#26de81Twisting Vines"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:MicsShop]" # BUY
+      "20":
+        material: WEEPING_VINES
+        name: "#26de81Weeping Vines"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:MicsShop]" # BUY
+      "21":
+        material: BIG_DRIPLEAF
+        name: "#26de81Big Dripleaf"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:MicsShop]" # BUY
+      "22":
+        material: SMALL_DRIPLEAF
+        name: "#26de81Small Dripleaf"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:MicsShop]" # BUY
+      "23":
+        material: GLOW_LICHEN
+        name: "#26de81Glow Lichen"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:MicsShop]" # BUY
+      "24":
+        material: LILY_PAD
+        name: "#26de81Lily Pad"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:MicsShop]" # BUY
+      "25":
+        material: BELL
+        name: "#26de81Bell"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂1.500"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:1500] [back:MicsShop]" # BUY
+      "26":
+        material: WATER_BUCKET
+        name: "#26de81Water Bucket"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂1.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:1000] [back:MicsShop]" # BUY
+      "27":
+        material: LAVA_BUCKET
+        name: "#26de81Lava Bucket"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂1.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:1000] [back:MicsShop]" # BUY
+      "28":
+        material: POWDER_SNOW_BUCKET
+        name: "#26de81Powder Snow Bucket"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂1.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:1000] [back:MicsShop]" # BUY
+      "29":
+        material: SADDLE
+        name: "#26de81Saddle"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂10.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:10000] [back:MicsShop]" # BUY
+      "30":
+        material: NAME_TAG
+        name: "#26de81NAME_TAG"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂20.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:20000] [back:MicsShop]" # BUY
+      "31":
+        material: TOTEM_OF_UNDYING
+        name: "#26de81Totem of Undying"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂200.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:200000] [back:MicsShop]" # BUY
+      "32":
+        material: SHULKER_SHELL
+        name: "#26de81Shulker Shell"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂500.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:500000] [back:MicsShop]" # BUY
+      "33":
+        material: LEAD
+        name: "#26de81Lead"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂1.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:500000] [back:MicsShop]" # BUY
+      "34":
+        material: ELYTRA
+        name: "#26de81Elytra"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂10.000.000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:10000000] [back:MicsShop]" # BUY
+      "35":
+        material: DRAGON_BREATH
+        name: "#26de81Dragon Breath"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂500"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:500] [back:MicsShop]" # BUY
+
+      #
+      #   SHOP CATEGORIES
+      #
+      "45":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMxZGYzYjA5NWU2YTc3NGUyNjg1MjkwMWRiMjM0MDAzOTc5YzdhNzVjZTM1ZDhkMjY5YmIzNjUxZTA5Y2ZhMiJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #ff793fᴄʀᴏᴘs"
+        lore: []
+        commands:
+          - "open= GemShop"
+
+      "46":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE5ZTg1NmVhYjRlZmU5Mzc4OTI3MDFkNjk2NGRlNmFiYmVhNGU1ZDVmMjA3MmMzZmQ2YjM4OWNmODgzYjViOSJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #706fd3ʙʟᴏᴄᴋs"
+        lore: []
+        commands:
+          - "open= BlockShop1"
+      "47":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJiNDFmMWYwZDhlZmM2ZmM5MzgzYTZiODE0NjE1OWUxNjVhMzlhNDA5ZWYwZmVkYmM0NTg0MmI2NTY0NDFlNyJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #ffb8b8ꜰʟᴏᴡᴇʀs"
+        lore: []
+        commands:
+          - "open= FlowerShop"
+
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNlN2Y2ZDhmYzY4Y2Q1OWYzYTc5Yjc2MjE4ZWUzNWFiZTQyNjM2YWMzZWM4ZDA0NjY3MzlmY2YwNDM0NTc5ZiJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #fff200ᴍᴏʙ ᴅʀᴏᴘs"
+        lore: []
+        commands:
+          - "open= MobShop"
+
+      "49":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5YzE5YjA1ZGY0ZTQ2N2E3OTEzNjk2NGU2ZmM4MzE1ZmY0NTU5YWYzNGQzOTA3YjQzNGQzMTk1ODg4MTUzNCJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #ffb142ᴍɪɴᴇʀᴀʟs"
+        lore: []
+        commands:
+          - "open= MineralShop"
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVlNGNiNGZjMTRiYTY5ZDQ5YjJkZDJiMDQxOGQ2NTYyZGZmZGViZDBlYmYwMTY1YzQ0MTZhMDczZTYyZGRmOCJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #cd6133ᴍɪsᴄᴇʟʟᴀɴᴇᴏᴜs"
+        lore: []
+        commands:
+          - "open= MicsShop"
+      "51":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdmMjQzYTA3MmZjZmE2ZTZmZTU3OTJkZGU2YTM5NzQwNGU5M2JkZWQyMTExMGQyZGViNDc5NmUyYTA1N2UyNSJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #25CCF7ᴘʟᴀʏᴇʀ ᴀᴜᴄᴛɪᴏɴ"
+        lore: []
+        commands:
+          - "ah"
+
+      #
+      #   SHOP CONTROLLER
+      #
+
+      "40":
+        material: PAPER
+        customdata: 9999
+        name: "&fɢᴇᴍs: &f⛂%vault_eco_balance_commas%"
+        duplicate: "39,39,40,41,42"
+
+      "37":
+        material: PAPER
+        customdata: 9999
+        name: "#ffda79← ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ"
+        duplicate: "37,36"
+
+      "43":
+        material: PAPER
+        customdata: 9999
+        name: "#ffda79→ ɴᴇxᴛ ᴘᴀɢᴇ"
+        duplicate: "43,44"

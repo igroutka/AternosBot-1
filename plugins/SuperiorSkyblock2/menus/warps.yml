@@ -1,0 +1,55 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:is_warp%'
+previous-menu: true
+
+pattern:
+  - ''
+  - 'X @ @ @ @ @ @ @ X'
+  - 'X @ @ @ @ @ @ @ X'
+  - 'X @ @ @ @ @ @ @ X'
+  - 'X @ @ @ @ @ @ @ X'
+  - '# % # # * # # ^ #'
+
+slots: '@'
+previous-page: '%'
+current-page: '*'
+next-page: '^'
+
+# This lore is added to warp icons.
+edit-lore:
+  - '&f '
+  - '&f '
+  - '&7&o(( &f&oLeft-Click &7&oto warp to the location. ))'
+
+items:
+  '@':
+    type: BOOK
+    name: '&e{0} {2}'
+    lore:
+      - '&7Located at {1}.'
+  '%':
+    type: PAPER
+    customModel: 9999
+    name: '{0}Previous Page'
+  '*':
+    type: PAPER
+    customModel: 9999
+    name: '&aCurrent Page'
+    lore:
+      - '&7Page {0}'
+  '^':
+    type: PAPER
+    customModel: 9999
+    name: '{0}Next Page'
+
+sounds:
+  '@':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2

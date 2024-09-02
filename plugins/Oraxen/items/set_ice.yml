@@ -1,0 +1,212 @@
+ice_helmet:
+  displayname: <#FFFFFF>Ice Helmet
+  lore:
+  - <#c7ecee>Winter Event 2023
+  - ''
+  - <#ffffff><glyph:exclusive><glyph:legendary>
+  material: LEATHER_HELMET
+  color: 0,0,2
+  Mechanics:
+    durability:
+      value: 643
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 7bfcf804-b75a-40a5-97f5-f23282703d0e
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: 7bfcf804-b75a-40a5-97f5-f23282703d0e
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    amount: 0.3
+    operation: 0
+    uuid: df667d9d-c620-462e-952c-5e27bb31daa9
+    slot: HEAD
+  unbreakable: true
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/ice/ice_helmet
+      - custom/sets/ice/ice_helmet
+
+ice_chestplate:
+  displayname: <#FFFFFF>Ice Chestplate
+  material: LEATHER_CHESTPLATE
+  color: 0,0,2
+  lore:
+  - <#c7ecee>Winter Event 2023
+  - ''
+  - <#ffffff><glyph:exclusive><glyph:legendary>
+  Mechanics:
+    durability:
+      value: 643
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 8
+    operation: 0
+    uuid: 11ba6bc7-32a7-4598-b057-883922561f8d
+    slot: CHEST
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: 3a7d973a-004c-4f9d-9bb6-06ee85775ed9
+    slot: CHEST
+  - name: oraxen
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    amount: 0.3
+    operation: 0
+    uuid: f3e43a94-630b-4f93-b6a1-8d0536ee8e71
+    slot: CHEST
+  unbreakable: true
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/ice/ice_chestplate
+      - custom/sets/ice/ice_chestplate
+
+ice_leggings:
+  displayname: <#FFFFFF>Ice Leggings
+  material: LEATHER_LEGGINGS
+  color: 0,0,2
+  lore:
+  - <#c7ecee>Winter Event 2023
+  - ''
+  - <#ffffff><glyph:exclusive><glyph:legendary>
+  Mechanics:
+    durability:
+      value: 643
+  unbreakable: true
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/ice/ice_leggings
+      - custom/sets/ice/ice_leggings
+
+ice_boots:
+  displayname: <#FFFFFF>Ice Boots
+  material: LEATHER_BOOTS
+  color: 0,0,2
+  lore:
+  - <#c7ecee>Winter Event 2023
+  - ''
+  - <#ffffff><glyph:exclusive><glyph:legendary>
+  Mechanics:
+    durability:
+      value: 643
+  unbreakable: true
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/ice/ice_boots
+      - custom/sets/ice/ice_boots
+
+
+
+ice_pickaxe:
+  displayname: <#FFFFFF>Ice Pickaxe
+  material: NETHERITE_PICKAXE
+  unbreakable: true
+  lore:
+  - <#c7ecee>Winter Event 2023
+  - ''
+  - <#ffffff><glyph:exclusive><glyph:legendary>
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/ice/ice_pickaxe
+
+ice_sword:
+  displayname: <#FFFFFF>Ice Sword
+  material: NETHERITE_SWORD
+  unbreakable: true
+  lore:
+  - <#c7ecee>Winter Event 2023
+  - ''
+  - <#ffffff><glyph:exclusive><glyph:legendary>
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/ice/ice_sword
+
+ice_shovel:
+  displayname: <#FFFFFF>Ice Shovel
+  lore:
+  - <#c7ecee>Winter Event 2023
+  - ''
+  - <#ffffff><glyph:exclusive><glyph:legendary>
+  material: NETHERITE_SHOVEL
+  unbreakable: true
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/ice/ice_shovel
+
+
+ice_axe:
+  displayname: <#FFFFFF>Ice Axe
+  lore:
+  - <#c7ecee>Winter Event 2023
+  - ''
+  - <#ffffff><glyph:exclusive><glyph:legendary>
+  material: NETHERITE_AXE
+  unbreakable: true
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/ice/ice_axe
+
+ice_hoe:
+  displayname: <#FFFFFF>Ice Hoe
+  lore:
+  - <#c7ecee>Winter Event 2023
+  - ''
+  - <#ffffff><glyph:exclusive><glyph:legendary>
+  material: NETHERITE_HOE
+  unbreakable: true
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/sets/ice/ice_hoe
+
+
+ice_star:
+  displayname: <#FFFFFF>Ice Star
+  lore:
+  - <#535c68>This star drop from a stray
+  - <#535c68>in <#c7ecee>Winter Event 2023
+  - ''
+  - <#ffffff><glyph:exclusive><glyph:legendary>
+  material: PAPER
+  unbreakable: true
+  Pack:
+    custom_model_data: 603
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - custom/sets/ice/ice_star

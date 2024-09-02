@@ -1,0 +1,47 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+# CAVE_SPIDER:
+#   Health: 30
+#   Damage: 7
+# WITHER_SKELETON:
+#   Health: 50
+#   Damage: 10
+# GIANT:
+#   Health: 1000
+#   Damage: 20
+#   Skills:
+#   - potion{type=POISON;duration=100;lvl=1} @target ~onAttack
+
+PIGLIN:
+  Health: 16
+  Damage: 8
+  Options:
+    PreventOtherDrops: false
+  Drops:
+  - PiglinDrop 1 0.5
+
+PIGLIN_BRUTE:
+  Health: 50
+  Damage: 13
+  Options:
+    PreventOtherDrops: false
+  Drops:
+  - PiglinDrop 1 0.5
+
+ZOMBIFIED_PIGLIN:
+  Health: 20
+  Damage: 8
+  Options:
+    PreventOtherDrops: false
+  Drops:
+  - PiglinDrop 1 0.3
+
+STRAY:
+  Health: 30
+  Damage: 5
+  Options:
+    PreventOtherDrops: false
+  Drops:
+  - StrayDrop 1 1

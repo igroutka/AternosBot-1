@@ -1,0 +1,80 @@
+panels:
+  Rewards:
+    perm: 'default'
+    commands:
+    - reward 
+    - rewards
+    rows: 3
+    title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:rewards%'
+    item:
+
+
+
+      '10':
+        material: PAPER
+        customdata: 9999
+        name: '&f%hrn_getIcon:present% #81ececꜰʀᴇᴇ ᴍᴏɴᴛʜʟʏ ʀᴇᴡᴀʀᴅs'
+        lore:
+          - ''
+          - '#d2dae2You can claim this reward'
+          - '#d2dae2once per month, it refreshes'
+          - '#d2dae2at &f00:00 #d2dae2next month.'
+          - ''
+          - '&ax1 &f1.000 → 3.000%hrn_getIcon:gem% &fGem'
+          - '&ax1 &f2.000 → 5.500 Exp'
+          - ''
+          - '&ax3 &6Gilded Netherite Ingot'
+          - '&ax3 #34e7e4Soul Netherite Ingot'
+          - '&ax3 #2bcbbaWarden Ingot'
+          - ''
+          - '&ax2 #94ecff&lTreasure Crate Key'
+          - '&ax2 #F79F1F&lCosmetic Crate Key'
+          - ''
+          - '&7→ Click to claim this reward.'
+        commands:
+          - "reward claim monthly"
+          - "cpc"
+
+
+
+      '13':
+        material: PAPER
+        customdata: 9999
+        name: '&f%hrn_getIcon:present% #D980FAꜰʀᴇᴇ ᴡᴇᴇᴋʟʏ ʀᴇᴡᴀʀᴅs'
+        lore:
+          - ''
+          - '#d2dae2You can claim this reward'
+          - '#d2dae2once per week, it refreshes'
+          - '#d2dae2at &f00:00 #d2dae2next week.'
+          - ''
+          - '&ax1 &f400 → 1.000%hrn_getIcon:gem% &fGem'
+          - '&ax1 &f2.000 → 2.500 Exp'
+          - '&ax1 &eTotem of Keeping'
+          - '&ax3 &fSpawner Fragment'
+          - '&ax1 &fSmall Rocket Boots'
+          - '&ax1 #94ecff&lTreasure Crate Key'
+          - ''
+          - '&7→ Click to claim this reward.'
+        commands:
+          - "reward claim weekly"
+          - "cpc"
+
+
+      '16':
+        material: PAPER
+        customdata: 9999
+        name: '&f%hrn_getIcon:present% #00a8ffꜰʀᴇᴇ ᴅᴀɪʟʏ ʀᴇᴡᴀʀᴅs'
+        lore:
+          - ''
+          - '#d2dae2You can claim this reward'
+          - '#d2dae2once per day, it refreshes'
+          - '#d2dae2at &f00:00 #d2dae2the next day.'
+          - ''
+          - '&ax1 &fRandom 50 → 200%hrn_getIcon:gem%'
+          - '&ax1 &fTotem of Keeping'
+          - '&ax1 #A3CB38&lDaily Crate Key'
+          - ''
+          - '&7→ Click to claim this reward.'
+        commands:
+          - "reward claim daily"
+          - "cpc"

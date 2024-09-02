@@ -1,0 +1,210 @@
+experience_exchange:
+  texture: custom/ui/containers/experience_exchange
+  ascent: 19
+  height: 256
+  char: ꐑ
+blacksmith:
+  texture: custom/ui/containers/blacksmith
+  ascent: 19
+  height: 256
+  char: ꐒ
+blacksmith_list:
+  texture: custom/ui/containers/blacksmith_list
+  ascent: 19
+  height: 256
+  char: ꐓ
+blacksmith_forging:
+  texture: custom/ui/containers/blacksmith_forging
+  ascent: 19
+  height: 256
+  char: ꐔ
+crate:
+  texture: custom/ui/containers/crate
+  ascent: 19
+  height: 256
+  char: ꐕ
+rewards:
+  texture: custom/ui/containers/rewards
+  ascent: 19
+  height: 256
+  char: ꐖ
+online_rewards:
+  texture: custom/ui/containers/online_rewards
+  ascent: 19
+  height: 256
+  char: ꐗ
+playtime_rewards:
+  texture: custom/ui/containers/playtime_rewards
+  ascent: 19
+  height: 256
+  char: ꐘ
+enchanter:
+  texture: custom/ui/containers/enchanter
+  ascent: 19
+  height: 256
+  char: ꐙ
+enchantment_wiki:
+  texture: custom/ui/containers/enchantment_wiki
+  ascent: 19
+  height: 256
+  char: ꐚ
+cosmetic_main:
+  texture: custom/ui/containers/cosmetic_main
+  ascent: 19
+  height: 256
+  char: ꐛ
+cosmetic:
+  texture: custom/ui/containers/cosmetic
+  ascent: 19
+  height: 256
+  char: ""
+cosmetic_selector:
+  texture: custom/ui/containers/cosmetic_selector
+  ascent: 19
+  height: 256
+  char: ꐜ
+auction_main:
+  texture: custom/ui/containers/auction_main
+  ascent: 19
+  height: 256
+  char: ꐝ
+auction_player:
+  texture: custom/ui/containers/auction_player
+  ascent: 19
+  height: 256
+  char: ꐞ
+auction_expired:
+  texture: custom/ui/containers/auction_expired
+  ascent: 19
+  height: 256
+  char: ꐟ
+auction_confirm:
+  texture: custom/ui/containers/auction_confirm
+  ascent: 19
+  height: 256
+  char: ꐠ
+trade:
+  texture: custom/ui/containers/trade
+  ascent: 19
+  height: 256
+  char: ꐡ
+fish_shop:
+  texture: custom/ui/containers/fish_shop
+  ascent: 19
+  height: 256
+  char: ꐢ
+quest:
+  texture: custom/ui/containers/quest
+  ascent: 19
+  height: 256
+  char: ꐣ
+gem_shop:
+  texture: custom/ui/containers/gem_shop
+  ascent: 19
+  height: 256
+  char: ꐤ
+gem_shop_buy:
+  texture: custom/ui/containers/gem_shop_buy
+  ascent: 19
+  height: 256
+  char: ꐥ
+cosmetic_crate:
+  texture: custom/ui/containers/cosmetic_crate
+  ascent: 19
+  height: 256
+  char: ꐦ
+gem_shop_sell:
+  texture: custom/ui/containers/gem_shop_sell
+  ascent: 19
+  height: 256
+  char: ꐧ
+tags:
+  texture: custom/ui/containers/tags
+  ascent: 19
+  height: 256
+  char: ꐨ
+fishy_shop:
+  texture: custom/ui/containers/fishy_shop
+  ascent: 19
+  height: 256
+  char: ꐩ
+confirm:
+  texture: custom/ui/containers/confirm
+  ascent: 19
+  height: 256
+  char: ꐪ
+warp:
+  texture: custom/ui/containers/warp
+  ascent: 19
+  height: 256
+  char: ꐫ
+ranks:
+  texture: custom/ui/containers/ranks
+  ascent: 19
+  height: 256
+  char: ꐬ
+is_island:
+  texture: custom/ui/containers/island/island
+  ascent: 19
+  height: 256
+  char: ꐭ
+is_member:
+  texture: custom/ui/containers/island/member
+  ascent: 19
+  height: 256
+  char: ꐮ
+is_permission:
+  texture: custom/ui/containers/island/permission
+  ascent: 19
+  height: 256
+  char: ꐯ
+is_setting:
+  texture: custom/ui/containers/island/setting
+  ascent: 19
+  height: 256
+  char: ꐰ
+is_top:
+  texture: custom/ui/containers/island/top
+  ascent: 19
+  height: 256
+  char: ꐱ
+is_warp:
+  texture: custom/ui/containers/island/warp
+  ascent: 19
+  height: 256
+  char: ꐲ
+is_upgrade:
+  texture: custom/ui/containers/island/island_upgrade
+  height: 256
+  ascent: 19
+  char: ꐳ
+is_biomes:
+  texture: custom/ui/containers/island/island_biomes
+  height: 256
+  ascent: 19
+  char: ꐴ
+is_mission:
+  texture: custom/ui/containers/island/mission
+  height: 256
+  ascent: 19
+  char: ꐵ
+is_member_role:
+  texture: custom/ui/containers/island/member_role
+  height: 256
+  ascent: 19
+  char: ꐶ
+is_member_manage:
+  texture: custom/ui/containers/island/member_manage
+  height: 256
+  ascent: 19
+  char: ꐷ
+is_creation:
+  texture: custom/ui/containers/island/creation
+  height: 256
+  ascent: 19
+  char: ꐸ
+3_big_slot:
+  texture: custom/ui/containers/common/3_big_slot
+  ascent: 19
+  height: 256
+  char: ꐹ

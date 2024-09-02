@@ -1,0 +1,334 @@
+emoji_boss:
+  texture: custom/emojis/player/boss
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':boss:'
+    permission: emoji.player.boss
+  char: ඬ
+emoji_confidence:
+  texture: custom/emojis/player/confidence
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':confidence:'
+    permission: emoji.player.confidence
+  char: ත
+emoji_dislike:
+  texture: custom/emojis/player/dislike
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':dislike:'
+    permission: emoji.player.dislike
+  char: ථ
+emoji_grin:
+  texture: custom/emojis/player/grin
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':grin:'
+    permission: emoji.player.grin
+  char: ද
+emoji_grinning:
+  texture: custom/emojis/player/grinning
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':grinning:'
+    permission: emoji.player.grinning
+  char: ධ
+emoji_heart_eyes:
+  texture: custom/emojis/player/heart_eyes
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':heart_eyes:'
+    permission: emoji.player.heart_eyes
+  char: න
+emoji_innocent:
+  texture: custom/emojis/player/innocent
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':innocent:'
+    permission: emoji.player.innocent
+  char: ඲
+emoji_kissing:
+  texture: custom/emojis/player/kissing
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':kissing:'
+    permission: emoji.player.kissing
+  char: ඳ
+emoji_pensive:
+  texture: custom/emojis/player/pensive
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':pensive:'
+    permission: emoji.player.pensive
+  char: ප
+emoji_relieved:
+  texture: custom/emojis/player/relieved
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':relieved:'
+    permission: emoji.player.relieved
+  char: ඵ
+emoji_slight_smile:
+  texture: custom/emojis/player/slight_smile
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':slight_smile:'
+    permission: emoji.player.slight_smile
+  char: බ
+emoji_smile:
+  texture: custom/emojis/player/smile
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':smile:'
+    permission: emoji.player.smile
+  char: භ
+emoji_smiling_tear:
+  texture: custom/emojis/player/smiling_tear
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':smiling_tear:'
+    permission: emoji.player.smiling_tear
+  char: ම
+emoji_upside_down:
+  texture: custom/emojis/player/upside_down
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':upside_down:'
+    permission: emoji.player.upside_down
+  char: ඹ
+emoji_wink:
+  texture: custom/emojis/player/wink
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':wink:'
+    permission: emoji.player.wink
+  char: ය
+emoji_blush:
+  texture: custom/emojis/vip/blush
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':blush:'
+    permission: emoji.vip.blush
+  char: ර
+emoji_clown:
+  texture: custom/emojis/vip/clown
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':clown:'
+    permission: emoji.vip.clown
+  char: ඼
+emoji_eyes:
+  texture: custom/emojis/vip/eyes
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':eyes:'
+    permission: emoji.vip.eyes
+  char: ල
+emoji_fire:
+  texture: custom/emojis/vip/fire
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':fire:'
+    permission: emoji.vip.fire
+  char: ꐐ
+emoji_heart:
+  texture: custom/emojis/vip/heart
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':heart:'
+    permission: emoji.vip.heart
+  char: ඾
+emoji_nauseated_face:
+  texture: custom/emojis/vip/nauseated_face
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':nauseated_face:'
+    permission: emoji.vip.nauseated_face
+  char: ඿
+emoji_rofl:
+  texture: custom/emojis/vip/rofl
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':rofl:'
+    permission: emoji.vip.rofl
+  char: ව
+emoji_skull:
+  texture: custom/emojis/vip/skull
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':skull:'
+    permission: emoji.vip.skull
+  char: ශ
+emoji_sweat_smile:
+  texture: custom/emojis/vip/sweat_smile
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':sweat_smile:'
+    permission: emoji.vip.sweat_smile
+  char: ෂ
+emoji_vomiting_face:
+  texture: custom/emojis/vip/vomiting_face
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':vomiting_face:'
+    permission: emoji.vip.vomiting_face
+  char: ස
+emoji_evil:
+  texture: custom/emojis/mvp/evil
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':evil:'
+    permission: emoji.mvp.evil
+  char: හ
+emoji_hyronic:
+  texture: custom/emojis/mvp/hyronic
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':hyronic:'
+    permission: emoji.mvp.hyronic
+  char: ළ
+emoji_joy:
+  texture: custom/emojis/mvp/joy
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':joy:'
+    permission: emoji.mvp.joy
+  char: ෆ
+emoji_like:
+  texture: custom/emojis/mvp/like
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':like:'
+    permission: emoji.mvp.like
+  char: ෇
+emoji_pride:
+  texture: custom/emojis/mvp/pride
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':pride:'
+    permission: emoji.mvp.pride
+  char: ෈
+emoji_rage:
+  texture: custom/emojis/mvp/rage
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':rage:'
+    permission: emoji.mvp.rage
+  char: ෉
+emoji_relaxed:
+  permission: emoji.mvp.rage
+  texture: custom/emojis/mvp/relaxed
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':relaxed:'
+    permission: emoji.mvp.relaxed
+  char: ්
+emoji_tada:
+  texture: custom/emojis/mvp/tada
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':tada:'
+    permission: emoji.mvp.tada
+  char: ෋
+emoji_alien:
+  texture: custom/emojis/elite/alien
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':alien:'
+    permission: emoji.elite.alien
+  char: ෌
+emoji_bug_eyed:
+  texture: custom/emojis/elite/bug_eyed
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':bug_eyed:'
+    permission: emoji.elite.bug_eyed
+  char: ෍
+emoji_pray:
+  texture: custom/emojis/elite/pray
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':pray:'
+    permission: emoji.elite.pray
+  char: ෎
+emoji_star:
+  texture: custom/emojis/elite/star
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+      - ':star:'
+    permission: emoji.elite.star
+  char: ා

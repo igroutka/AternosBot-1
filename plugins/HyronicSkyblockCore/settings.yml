@@ -1,0 +1,176 @@
+settings:
+  license-key: "ADMIN"
+
+healthbar-enable: false
+
+welcome-screen:
+  enable: true
+  # This will send to player a title that have a black full-screen background.
+  background-title: "&8%hrn_getIcon:black_background%"
+  # This will open an inventory with the title below to show the welcome image.
+  # when player close this inventory, all effects, title will be clear.
+  welcome-title: "&f%hrn_getIcon:neg_shift_32%%hrn_getIcon:neg_shift_16%%hrn_getIcon:welcome%"
+placeholders:
+  # Show the status of a reward. Placeholder: %hrn_getRewardStatus:<reward_file_name>%
+  # Example: %hrn_getRewardStatus:daily_reward%
+  rewards:
+    redeemable: "&f%hrn_getIcon:success% &#4cd137ʀᴇᴅᴇᴇᴍᴀʙʟᴇ"
+    tomorrow: "&f%hrn_getIcon:warn% &#fbc531ᴛᴏᴍᴏʀʀᴏᴡ"
+    redeemed: "%hrn_getIcon:error% &#e84118ʀᴇᴅᴇᴇᴍᴇᴅ"
+    await: "%hrn_getIcon:error% &#e84118%time%"
+
+# Get there placeholders by %hrn_getCP:<key>%
+# Example: %hrn_getCP:success%
+combination-placeholders:
+  success: '&f%hyronic_font:success%&a'
+  error: '&f%hyronic_font:error%&c'
+  warn: '&f%hyronic_font:warn%&#feca57'
+
+  Asssasin: "%hrn_getIcon:ability_asssasins_instinct% Assassin's Instinct"
+  HellfireSpread: "&f%hrn_getIcon:ability_hellfire_spread% Hellfire Spread"
+  FrozenSmash: "&f%hrn_getIcon:ability_frozen_smash% Frozen Smash"
+
+
+# When you use command: /hyronic run-random-command <player> <key> <number-format>
+# The console will run below command with your number.
+# Example: /hyronic run-random-command DustinDinh exp-bottle 5-50
+random-commands:
+  exp-bottle: "crazyvouchers:voucher give ExpBottle 1 %player_name% %random%"
+  gem: "eco give %player_name% %random%"
+
+spawner-fragment-drop:
+  enable: true
+  fortune: true # Apply fortune from player pickaxe
+  disable-worlds:
+    - "world_island"
+  chance: 50 # Chance to drop spawner fragment
+  item: spawner_fragment
+  amount: 1-3 # If fortune is true, this will be ignored.
+
+# Only working with right click.
+mythicmobs-skills-binding:
+  # If you don't want your players using multiple ability from
+  # each other weapon, set this to true.
+  disable-multiple-abilities-using: true
+  cooldown-message: "&f%hrn_getIcon:warn% &f%name% &#feca57is in cooldown, available in &f%seconds%s"
+  disable-worlds:
+    - world
+  list:
+    # <weapon-id>;<skillname>;<cooldown>
+    - hellfire_blade;HellfireSpread;30
+    - icy_blue_hammer;FrozenSmash;20
+    - light_dagger;Asssasin;10
+
+resource-world:
+  enable: false
+  name: 'world_resource'
+
+# Synced time between all the worlds.
+synced-world-time:
+  enable: true
+  base-time-world: 'world'
+
+locations:
+  world_the_end:
+    default: "%hrn_getSIcon:location% &fThe End"
+  world_nether:
+    default: "%hrn_getSIcon:location% &fNether"
+  world:
+    default: "%hrn_getSIcon:location% &fResource World"
+  world_spawn:
+    default: "%hrn_getSIcon:location% &fSpawn Isles"
+    blacksmith: '%hrn_getIcon:hammer% &fBlacksmith'
+    gem_shop: '%hrn_getIcon:gem% &fGem Shop'
+    rewards: "%hrn_getIcon:present% &fFree Rewards"
+  world_islands:
+    default: "%hrn_getSIcon:location% &fIslands World"
+    your_island: "%hrn_getIcon:location% &fYour Island - %superior_player_role%"
+
+mechanics:
+  arrow-effects:
+    item-list:
+      - warden_bow;SONIC_BOOM
+      - soul_netherite_bow;SCULK_SOUL
+      - gilded_netherite_bow;FLAME
+  arrow-speed:
+    item-list:
+      - warden_bow;2
+  attack-damage-to-entity:
+    item-list:
+      # <item-id>;<entities>;<damage>
+      - warden_bow;WARDEN;20%
+      - warden_sword;WARDEN;20%
+      - soul_netherite_bow;WITHER;20%
+      - gilded_netherite_bow;PIGLIN:PIGLIN_BRUTE:ZOMBIFIED_PIGLIN;3
+      - grand_jade_blade;PLAYER;2
+
+actionbar:
+  enable: true
+  list:
+    # <offset>;<text>
+    # Adjust <offset> if you see the bar is not balance as expected.
+    default: "42;%vault_eco_balance_commas%&#FFFEFD⛂"
+  display: default
+  hide-when-player-is-in-water: true
+  update-interval: 20
+  world-blacklist: []
+
+join-motd:
+  - "&r"
+  - "&r "
+  - "          &f%hrn_getIcon:server_logo_big%"
+  - "&r "
+  - "&r "
+  - "&r "
+  - "&r "
+  - "            &r &#25CCF7bbb.hyronic.dev"
+  - "&r "
+  - "&r "
+
+# Add player chat suggestion for emojis.
+# You have to add it manually depend on your emoji pattern.
+# The perm is "groyp.<key>"
+player-auto-suggestions:
+  # perm: group.vip
+  elite:
+    - ":alien:"
+    - ":bug_eyed:"
+    - ":pray:"
+    - ":star:"
+  # perm: group.default
+  mvp:
+    - ":evil:"
+    - ":hyronic:"
+    - ":joy:"
+    - ":like:"
+    - ":pride:"
+    - ":rage:"
+    - ":relaxed:"
+    - ":tada:"
+  vip:
+    - ":blush:"
+    - ":clown:"
+    - ":eyes:"
+    - ":fire:"
+    - ":heart:"
+    - ":nauseated_face:"
+    - ":rofl:"
+    - ":skull:"
+    - ":sweat_smile:"
+    - ":vomiting_face:"
+  default:
+    - ":boss:"
+    - ":confidence:"
+    - ":dislike:"
+    - ":grin:"
+    - ":grinning:"
+    - ":heart_eyes:"
+    - ":innocent:"
+    - ":kissing:"
+    - ":pensive:"
+    - ":relieved:"
+    - ":slight_smile:"
+    - ":smile:"
+    - ":smiling_tear:"
+    - ":upside_down:"
+    - ":wink:"

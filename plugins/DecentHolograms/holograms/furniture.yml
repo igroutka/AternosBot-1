@@ -1,0 +1,16 @@
+location: world_spawn:153.558:117.494:215.797
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+  - lines:
+      - content: "%hrn_getIcon:error% &c&lFURNITURE SHOP &r%hrn_getIcon:error% "
+      - content: "&8&m &r &8&m  &r &8&m                &r &8&m  &r &8&m "
+      - content: "&7We are creating furnitures, please be"
+      - content: "&7patient and wait for the upcomming"
+      - content: "&7updates."
+      - content: "&8&m &r &8&m  &r &8&m       &r &8&m  &r &8&m "
+    actions: {}

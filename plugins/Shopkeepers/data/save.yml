@@ -1,0 +1,924 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3465
+'1':
+  uniqueId: ed241eab-31c8-492b-b972-9eea6d2601fc
+  world: world_spawn
+  x: 2
+  y: 121
+  z: -100
+  yaw: -0.6206665
+  type: admin
+  name: '&bʟᴏʟᴀ'
+  object:
+    type: citizen
+    npcId: 05046526-6ff1-4d05-9e61-c116784b37d1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: TOTEM_OF_UNDYING
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Totem
+            of Keeping"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+            totem keeping all your"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"items,
+            experience when you"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"leave
+            this world (die)"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"ৌ"}],"text":""}'
+          custom-model-data: 500
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: totem_of_keeping
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: ELYTRA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Common
+            Enchantment Chest"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"There
+            is a common enchant"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"book
+            inside this mini chest"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"৊"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYOBgYC/LL03OSC1iEHLNS85IzCtxzs/Nzc9zzkgtLmEAADe7gZ0iAAAA
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: ffffffff-e9d9-875c-ffff-ffffe9d9875c
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTFlNTFkY2RjNjg3ZDNhYjdkNTk5ZmI3NGZmMzYyZjkwMGRhZmQyOTRkYTExZDIyNDZmNTcxOTQ0YWQ3MzcxMSJ9fX0=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Rare
+            Enchantment Chest"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"There
+            is a rare enchant"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"book
+            inside this mini chest"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"ো"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYOBgYC/LL03OSC1iEHDNS85IzCsJSixKdc5ILS5hAADGbzd5IAAAAA==
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 00000000-03b7-ba0c-0000-000003b7ba0c
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ2Zjk5ZjNjNWQ5ODJlYmRlOGRhNjU3ZDA2NTJhYTA4MDY0YmY2ZDZiNDk1ZmRhMjNjNmU0NzEyM2MwOTNlNyJ9fX0=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hyronic
+            Flying Boots"},{"italic":false,"text":""}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Allows
+            you to fly in your"},{"italic":false,"text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"islands.
+            Shift to toggle."},{"italic":false,"text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"ʀᴇᴍᴀɪɴɪɴɢ
+            ꜰᴜᴇʟ: "},{"italic":false,"color":"white","text":"10"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 503
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          PublicBukkitValues:
+            fjetpack2reloaded:fj2rfuel: '10'
+            fjetpack2reloaded:fjetpack2reloaded: default
+          color:
+            ==: Color
+            ALPHA: 255
+            RED: 0
+            BLUE: 208
+            GREEN: 144
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F79F1F","text":"Cosmetic
+            Crate Key"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"Right
+            click to open your"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"crate
+            key. Please do not"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"open
+            if your inventory is"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"full."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"্"}],"text":""}'
+          custom-model-data: 504
+          PublicBukkitValues:
+            excellentcrates:crate.id: cosmetic
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 7
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#94ECFF","text":"Treasure
+            Crate Key"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"Right
+            click to open your"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"crate
+            key. Please do not"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"open
+            if your inventory is"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"full."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"্"}],"text":""}'
+          custom-model-data: 505
+          PublicBukkitValues:
+            excellentcrates:crate.id: treasure
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 15
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BADC58","text":"Lucky
+            Clover"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Can
+            be trade with Lola"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"for
+            some goodies."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"ৌ"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 507
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: lucky_clover
+  snapshots: []
+'2':
+  uniqueId: fb042f3a-f623-4153-b568-674c9173b5e7
+  world: world_spawn
+  x: -65
+  y: 122
+  z: -2
+  yaw: -179.26532
+  type: admin
+  name: '&x&f&d&a&7&d&f&x§sᴀᴜxɪᴇs'
+  object:
+    type: citizen
+    npcId: 2f158d13-a297-441c-9a9c-24b3cc93dffc
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: FLINT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#686DE0","text":"Good
+            Float"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Increases
+            the catch rates for:"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"1
+            Rarity"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Attract
+            fish of Epic quality"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DADADA","text":"Drop
+            onto a fishing rod to apply,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DADADA","text":"or
+            hold "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shift
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DADADA","text":"
+            to apply all baits."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"ৌ"}],"text":""}'
+          custom-model-data: 3
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_DYE
+          internal: H4sIAAAAAAAA/+NiYOBi4EktS83LzS9KTcsszuBg4EjNTdNNSswsYeByz89PUXDLyU8sYWAAAMKcMzorAAAA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: FLINT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Magic
+            Float"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Increases
+            the catch rates for:"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"1
+            Rarity"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Attract
+            fish of legendary quality"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DADADA","text":"Drop
+            onto a fishing rod to apply,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DADADA","text":"or
+            hold "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shift
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DADADA","text":"
+            to apply all baits."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"্"}],"text":""}'
+          custom-model-data: 4
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_DYE
+          internal: H4sIAAAAAAAA/+NiYOBi4EktS83LzS9KTcsszuBg4EjNTdNNSswsYeD2TUzPTFZwy8lPLGFgAAD0GsMxLAAAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Totem
+            of Keeping"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"This
+            totem keeping all your"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"items,
+            experience when you"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"leave
+            this world (die)"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"ৌ"}],"text":""}'
+          custom-model-data: 500
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: totem_of_keeping
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Treasure
+            Bag"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Open
+            this bag will give you"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"a
+            random treasure:"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"◆"},{"italic":false,"color":"gold","text":"
+            Blaze Heart"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"◆"},{"italic":false,"color":"gold","text":"
+            Gold Piglin Coin"}],"text":""}'
+          - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"◆"},{"italic":false,"color":"light_purple","text":"
+            Spawner Fragment"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"ো"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYOBgYC/LL03OSC1i4A4pSk0sLi1KdUpMZwAAAMtO1xsAAAA=
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: ffffffff-bb58-44d3-ffff-ffffbb5844d3
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVmMWFkYjU4ZGI2ZTJlNTRhODQ3MzliMmM3OWRkZDQwMTRiODVmNzY1MTFkZjQxYTkyNzhkNzE1MWY2Y2RiZiJ9fX0=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Exotic
+            Enchantment Chest"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"There
+            is a exotic enchant"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"book
+            inside this mini chest"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"ৌ"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYOBgYC/LL03OSC1iEHDNS85IzCtxLchMds5ILS5hAAAiu/9FIAAAAA==
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 00000000-73f8-6029-0000-000073f86029
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY3N2U2NWRmMjk5OWQwMzE5ZmRiY2JhM2MwOTJmMTYwYjk5YjRiNDY3OTgzYWY4MWZjZmExZWI0NWQzOWEzIn19fQ==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            MENDING: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Double
+            Strike IV"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"▸
+            7.2% chance to inflict double damage."}],"text":""}'
+          PublicBukkitValues:
+            excellentenchants:lore_size: 2i
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: FISHING_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Good
+            Fishing Rod"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#535C68","text":"A
+            good fishing rod can"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#535C68","text":"boost
+            your loot & luck."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"ো"}],"text":""}'
+          custom-model-data: 0
+          enchants:
+            LUCK: 3
+            LURE: 3
+            DURABILITY: 3
+          PublicBukkitValues:
+            oraxen:id: good_fishing_rod
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F79F1F","text":"Cosmetic
+            Crate Key"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"Right
+            click to open your"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"crate
+            key. Please do not"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"open
+            if your inventory is"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D2DAE2","text":"full."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"্"}],"text":""}'
+          custom-model-data: 504
+          PublicBukkitValues:
+            excellentcrates:crate.id: cosmetic
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PAPER
+        amount: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#48DBFB","text":"Blue
+            Shiny Pearl"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"A
+            reward for anyone joined"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Fishing
+            Contest event."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"্"},{"italic":false,"text":""}],"text":""}'
+          custom-model-data: 508
+          PublicBukkitValues:
+            hyronicskyblockcore:hyronic-item: blue_shiny_pearl
+  snapshots: []

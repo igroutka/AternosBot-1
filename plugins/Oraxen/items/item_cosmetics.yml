@@ -1,0 +1,228 @@
+crown_hat:
+  displayname: <red>Crown Hat
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 1
+    generate_model: false
+    model: custom/cosmetics/hats/crown_hat
+
+
+bear_helmet:
+  displayname: <red>Bear Helmet
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 2
+    generate_model: false
+    model: custom/cosmetics/hats/bear_helmet
+
+
+
+cowboy_hat:
+  displayname: <red>Cowboy Hat
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 3
+    generate_model: false
+    model: custom/cosmetics/hats/cowboy_hat
+
+
+elf_hat:
+  displayname: <red>Elf Hat
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 4
+    generate_model: false
+    model: custom/cosmetics/hats/elf_hat
+
+
+mushroom_hat:
+  displayname: <red>Cowboy Hat
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 5
+    generate_model: false
+    model: custom/cosmetics/hats/mushroom_hat
+
+
+propeller_hat:
+  displayname: <red>Propeller Hat
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 6
+    generate_model: false
+    model: custom/cosmetics/hats/propeller_hat
+
+
+safety_helmet:
+  displayname: <red>Safety Helmet
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 7
+    generate_model: false
+    model: custom/cosmetics/hats/safety_helmet
+
+sombrero:
+  displayname: <red>Sombrero
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 8
+    generate_model: false
+    model: custom/cosmetics/hats/sombrero
+
+
+stalker_gas_mask:
+  displayname: <red>Cowboy Hat
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 9
+    generate_model: false
+    model: custom/cosmetics/hats/stalker_gas_mask
+
+
+straw_hat:
+  displayname: <red>Straw Hat
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 10
+    generate_model: false
+    model: custom/cosmetics/hats/straw_hat
+
+
+tall_top_hat:
+  displayname: <red>Tall Top hat
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 11
+    generate_model: false
+    model: custom/cosmetics/hats/tall_top_hat
+
+
+top_hat:
+  displayname: <red>Top Hat
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 12
+    generate_model: false
+    model: custom/cosmetics/hats/top_hat
+
+new_year_2023_hat:
+  displayname: <red>New Year 2023 Hat
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 13
+    generate_model: false
+    model: custom/cosmetics/hats/new_year_2023_hat
+
+wolf_helmet:
+  displayname: <red>Wolf Helmet
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 14
+    generate_model: false
+    model: custom/cosmetics/hats/wolf_helmet
+
+
+teddy_head:
+  displayname: <red>Teddy Head
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 15
+    generate_model: false
+    model: custom/cosmetics/hats/teddy_head
+
+box_head:
+  displayname: <red>Box Head
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 16
+    generate_model: false
+    model: custom/cosmetics/hats/box_head
+
+book_head:
+  displayname: <red>Book Head
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 17
+    generate_model: false
+    model: custom/cosmetics/hats/book_head
+
+bunny_ear:
+  displayname: <red>Bunny Ear
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 18
+    generate_model: false
+    model: custom/cosmetics/hats/bunny_ear
+
+frog_head:
+  displayname: <red>Frog Head
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 19
+    generate_model: false
+    model: custom/cosmetics/hats/frog_head
+
+dino_helmet:
+  displayname: <red>Dino Helmet
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 20
+    generate_model: false
+    model: custom/cosmetics/hats/dino_helmet
+
+new_year_2023_bag:
+  displayname: <red>New Year 2023 Bag
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 201
+    generate_model: false
+    model: custom/cosmetics/backpacks/new_year_2023_bag
+
+
+wolf_tail:
+  displayname: <red>Wolf Tail
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 202
+    generate_model: false
+    model: custom/cosmetics/backpacks/wolf_tail
+
+dino_backpack:
+  displayname: <red>Dino Backpack
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 203
+    generate_model: false
+    model: custom/cosmetics/backpacks/dino_backpack
+
+wolf_claw:
+  displayname: <red>Wolf Claw
+  lore: []
+  material: COPPER_INGOT
+  Pack:
+    custom_model_data: 301
+    generate_model: false
+    model: custom/cosmetics/offhands/wolf_claw

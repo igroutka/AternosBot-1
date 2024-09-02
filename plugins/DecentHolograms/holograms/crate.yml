@@ -1,0 +1,32 @@
+location: world_spawn:-20.088:122:-89.093
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: COPPER_INGOT {CustomModelData:17}'
+    height: 0.6
+  - content: '&8&m                                    &r'
+    height: 0.3
+  - content: '&fYou can obtain crate keys from many'
+    height: 0.3
+  - content: '&factivities on the server such as daily'
+    height: 0.3
+  - content: '&fquests, playtime rewards, fishing'
+    height: 0.3
+  - content: '&fcompetitions and more.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fYou also can buy keys on our'
+    height: 0.3
+  - content: '&fonline store: #94ecffstore.hyronic.dev'
+    height: 0.3
+  - content: '&8&m                            &r'
+    height: 0.3
+  - content: '#ICON: PAPER {CustomModelData:504}'
+    height: 0.6
+  actions: {}

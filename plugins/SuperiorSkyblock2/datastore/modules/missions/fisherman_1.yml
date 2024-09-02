@@ -1,0 +1,7 @@
+7b0b0988-b799-4dae-b696-52e823b3079f:
+  '0':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: COD
+    amount: 1

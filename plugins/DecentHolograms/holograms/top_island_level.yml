@@ -1,0 +1,30 @@
+location: world_spawn:2.053:120.5:-79.011
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '%hrn_getIcon:top_island_level%'
+    height: 0.3
+  - content: '&8&m &r &8&m  &r &8&m                &r &8&m  &r &8&m '
+    height: 0.3
+  - content: '%hrn_getIcon:top_1% &6%superior_island_top_level_1% &8- &f%superior_island_top_level_value_1%'
+    height: 0.3
+  - content: '%hrn_getIcon:top_2% &b%superior_island_top_level_2% &8- &f%superior_island_top_level_value_2%'
+    height: 0.3
+  - content: '%hrn_getIcon:top_3% &f%superior_island_top_level_3% &8- &f%superior_island_top_level_value_3%'
+    height: 0.3
+  - content: '&74. &7%superior_island_top_level_4% &8- &f%superior_island_top_level_value_4%'
+    height: 0.3
+  - content: '&75. &7%superior_island_top_level_5% &8- &f%superior_island_top_level_value_5%'
+    height: 0.3
+  - content: '&76. &7%superior_island_top_level_6% &8- &f%superior_island_top_level_value_6%'
+    height: 0.3
+  - content: '&8&m &r &8&m  &r &8&m       &r &8&m  &r &8&m '
+    height: 0.3
+  - content: '&c%superior_island_top_level_position%. &fYou &7- &f%superior_island_level%'
+    height: 0.3
+  actions: {}

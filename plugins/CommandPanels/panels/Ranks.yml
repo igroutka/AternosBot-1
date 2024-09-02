@@ -1,0 +1,164 @@
+panels:
+  Ranks:
+    perm: 'default'
+    commands: 
+    - rank
+    - ranks
+    rows: 4
+    sendMessage:
+    - cpc
+    - 'msg= %hrn_getIcon:avt_small_soma% &f&lSoma &8(Random Tips)'
+    - 'msg= &r           &7Visit our web store to buy: &fRanks&7,'
+    - 'msg= &r           &aCrate Key&7, &eCosmetics&7 and more.'
+    - 'msg= &r           &7View now: &cstore.hyronic.dev'
+    title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:ranks%'
+    item:
+
+
+      '10':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQzNjM4MmFiMWNmOWY2NmMxMzgyZTMzMGYxZmMyZDNkYjYyZDhmNTU1ZGRmYzZlMGQzNjYyMjM3MmFkOCJ9fX0=
+        customdata: 1
+        name: ' '
+        lore:
+          - '       &fʀᴀɴᴋ ᴘᴇʀᴋs'
+          - '         &f%hrn_getIcon:rank_player%   '
+          - ''
+          - '&fThis is default rank for'
+          - '&fnew player, basic perks'
+          - ''
+          - '&7ᴘʀᴇꜰɪx: &f%hrn_getIcon:rank_player% '
+          - '&7ꜰʀᴇᴇ ɪᴄᴏɴs:&f ऄ अ आ'
+          - '&7ᴀᴄᴄᴇss ᴛᴏ #7ed6df15&7 ᴇᴍᴏᴊɪs:'
+          - ' &fඬ ත ථ ද ධ න ඲ ය'
+          - ' &fඳ ප ඵ බ භ ම ඹ '
+          - ' &f'
+          - '#7ed6df⭐ &fᴍᴀx ʜᴏᴍᴇs: #7ed6df2 homes'
+          - '#7ed6df⭐ &fᴀᴜᴄᴛɪᴏɴ sʟᴏᴛs: #7ed6df3 slots'
+          - '#7ed6df⭐ &fᴀᴜᴄᴛɪᴏɴ ᴛɪᴍᴇ: #7ed6df8 hours'
+          - ' '
+          - '%javascript_rank_status_player%'
+        commands:
+        - 'sequence= sendMessage'
+
+
+      '12':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI5ZmU1N2FkMWQ4NzgxNjFhODM4MDI4MjkxYzE3ODMxZWQzYTc3YTc0NmZmYzhiZDVkYmI0NzdhN2VhMyJ9fX0
+        customdata: 1
+        name: ' '
+        lore:
+          - '        &fʀᴀɴᴋ ᴘᴇʀᴋs'
+          - '           &f%hrn_getIcon:rank_vip%   '
+          - ''
+          - '&7ᴘʀᴇꜰɪx: &f%hrn_getIcon:rank_vip% '
+          - '&7ꜰʀᴇᴇ ɪᴄᴏɴs:&f इ ई उ'
+          - '&7ᴀᴄᴄᴇss ᴛᴏ #7ed6df25&7 ᴇᴍᴏᴊɪs:'
+          - ' &fඬ ත ථ ද ධ න ඲ ය'
+          - ' &fඳ ප ඵ බ භ ම ඹ ස'
+          - ' &fර ඼ ල ඾ ඿ ව ශ ෂ '
+          - ' &f'
+          - '#7ed6df⭐ &fᴍᴀx ʜᴏᴍᴇs: #7ed6df5 homes'
+          - '#7ed6df⭐ &fᴀᴜᴄᴛɪᴏɴ sʟᴏᴛs: #7ed6df6 slots'
+          - '#7ed6df⭐ &fᴀᴜᴄᴛɪᴏɴ ᴛɪᴍᴇ: #7ed6df12 hours'
+          - ''
+          - '#f6e58d⭐ &fBack command &8(/back)'
+          - '#f6e58d⭐ &fTrash command &8(/trash)'
+          - ' '
+          - '%javascript_rank_status_vip%'
+        commands:
+        - 'sequence= sendMessage'
+
+      '14':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDNkNzk0NzJhZjQ1NjJmZGEwNDE3YmZlMmVmMzc0YjRjOTg0M2ZkZjczZGU0YWQ0OTRlNTZlZDYxYjVjNDQifX19
+        customdata: 1
+        name: ' '
+        lore:
+          - '        &fʀᴀɴᴋ ᴘᴇʀᴋs'
+          - '           &f%hrn_getIcon:rank_mvp%   '
+          - ''
+          - '&7ᴘʀᴇꜰɪx: &f%hrn_getIcon:rank_mvp% '
+          - '&7ꜰʀᴇᴇ ɪᴄᴏɴs:&f ऊ ऋ ऌ'
+          - '&7ᴀᴄᴄᴇss ᴛᴏ #7ed6df30&7 ᴇᴍᴏᴊɪs:'
+          - ' &fඬ ත ථ ද ධ න ඲ ය'
+          - ' &fඳ ප ඵ බ භ ම ඹ ස'
+          - ' &fර ඼ ල ඾ ඿ ව ශ ෂ '
+          - ' &fහ ළ ෆ ෇ ෈ ෉ ් ෋'
+          - ' &f'
+          - '#7ed6df⭐ &fᴍᴀx ʜᴏᴍᴇs: #7ed6df8 homes'
+          - '#7ed6df⭐ &fᴀᴜᴄᴛɪᴏɴ sʟᴏᴛs: #7ed6df9 slots'
+          - '#7ed6df⭐ &fᴀᴜᴄᴛɪᴏɴ ᴛɪᴍᴇ: #7ed6df18 hours'
+          - ' '
+          - '#f6e58d⭐ &fFeed command &8(/feed)'
+          - '#f6e58d⭐ &fCraft command &8(/craft)'
+          - ' '
+          - '%javascript_rank_status_mvp%'
+        commands:
+        - 'sequence= sendMessage'
+
+
+
+      '16':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk4NDhjOGMxMTlhNzI0NDc0NDkwZDc4ZTkxMmFkM2YzMTlkMmZkNzRhODc5Zjc1ZGNiM2E3NDhlNjIyODMxIn19fQ==
+        customdata: 1
+        name: ' '
+        lore:
+          - '          &fʀᴀɴᴋ ᴘᴇʀᴋs'
+          - '             &f%hrn_getIcon:rank_elite%   '
+          - ''
+          - '&7ᴘʀᴇꜰɪx: &f%hrn_getIcon:rank_elite% '
+          - '&7ꜰʀᴇᴇ ɪᴄᴏɴs:&f ऍ ऎ ए'
+          - '&7ᴀᴄᴄᴇss ᴛᴏ #7ed6df34&7 ᴇᴍᴏᴊɪs:'
+          - ' &fඬ ත ථ ද ධ න ඲ ය ෌'
+          - ' &fඳ ප ඵ බ භ ම ඹ ස ෍'
+          - ' &fර ඼ ල ඾ ඿ ව ශ ෂ ෎'
+          - ' &fහ ළ ෆ ෇ ෈ ෉ ් ෋ ා'
+          - ' &f'
+          - '#7ed6df⭐ &fᴍᴀx ʜᴏᴍᴇs: #7ed6df10 homes'
+          - '#7ed6df⭐ &fᴀᴜᴄᴛɪᴏɴ sʟᴏᴛs: #7ed6df12 slots'
+          - '#7ed6df⭐ &fᴀᴜᴄᴛɪᴏɴ ᴛɪᴍᴇ: #7ed6df24 hours'
+          - ''
+          - '#f6e58d⭐ &fChange nickname &8/nick'
+          - '#f6e58d⭐ &fEnderchest command &8/ec'
+          - ' '
+          - '%javascript_rank_status_mvp%'
+        commands:
+        - 'sequence= sendMessage'
+
+
+      '21':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄʟɪᴄᴋ ᴛᴏ ᴠɪsɪᴛ ᴏᴜʀ sᴛᴏʀᴇ'
+        commands:
+        - 'sequence= sendMessage'
+      '22':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄʟɪᴄᴋ ᴛᴏ ᴠɪsɪᴛ ᴏᴜʀ sᴛᴏʀᴇ'
+        commands:
+        - 'sequence= sendMessage'
+      '23':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄʟɪᴄᴋ ᴛᴏ ᴠɪsɪᴛ ᴏᴜʀ sᴛᴏʀᴇ'
+        commands:
+        - 'sequence= sendMessage'
+
+
+      '30':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄʟɪᴄᴋ ᴛᴏ ᴠɪsɪᴛ ᴏᴜʀ sᴛᴏʀᴇ'
+        commands:
+        - 'sequence= sendMessage'
+      '31':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄʟɪᴄᴋ ᴛᴏ ᴠɪsɪᴛ ᴏᴜʀ sᴛᴏʀᴇ'
+        commands:
+        - 'sequence= sendMessage'
+      '32':
+        material: PAPER
+        customdata: 9999
+        name: '&fᴄʟɪᴄᴋ ᴛᴏ ᴠɪsɪᴛ ᴏᴜʀ sᴛᴏʀᴇ'
+        commands:
+        - 'sequence= sendMessage'

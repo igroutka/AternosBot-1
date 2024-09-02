@@ -1,0 +1,168 @@
+panels:
+  ExperienceExchange:
+    perm: "default"
+    commands:
+      - experienceexchange
+      - ee
+    pre-load-commands:
+      - "set-data= 30percent %math_{player_current_exp}*0.3[precision:0]%"
+      - "set-data= 70percent %math_{player_current_exp}*0.7[precision:0]%"
+      - "set-data= 100percent %math_{player_current_exp}*1[precision:0]%"
+    rows: 3
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:experience_exchange%"
+    item:
+      "10":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY4MzJlZTdmODM0NTM0N2IwNGFkZWY3NWU1NmFiNzJhYjI1MmE4YTI1OGNlOWMyYjk4M2M2MDI2MzU3NGUzIn19fQ
+        name: "&fᴍᴇᴛʜᴏᴅ: #0be881ʙᴀsɪᴄ ᴇxᴄʜᴀɴɢᴇ"
+        lore:
+          - ""
+          - "#d2dae2Exchange your current exp"
+          - "#d2dae2into an experience bottle item"
+          - "#d2dae2based on percentage of your"
+          - "#d2dae2experience."
+          - ""
+          - "&fᴍᴀxɪᴍᴜᴍ ᴘᴇʀᴄᴇɴᴛ: #0be88130%"
+          - "&fᴇxᴄʜᴀɴɢᴇ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%#D6A2E110.000"
+        commands:
+          - "paywall= 10000"
+          - "console= crazyvouchers:voucher give ExpBottle 1 %player_name% %cp-data-30percent%"
+          - "console= essentials:xp take %player_name% %cp-data-30percent%"
+          - "sound= ENTITY_PLAYER_LEVELUP 1 1"
+          - "open= ExperienceExchange"
+        has0: # Check player inventory empty slot
+          value0: "%player_empty_slots%"
+          compare0: "0"
+          material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY4MzJlZTdmODM0NTM0N2IwNGFkZWY3NWU1NmFiNzJhYjI1MmE4YTI1OGNlOWMyYjk4M2M2MDI2MzU3NGUzIn19fQ
+          name: "&fᴍᴇᴛʜᴏᴅ: #0be881ʙᴀsɪᴄ ᴇxᴄʜᴀɴɢᴇ"
+          lore:
+            - ""
+            - "#d2dae2Exchange your current exp"
+            - "#d2dae2into an experience bottle item"
+            - "#d2dae2based on percentage of your"
+            - "#d2dae2experience."
+            - ""
+            - "&fᴍᴀxɪᴍᴜᴍ ᴘᴇʀᴄᴇɴᴛ: #0be88130%"
+            - "&fᴇxᴄʜᴀɴɢᴇ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%#D6A2E810.000"
+          commands:
+            - "msg= %hrn_getIcon:error%Your inventory is full, please empty it before exchange."
+        has1: # Check player inventory empty slot
+          value1: "%player_current_exp%"
+          compare1: "0"
+          material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY4MzJlZTdmODM0NTM0N2IwNGFkZWY3NWU1NmFiNzJhYjI1MmE4YTI1OGNlOWMyYjk4M2M2MDI2MzU3NGUzIn19fQ
+          name: "&fᴍᴇᴛʜᴏᴅ: #0be881ʙᴀsɪᴄ ᴇxᴄʜᴀɴɢᴇ"
+          lore:
+            - ""
+            - "#d2dae2Exchange your current exp"
+            - "#d2dae2into an experience bottle item"
+            - "#d2dae2based on percentage of your"
+            - "#d2dae2experience."
+            - ""
+            - "&fᴍᴀxɪᴍᴜᴍ ᴘᴇʀᴄᴇɴᴛ: #0be88130%"
+            - "&fᴇxᴄʜᴀɴɢᴇ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%#D6A2E810.000"
+          commands:
+            - "msg= %hrn_getIcon:error%You dont have any experience point to exchange!"
+            - "cpc"
+
+      "13":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVlZDcwYWJjNWM4NjI0MmQzMGQ2NDRiYWMxMTM4MDY3YWQ4N2RjMjk4NjBmNjhkZjZjMjg0ODgwNDJkZiJ9fX0
+        name: "&fᴍᴇᴛʜᴏᴅ: #EAB543ᴍᴇᴅɪᴜᴍ ᴇxᴄʜᴀɴɢᴇ"
+        lore:
+          - ""
+          - "#d2dae2Exchange your current exp"
+          - "#d2dae2into an experience bottle item"
+          - "#d2dae2based on percentage of your"
+          - "#d2dae2experience."
+          - ""
+          - "&fᴍᴀxɪᴍᴜᴍ ᴘᴇʀᴄᴇɴᴛ: #EAB54370%"
+          - "&fᴇxᴄʜᴀɴɢᴇ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%#D6A2E120.000"
+        commands:
+          - "paywall= 20000"
+          - "console= crazyvouchers:voucher give ExpBottle 1 %player_name% %cp-data-70percent%"
+          - "console= essentials:xp take %player_name% %cp-data-70percent%"
+          - "sound= ENTITY_PLAYER_LEVELUP 1 1"
+          - "open= ExperienceExchange"
+        has0: # Check player inventory empty slot
+          value0: "%player_empty_slots%"
+          compare0: "0"
+          material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVlZDcwYWJjNWM4NjI0MmQzMGQ2NDRiYWMxMTM4MDY3YWQ4N2RjMjk4NjBmNjhkZjZjMjg0ODgwNDJkZiJ9fX0
+          name: "&fᴍᴇᴛʜᴏᴅ: #0be881ʙᴀsɪᴄ ᴇxᴄʜᴀɴɢᴇ"
+          lore:
+            - ""
+            - "#d2dae2Exchange your current exp"
+            - "#d2dae2into an experience bottle item"
+            - "#d2dae2based on percentage of your"
+            - "#d2dae2experience."
+            - ""
+            - "&fᴍᴀxɪᴍᴜᴍ ᴘᴇʀᴄᴇɴᴛ: #0be88170%"
+            - "&fᴇxᴄʜᴀɴɢᴇ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%#D6A2E820.000"
+          commands:
+            - "msg= %hrn_getIcon:error%Your inventory is full, please empty it before exchange."
+        has1: # Check player inventory empty slot
+          value1: "%player_current_exp%"
+          compare1: "0"
+          material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVlZDcwYWJjNWM4NjI0MmQzMGQ2NDRiYWMxMTM4MDY3YWQ4N2RjMjk4NjBmNjhkZjZjMjg0ODgwNDJkZiJ9fX0
+          name: "&fᴍᴇᴛʜᴏᴅ: #0be881ʙᴀsɪᴄ ᴇxᴄʜᴀɴɢᴇ"
+          lore:
+            - ""
+            - "#d2dae2Exchange your current exp"
+            - "#d2dae2into an experience bottle item"
+            - "#d2dae2based on percentage of your"
+            - "#d2dae2experience."
+            - ""
+            - "&fᴍᴀxɪᴍᴜᴍ ᴘᴇʀᴄᴇɴᴛ: #EAB54370%"
+            - "&fᴇxᴄʜᴀɴɢᴇ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%#D6A2E810.000"
+          commands:
+            - "msg= %hrn_getIcon:error%You dont have any experience point to exchange!"
+            - "cpc"
+
+      "16":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZlODg1OGM2NDRkOWFjY2RkNmJkMGU2YjY5OTU3NTE0NWM5OWY2YzQ2NjcyODY2ZjhiMjlhMWQ2OWM0MGZjIn19fQ
+        name: "&fᴍᴇᴛʜᴏᴅ: #D6A2E8ꜰᴜʟʟʏ ᴇxᴄʜᴀɴɢᴇ"
+        lore:
+          - ""
+          - "#d2dae2Exchange your current exp"
+          - "#d2dae2into an experience bottle item"
+          - "#d2dae2based on percentage of your"
+          - "#d2dae2experience."
+          - ""
+          - "&fᴍᴀxɪᴍᴜᴍ ᴘᴇʀᴄᴇɴᴛ: #D6A2E8100%"
+          - "&fᴇxᴄʜᴀɴɢᴇ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%#D6A2E150.000"
+        commands:
+          - "paywall= 50000"
+          - "console= crazyvouchers:voucher give ExpBottle 1 %player_name% %cp-data-100percent%"
+          - "console= essentials:xp take %player_name% %cp-data-100percent%"
+          - "sound= ENTITY_PLAYER_LEVELUP 1 1"
+          - "open= ExperienceExchange"
+        has0: # Check player inventory empty slot
+          value0: "%player_empty_slots%"
+          compare0: "0"
+          material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZlODg1OGM2NDRkOWFjY2RkNmJkMGU2YjY5OTU3NTE0NWM5OWY2YzQ2NjcyODY2ZjhiMjlhMWQ2OWM0MGZjIn19fQ
+          name: "&fᴍᴇᴛʜᴏᴅ: #0be881ʙᴀsɪᴄ ᴇxᴄʜᴀɴɢᴇ"
+          lore:
+            - ""
+            - "#d2dae2Exchange your current exp"
+            - "#d2dae2into an experience bottle item"
+            - "#d2dae2based on percentage of your"
+            - "#d2dae2experience."
+            - ""
+            - "&fᴍᴀxɪᴍᴜᴍ ᴘᴇʀᴄᴇɴᴛ: #D6A2E8100%"
+            - "&fᴇxᴄʜᴀɴɢᴇ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%#D6A2E850.000"
+          commands:
+            - "msg= %hrn_getIcon:error%Your inventory is full, please empty it before exchange."
+        has1: # Check player inventory empty slot
+          value1: "%player_current_exp%"
+          compare1: "0"
+          material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZlODg1OGM2NDRkOWFjY2RkNmJkMGU2YjY5OTU3NTE0NWM5OWY2YzQ2NjcyODY2ZjhiMjlhMWQ2OWM0MGZjIn19fQ
+          name: "&fᴍᴇᴛʜᴏᴅ: #0be881ʙᴀsɪᴄ ᴇxᴄʜᴀɴɢᴇ"
+          lore:
+            - ""
+            - "#d2dae2Exchange your current exp"
+            - "#d2dae2into an experience bottle item"
+            - "#d2dae2based on percentage of your"
+            - "#d2dae2experience."
+            - ""
+            - "&fᴍᴀxɪᴍᴜᴍ ᴘᴇʀᴄᴇɴᴛ: #D6A2E8100%"
+            - "&fᴇxᴄʜᴀɴɢᴇ ᴘʀɪᴄᴇ: &f%hrn_getIcon:gem%#D6A2E850.000"
+          commands:
+            - "msg= %hrn_getIcon:error%You dont have any experience point to exchange!"
+            - "cpc"

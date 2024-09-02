@@ -1,0 +1,22 @@
+location: world_spawn:5.979:123.046:-101.560
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: COPPER_INGOT {CustomModelData:17}'
+    height: 0.3
+  - content: '&8&m                                    &r'
+    height: 0.3
+  - content: '&fWe welcome you to &bHyronic&eSkyblock&f test'
+    height: 0.3
+  - content: '&fserver. Use the command: &b/test&f to'
+    height: 0.3
+  - content: '&faccess testing features (&7Ranks, Items, gems, ...&f)'
+    height: 0.3
+  - content: '&8&m                            &r'
+    height: 0.3
+  actions: {}

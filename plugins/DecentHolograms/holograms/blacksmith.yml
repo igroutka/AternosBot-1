@@ -1,0 +1,30 @@
+location: world_spawn:-26.037:120.276:-26.595
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: COPPER_INGOT {CustomModelData:17}'
+    height: 0.6
+  - content: '&8&m                                    &r'
+    height: 0.3
+  - content: '&6Gilded &fand &bSoul Netherite &farmors and'
+    height: 0.3
+  - content: some tools can be upgraded directly in
+    height: 0.3
+  - content: Smithing Table. Howerver, some specical tools
+    height: 0.3
+  - content: can only be forged at &eʀᴜᴍʙʟᴇ&f The Blacksmith.
+    height: 0.3
+  - content: ' '
+    height: 0.3
+  - content: '&eSpawner Fragment&f has a 50% to drop'
+    height: 0.3
+  - content: '&ffrom any Spawner when a player mines it.'
+    height: 0.3
+  - content: '&8&m                            &r'
+    height: 0.3
+  actions: {}

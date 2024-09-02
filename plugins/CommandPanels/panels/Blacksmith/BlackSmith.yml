@@ -1,0 +1,34 @@
+panels:
+  BlackSmith:
+    perm: "default"
+    commands:
+      - blacksmith
+      - bs
+    rows: 3
+    pre-load-commands:
+      - "sound= ITEM_BOOK_PAGE_TURN 1 1"
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:blacksmith%"
+    item:
+      "10":
+        material: DIAMOND_SWORD
+        customdata: 1
+        name: "&fᴛᴏᴏʟs"
+        lore: []
+        commands:
+          - "open= BlackSmithTool"
+
+      "13":
+        material: LEATHER_CHESTPLATE
+        leatherarmor: 252,3,52
+        customdata: 3
+        name: "&fᴀʀᴍᴏʀs"
+        commands:
+          - "open= BlackSmithArmor"
+
+      "16":
+        material: LEATHER_BOOTS
+        leatherarmor: 0,144,208
+        customdata: 503
+        name: "&fᴍᴀᴛᴇʀɪᴀʟs"
+        commands:
+          - "open= BlackSmithMaterial"

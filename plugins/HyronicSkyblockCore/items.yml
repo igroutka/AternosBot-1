@@ -1,0 +1,51 @@
+totem_of_keeping: # DO NOT CHANGE THIS;
+  # If player have this permission, the player
+  # dont have to have totem to keep, bypass all
+  permission: "hyronic.keepall"
+  blacklist-worlds:
+    - world_island
+  material: PAPER
+  model-data: 500
+  name: '&fTotem of Keeping'
+  lore:
+    - '&8This totem keeping all your'
+    - '&8items, experience when you'
+    - '&8leave this world (die)'
+    - ''
+    - '&f%hrn_getIcon:epic%'
+
+invisible_shears: # DO NOT CHANGE THIS;
+  # If player have this perm, they can use normal
+  # shear to cut the item frame
+  permission: "hyronic.invisible-shear.bypass"
+  blacklist-worlds:
+    - example_world
+  material: SHEARS
+  model-data: 1
+  name: '&fInvisible Shears'
+  lore:
+    - '&8Allows you to cut your'
+    - '&8Item Frame (Invisible)'
+    - '&8to make the item look'
+    - '&8even better.'
+    - ''
+    - '&f%hrn_getIcon:common%'
+
+lucky_clover: # DO NOT CHANGE THIS;
+  material: PAPER
+  model-data: 507
+  name: '&#badc58Lucky Clover'
+  lore:
+    - '&8Can be trade with Lola'
+    - '&8for some goodies.'
+    - ''
+    - '&f%hrn_getIcon:epic%'
+blue_shiny_pearl: # DO NOT CHANGE THIS;
+  material: PAPER
+  model-data: 508
+  name: '&#48dbfbBlue Shiny Pearl'
+  lore:
+    - '&8A reward for anyone joined'
+    - '&8Fishing Contest event.'
+    - ''
+    - '&f%hrn_getIcon:legendary%'

@@ -1,0 +1,248 @@
+panels:
+  FlowerShop:
+    perm: "default"
+    commands:
+      - flowers
+    rows: 6
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:gem_shop%"
+    pre-load-commands:
+      - "console= sbc play-sound %player_name% hyronic:hyronic.sound.menu"
+    item:
+      #
+      #   SHOP ITEMS
+      #
+      "0":
+        material: SPORE_BLOSSOM
+        name: "#26de81Spore Blossom"
+        stack: 8
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:8] [price:100] [back:FlowerShop]" # BUY
+      "1":
+        material: DANDELION
+        name: "#26de81Dandelion"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "2":
+        material: RED_TULIP
+        name: "#26de81Red Tulip"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "3":
+        material: ORANGE_TULIP
+        name: "#26de81Orange Tulip"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "4":
+        material: WHITE_TULIP
+        name: "#26de81White Tulip"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "5":
+        material: PINK_TULIP
+        name: "#26de81Pink Tulip"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "6":
+        material: CORNFLOWER
+        name: "#26de81Cornflower"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "7":
+        material: BLUE_ORCHID
+        name: "#26de81Blue Orchid"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "8":
+        material: ALLIUM
+        name: "#26de81Allium"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "9":
+        material: AZURE_BLUET
+        name: "#26de81Azure Bluet"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "10":
+        material: SEA_PICKLE
+        name: "#26de81Sea Pickle"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "11":
+        material: SEAGRASS
+        name: "#26de81Red Tulip"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "12":
+        material: LILAC
+        name: "#26de81Lilac"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "13":
+        material: ROSE_BUSH
+        name: "#26de81Rose Bush"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "14":
+        material: PEONY
+        name: "#26de81Peony"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "15":
+        material: SUNFLOWER
+        name: "#26de81Sunflower"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+      "16":
+        material: OXEYE_DAISY
+        name: "#26de81Oxeye Daisy"
+        stack: 16
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂800"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:16] [price:50] [back:FlowerShop]" # BUY
+
+      #
+      #   SHOP CATEGORIES
+      #
+
+      #
+      #   SHOP CATEGORIES
+      #
+      "45":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMxZGYzYjA5NWU2YTc3NGUyNjg1MjkwMWRiMjM0MDAzOTc5YzdhNzVjZTM1ZDhkMjY5YmIzNjUxZTA5Y2ZhMiJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #ff793fᴄʀᴏᴘs"
+        lore: []
+        commands:
+          - "open= GemShop"
+
+      "46":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE5ZTg1NmVhYjRlZmU5Mzc4OTI3MDFkNjk2NGRlNmFiYmVhNGU1ZDVmMjA3MmMzZmQ2YjM4OWNmODgzYjViOSJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #706fd3ʙʟᴏᴄᴋs"
+        lore: []
+        commands:
+          - "open= BlockShop1"
+      "47":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJiNDFmMWYwZDhlZmM2ZmM5MzgzYTZiODE0NjE1OWUxNjVhMzlhNDA5ZWYwZmVkYmM0NTg0MmI2NTY0NDFlNyJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #ffb8b8ꜰʟᴏᴡᴇʀs"
+        lore: []
+        commands:
+          - "open= FlowerShop"
+
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNlN2Y2ZDhmYzY4Y2Q1OWYzYTc5Yjc2MjE4ZWUzNWFiZTQyNjM2YWMzZWM4ZDA0NjY3MzlmY2YwNDM0NTc5ZiJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #fff200ᴍᴏʙ ᴅʀᴏᴘs"
+        lore: []
+        commands:
+          - "open= MobShop"
+
+      "49":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5YzE5YjA1ZGY0ZTQ2N2E3OTEzNjk2NGU2ZmM4MzE1ZmY0NTU5YWYzNGQzOTA3YjQzNGQzMTk1ODg4MTUzNCJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #ffb142ᴍɪɴᴇʀᴀʟs"
+        lore: []
+        commands:
+          - "open= MineralShop"
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVlNGNiNGZjMTRiYTY5ZDQ5YjJkZDJiMDQxOGQ2NTYyZGZmZGViZDBlYmYwMTY1YzQ0MTZhMDczZTYyZGRmOCJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #cd6133ᴍɪsᴄᴇʟʟᴀɴᴇᴏᴜs"
+        lore: []
+        commands:
+          - "open= MicsShop"
+      "51":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdmMjQzYTA3MmZjZmE2ZTZmZTU3OTJkZGU2YTM5NzQwNGU5M2JkZWQyMTExMGQyZGViNDc5NmUyYTA1N2UyNSJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #25CCF7ᴘʟᴀʏᴇʀ ᴀᴜᴄᴛɪᴏɴ"
+        lore: []
+        commands:
+          - "ah"
+
+      #
+      #   SHOP CONTROLLER
+      #
+
+      "40":
+        material: PAPER
+        customdata: 9999
+        name: "&fɢᴇᴍs: &f⛂%vault_eco_balance_commas%"
+        duplicate: "39,39,40,41,42"
+
+      "37":
+        material: PAPER
+        customdata: 9999
+        name: "#ffda79← ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ"
+        duplicate: "37,36"
+
+      "43":
+        material: PAPER
+        customdata: 9999
+        name: "#ffda79→ ɴᴇxᴛ ᴘᴀɢᴇ"
+        duplicate: "43,44"

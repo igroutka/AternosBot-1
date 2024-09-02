@@ -1,0 +1,172 @@
+#
+#
+#    ____        _ _       ____                            _
+#   |  _ \  __ _(_) |_   _|  _ \ _____      ____ _ _ __ __| |
+#   | | | |/ _` | | | | | | |_) / _ \ \ /\ / / _` | '__/ _` |
+#   | |_| | (_| | | | |_| |  _ <  __/\ V  V / (_| | | | (_| |
+#   |____/ \__,_|_|_|\__, |_| \_\___| \_/\_/ \__,_|_|  \__,_|
+#                    |___/
+#                                      by Revivalo
+#
+# If you have some questions, join https://discord.gg/TfUC8uJ for help
+#
+#  Upgrade to the ultimate edition and create your own rewards without limitations.
+#  More at: https://www.spigotmc.org/resources/%E2%9C%A8-ultimaterewards-create-a-whole-network-reward-system-with-ease-1-8-1-19-3.108055/
+#
+# You can use your own textured item models with following format:
+# CustomModel[<itemName>]{<ID>}
+# Example: daily-available-item: CustomModel[PAPER]{1010}
+#
+# Plugin also supports Oraxen's & ItemsAdder's custom
+# items, simply put the item's name from Oraxen's config
+# Example: daily-available-item: "storm_sword"
+#
+# You can also use textured head with base64 value
+# instead the item type in configuration
+# Example: daily-available-item: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk5NjMzNzhmZmViZWM0MjBmNGM4YTU4YWQ2OTZhMTUxOGQ1N2VjNTZmOTA2OWU1YzkyMGQ2M2Q1ZWU0ZWZmMyJ9fX0="
+#
+# NOTE THAT ITEM & SOUND NAMES ARE SLIGHTLY DIFFERENT BETWEEN >1.12 & 1.13< VERSIONS!
+# SO MAKE SURE YOU ARE USING VALID ITEM NAMES (DEFAULT ONE ARE USED FROM 1.13+ VERSIONS)
+# OTHERWISE WILL BE REPLACED BY STONE IF INVALID NAME IS IN USE.
+#
+config:
+  # MySQL Settings
+  use-mysql: false
+  mysql-ip: 127.0.0.1
+  mysql-port: 3306
+  mysql-database-name: database
+  mysql-username: user
+  mysql-password: password
+
+  update-checker: true
+
+  menu-size: 45
+  fill-background-enabled: true
+  background-item: GRAY_STAINED_GLASS_PANE
+  join-notification-sound: BLOCK_NOTE_BLOCK_PLING
+  join-notification-by-default: true
+  join-notification-position: 21
+  join-notification-command: /rewards
+  auto-claim-rewards-on-join-by-default: false
+  auto-claim-rewards-position: 23
+  announce-enabled: true
+  # In seconds
+  join-notification-delay: 3
+  unavailable-reward-sound: ENTITY_ENDER_DRAGON_HURT
+  check-for-full-inventory: true
+  # How much time (in minutes) a player must have played
+  # on the server to be able to obtain rewards
+  # Set to 0 to disable it.
+  first-time-join-required-play-time: 0
+  # Players won't be able to claim & open rewards
+  # also won't receive notification
+  disabled-worlds:
+  - 'disabledworld1'
+  - 'disabledworld2'
+  #
+  #
+  # SETTINGS MENU
+  #
+  #
+  settings-menu-size: 45
+  settings-enabled-in-menu: true
+  settings-position: 40
+  settings-item: REPEATER
+  settings-join-notification-item: BELL
+  settings-auto-claim-item: REDSTONE_TORCH
+  settings-back-item: STONE_BUTTON
+  settings-back-position: 40
+  #
+  #
+  # DAILY REWARD SECTION
+  #
+  #
+  daily-enabled: true
+  # Make reward available after first join
+  daily-available-after-first-join: false
+  daily-placeholder: daily
+  # In hours
+  daily-cooldown: 24
+  daily-cooldown-format: '%hours%:%minutes%:%seconds%'
+  daily-position: 20
+  daily-sound: ENTITY_PLAYER_LEVELUP
+  daily-available-item: CHEST_MINECART
+  daily-unavailable-item: MINECART
+  # Following commands will be executed when player claims his
+  # reward with dailyreward.daily permission
+  daily-rewards:
+  - 'give %player% iron_ingot 8'
+  - 'hyronic run-random-command %player% gem 50-200'
+  - 'hyronic give-relic %player% totem_of_keeping 1'
+  - 'fjetpack2reloaded give %player% default 20'
+  - 'excellentcrates give %player% daily 1'
+  # In the other hand, when player has dailyreward.daily.premium
+  # this commands will be executed (same way for weekly and monthly rewards)
+  daily-premium-rewards:
+  - 'give %player% iron_ingot 8'
+  - 'hyronic run-random-command %player% gem 50-200'
+  - 'hyronic give-relic %player% totem_of_keeping 1'
+  - 'fjetpack2reloaded give %player% default 20'
+  - 'excellentcrates give %player% daily 1'
+  #
+  #
+  # WEEKLY REWARD SECTION
+  #
+  #
+  weekly-enabled: true
+  # Make reward available after first join
+  weekly-available-after-first-join: false
+  weekly-placeholder: weekly
+  # In hours
+  weekly-cooldown: 168
+  weekly-cooldown-format: '%days% days %hours% hours %minutes% minutes'
+  weekly-position: 22
+  weekly-sound: ENTITY_FIREWORK_ROCKET_LARGE_BLAST
+  weekly-available-item: CHEST_MINECART
+  weekly-unavailable-item: MINECART
+  weekly-rewards:
+  - 'hyronic run-random-command %player% gem 400-1000'
+  - 'hyronic run-random-command %player% exp-bottle 2000-2500'
+  - 'hyronic give-relic %player% totem_of_keeping 1'
+  - 'hyron give-item %player% spawner_fragment 3'
+  - 'fjetpack2reloaded give %player% default 20'
+  - 'excellentcrates give %player% treasure 1'
+  weekly-premium-rewards:
+  - 'hyronic run-random-command %player% gem 400-1000'
+  - 'hyronic run-random-command %player% exp-bottle 2000-2500'
+  - 'hyronic give-relic %player% totem_of_keeping 1'
+  - 'hyron give-item %player% spawner_fragment 3'
+  - 'fjetpack2reloaded give %player% default 20'
+  - 'excellentcrates give %player% treasure 1'
+  #
+  #
+  # MONTHLY REWARD SECTION
+  #
+  #
+  monthly-enabled: true
+  # Make reward available after first join
+  monthly-available-after-first-join: false
+  monthly-placeholder: monthly
+  # In hours
+  monthly-cooldown: 720
+  monthly-cooldown-format: '%days% days %hours% hours %minutes% minutes'
+  monthly-position: 24
+  monthly-sound: ENTITY_FIREWORK_ROCKET_BLAST
+  monthly-available-item: CHEST_MINECART
+  monthly-unavailable-item: MINECART
+  monthly-rewards:
+  - 'hyronic run-random-command %player% gem 1000-3000'
+  - 'hyronic run-random-command %player% exp-bottle 2000-5500'
+  - 'hyronic give-item %player% gilded_netherite_ingot 3'
+  - 'hyronic give-item %player% soul_netherite_ingot 3'
+  - 'hyronic give-item %player% warden_ingot 3'
+  - 'excellentcrates give %player% treasure 2'
+  - 'excellentcrates give %player% cosmetic 2'
+  monthly-premium-rewards:
+  - 'hyronic run-random-command %player% gem 1000-3000'
+  - 'hyronic run-random-command %player% exp-bottle 2000-5500'
+  - 'hyronic give-item %player% gilded_netherite_ingot 3'
+  - 'hyronic give-item %player% soul_netherite_ingot 3'
+  - 'hyronic give-item %player% warden_ingot 3'
+  - 'excellentcrates give %player% treasure 2'
+  - 'excellentcrates give %player% cosmetic 2'

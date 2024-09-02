@@ -1,0 +1,72 @@
+panels:
+  RubyIngotForge:
+    perm: 'default'
+    pre-load-commands:
+    # Vanilla Item %cp-data-iron%
+    - 'set-data= iron %hrn_getItemAmount:VANILLA:IRON_INGOT%'
+    # Custom Item %cp-data-topaz%
+    - 'set-data= topaz %hrn_getItemAmount:HYRONIC:topaz_ingot%'
+    rows: 5
+    title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:blacksmith_forging%'
+    item:
+
+      '10':
+        material: IRON_INGOT
+        name: '&fIron Ingot &a%cp-data-iron%&8/&f2'
+
+      '11':
+        material: PAPER
+        customdata: 207
+        stack: 2
+        name: '&fTopaz Ingot &a%cp-data-topaz%&8/&f3'
+
+      '40':
+        material: PAPER
+        customdata: 203
+        name: '&fRuby Ingot'
+        lore:
+          - ''
+          - '&8- &c%cp-data-iron%&8/&a2&f Iron Ingot'
+          - '&8- &c%cp-data-topaz%&8/&a1&f Topaz Ingot'
+          - ''
+          - '&a→ Click to start forging'
+          - '&athis item.'
+        commands:
+          # Remove player material for forging item.
+          - "console= hyronic remove-blacksmith-materials %player_name% ruby_ingot"
+          # Give player the forging item
+          - "console= hrn give-item %player_name% ruby_ingot 1" 
+          # Play forging sound
+          - "sound= UI_TOAST_CHALLENGE_COMPLETE 1 1"
+          # Reopen the GUI to update everything. (IMPORTANT)
+          - "open= RubyIngotForge"
+        has0: # Check player inventory empty slot
+          value0: '%player_empty_slots%'
+          compare0: '0'
+          material: PAPER
+          customdata: 203
+          name: '&fRuby Ingot'
+          lore:
+            - ''
+            - '&f%hrn_getIcon:error%&c You dont have enought'
+            - '&cinventory space to start'
+        has1: # Check Item have enought materials to forging
+          value1: '%hrn_hasForgeMaterial:ruby_ingot%'
+          compare1: 'false'
+          material: PAPER
+          customdata: 203
+          name: '&fRuby Ingot'
+          lore:
+            - ''
+            - '&f%hrn_getIcon:error%&c You dont have enought'
+            - '&cmaterial to forge this item'
+            - ''
+            - '&8- &c%cp-data-iron%&8/&a2&f Iron Ingot'
+            - '&8- &c%cp-data-topaz%&8/&a1&f Topaz Ingot'
+
+      '44':
+        material: PAPER
+        customdata: 9999
+        name: '&fBack'
+        commands:
+        - 'open= BlackSmithMaterial'

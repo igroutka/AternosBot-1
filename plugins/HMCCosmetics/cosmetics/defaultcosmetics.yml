@@ -1,0 +1,191 @@
+crown_hat:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.crown_hat"
+  item:
+    material: itemsadder:hyronic:crown_hat
+    name: "<white>Crown Hat"
+    amount: 1
+
+bear_helmet:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.bear_helmet"
+  item:
+    material: itemsadder:hyronic:bear_helmet
+    name: "<white>Bear Helmet"
+    amount: 1
+
+cowboy_hat:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.cowboy_hat"
+  item:
+    material: itemsadder:hyronic:cowboy_hat
+    name: "<white>Cowboy Hat"
+    amount: 1
+
+elf_hat:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.elf_hat"
+  item:
+    material: itemsadder:hyronic:elf_hat
+    name: "<white>Elf Hat"
+    amount: 1
+
+mushroom_hat:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.mushroom_hat"
+  item:
+    material: itemsadder:hyronic:mushroom_hat
+    name: "<white>Cowboy Hat"
+    amount: 1
+
+propeller_hat:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.propeller_hat"
+  item:
+    material: itemsadder:hyronic:propeller_hat
+    name: "<white>Propeller Hat"
+    amount: 1
+
+safety_helmet:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.safety_helmet"
+  item:
+    material: itemsadder:hyronic:safety_helmet
+    name: "<white>Safety Helmet"
+    amount: 1
+
+sombrero:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.sombrero"
+  item:
+    material: itemsadder:hyronic:sombrero
+    name: "<white>Sombrero"
+    amount: 1
+
+stalker_gas_mask:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.stalker_gas_mask"
+  item:
+    material: itemsadder:hyronic:stalker_gas_mask
+    name: "<white>Cowboy Hat"
+    amount: 1
+
+straw_hat:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.straw_hat"
+  item:
+    material: itemsadder:hyronic:straw_hat
+    name: "<white>Straw Hat"
+    amount: 1
+
+tall_top_hat:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.tall_top_hat"
+  item:
+    material: itemsadder:hyronic:tall_top_hat
+    name: "<white>Tall Top hat"
+    amount: 1
+
+top_hat:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.top_hat"
+  item:
+    material: itemsadder:hyronic:top_hat
+    name: "<white>Top Hat"
+    amount: 1
+
+new_year_2023_hat:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.new_year_2023_hat"
+  item:
+    material: itemsadder:hyronic:new_year_2023_hat
+    name: "<white>New Year 2023 Hat"
+    amount: 1
+
+wolf_helmet:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.wolf_helmet"
+  item:
+    material: itemsadder:hyronic:wolf_helmet
+    name: "<white>Wolf Helmet"
+    amount: 1
+
+teddy_head:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.teddy_head"
+  item:
+    material: itemsadder:hyronic:teddy_head
+    name: "<white>Teddy Head"
+    amount: 1
+
+box_head:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.box_head"
+  item:
+    material: itemsadder:hyronic:box_head
+    name: "<white>Box Head"
+    amount: 1
+
+book_head:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.book_head"
+  item:
+    material: itemsadder:hyronic:book_head
+    name: "<white>Book Head"
+    amount: 1
+
+bunny_ear:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.bunny_ear"
+  item:
+    material: itemsadder:hyronic:bunny_ear
+    name: "<white>Bunny Ear"
+    amount: 1
+
+frog_head:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.frog_head"
+  item:
+    material: itemsadder:hyronic:frog_head
+    name: "<white>Frog Head"
+    amount: 1
+
+dino_helmet:
+  slot: HELMET
+  permission: "mccosmetics.cosmetic.dino_helmet"
+  item:
+    material: itemsadder:hyronic:dino_helmet
+    name: "<white>Dino Helmet"
+    amount: 1
+
+new_year_2023_bag:
+  slot: BACKPACK
+  permission: "mccosmetics.cosmetic.new_year_2023_bag"
+  item:
+    material: itemsadder:hyronic:new_year_2023_bag
+    name: "<white>New Year 2023 Bag"
+    amount: 1
+
+wolf_tail:
+  slot: BACKPACK
+  permission: "mccosmetics.cosmetic.wolf_tail"
+  item:
+    material: itemsadder:hyronic:wolf_tail
+    name: "<white>Wolf Tail"
+    amount: 1
+
+dino_backpack:
+  slot: BACKPACK
+  permission: "mccosmetics.cosmetic.dino_backpack"
+  item:
+    material: itemsadder:hyronic:dino_backpack
+    name: "<white>Dino Backpack"
+    amount: 1
+
+wolf_claw:
+  slot: OFFHAND
+  permission: "mccosmetics.cosmetic.wolf_claw"
+  item:
+    material: itemsadder:hyronic:wolf_claw
+    name: "<white>Wolf Claw"
+    amount: 1

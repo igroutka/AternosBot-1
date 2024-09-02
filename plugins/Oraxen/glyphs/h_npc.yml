@@ -1,0 +1,90 @@
+npc_gem_shop:
+  texture: custom/ui/labels/npcs/gem_shop
+  ascent: 7
+  height: 10
+  char: ৘
+npc_exp_exchange:
+  texture: custom/ui/labels/npcs/exp_exchange
+  ascent: 7
+  height: 10
+  char: ৙
+npc_enchanter:
+  texture: custom/ui/labels/npcs/enchanter
+  ascent: 7
+  height: 10
+  char: ৚
+npc_blacksmith:
+  texture: custom/ui/labels/npcs/blacksmith
+  ascent: 7
+  height: 10
+  char: ৛
+npc_daily_quest:
+  texture: custom/ui/labels/npcs/daily_quest
+  ascent: 7
+  height: 10
+  char: ড়
+npc_rewards:
+  texture: custom/ui/labels/npcs/rewards
+  ascent: 7
+  height: 10
+  char: ঢ়
+avt_rumble:
+  texture: custom/ui/avatars/rumble
+  ascent: 9.5
+  height: 46
+  char: ꑕ
+avt_soma:
+  texture: custom/ui/avatars/soma
+  ascent: 9.5
+  height: 46
+  char: ꑖ
+avt_daisy:
+  texture: custom/ui/avatars/daisy
+  ascent: 9.5
+  height: 46
+  char: ꑗ
+avt_tristina:
+  texture: custom/ui/avatars/tristina
+  ascent: 9.5
+  height: 46
+  char: ꑘ
+avt_vivian:
+  texture: custom/ui/avatars/vivian
+  ascent: 9.5
+  height: 46
+  char: ꑙ
+avt_frogger:
+  texture: custom/ui/avatars/frogger
+  ascent: 9.5
+  height: 46
+  char: ꑝ
+avt_nodamus:
+  texture: custom/ui/avatars/nodamus
+  ascent: 9.5
+  height: 46
+  char: ꑞ
+avt_dustin:
+  texture: custom/ui/avatars/dustin
+  ascent: 9.5
+  height: 46
+  char: ꑟ
+avt_fishy:
+  texture: custom/ui/avatars/fishy
+  ascent: 9.5
+  height: 46
+  char: ꑠ
+avt_small_soma:
+  texture: custom/ui/avatars/soma
+  ascent: 9.5
+  height: 38
+  char: ꑡ
+avt_jarvis:
+  texture: custom/ui/avatars/jarvis
+  ascent: 9.5
+  height: 38
+  char: ꑢ
+avt_abigail:
+  texture: custom/ui/avatars/abigail
+  ascent: 9.5
+  height: 46
+  char: ꑣ

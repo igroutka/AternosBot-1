@@ -1,0 +1,4 @@
+{
+	"parent":"item/bow_pulling_0",
+	"textures":{"layer0":"custom/sets/gilded_netherite/gilded_netherite_bow_pulling_0"}
+}

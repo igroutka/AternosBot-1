@@ -1,0 +1,307 @@
+panels:
+  GemShop:
+    perm: "default"
+    commands:
+      - shop2
+      - gshop2
+    rows: 6
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:gem_shop%"
+    pre-load-commands:
+      - "console= sbc play-sound %player_name% hyronic:hyronic.sound.menu"
+    item:
+      #
+      #   SHOP ITEMS
+      #
+      "0":
+        material: CACTUS
+        name: "#26de81Cactus"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂50"
+          - "&c→ &7Sell&f ⛂3"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:50] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:3] [back:GemShop]" # SELL
+      "1":
+        material: MELON_SLICE
+        name: "#26de81Melon Slice"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂53"
+          - "&c→ &7Sell&f ⛂7"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:53] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:7] [back:GemShop]" # SELL
+      "2":
+        material: NETHER_WART
+        name: "#26de81Nether Wart"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂63"
+          - "&c→ &7Sell&f ⛂7"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:63] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:7] [back:GemShop]" # SELL
+      "3":
+        material: GLOW_BERRIES
+        name: "#26de81Glow Berries"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂55"
+          - "&c→ &7Sell&f ⛂3"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:55] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:3] [back:GemShop]" # SELL
+      "4":
+        material: SWEET_BERRIES
+        name: "#26de81Sweet Berries"
+        lore:
+          - ""
+          - "&a→ &7Sell&f ⛂5"
+        commands:
+          - "left= open= Sell [m:%cp-clicked%] [amount:1] [price:7] [back:GemShop]" # SELL
+
+      "5":
+        material: CARROT
+        name: "#26de81Carrot"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂150"
+          - "&c→ &7Sell&f ⛂18"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:150] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:18] [back:GemShop]" # SELL
+      "6":
+        material: POTATO
+        name: "#26de81Potato"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂150"
+          - "&c→ &7Sell&f ⛂18"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:150] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:18] [back:GemShop]" # SELL
+      "7":
+        material: SUGAR_CANE
+        name: "#26de81Sugar Cane"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂195"
+          - "&c→ &7Sell&f ⛂25"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:195] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:25] [back:GemShop]" # SELL
+      "8":
+        material: PUMPKIN
+        name: "#26de81Pumpkin"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂263"
+          - "&c→ &7Sell&f ⛂30"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:263] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:30] [back:GemShop]" # SELL
+      "9":
+        material: BAMBOO
+        name: "#26de81Bamboo"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂195"
+          - "&c→ &7Sell&f ⛂25"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:195] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:25] [back:GemShop]" # SELL
+      "10":
+        material: BEETROOT
+        name: "#26de81Beetroot"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂150"
+          - "&c→ &7Sell&f ⛂15"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:150] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:15] [back:GemShop]" # SELL
+      "11":
+        material: WHEAT
+        name: "#26de81Wheat"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂450"
+          - "&c→ &7Sell&f ⛂55"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:450] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:55] [back:GemShop]" # SELL
+      "12":
+        material: WHEAT_SEEDS
+        name: "#26de81Wheat Seeds"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂150"
+          - "&c→ &7Sell&f ⛂5"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:150] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:5] [back:GemShop]" # SELL
+      "13":
+        material: MELON_SEEDS
+        name: "#26de81Melon Seeds"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂150"
+          - "&c→ &7Sell&f ⛂5"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:150] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:5] [back:GemShop]" # SELL
+      "14":
+        material: PUMPKIN_SEEDS
+        name: "#26de81Pumpkin Seeds"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂150"
+          - "&c→ &7Sell&f ⛂5"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:150] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:5] [back:GemShop]" # SELL
+      "15":
+        material: BEETROOT_SEEDS
+        name: "#26de81Beetroot Seeds"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂150"
+          - "&c→ &7Sell&f ⛂5"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:150] [back:GemShop]" # BUY
+          - "right= open= Sell [m:%cp-clicked%] [amount:1] [price:5] [back:GemShop]" # SELL
+      "16":
+        material: OAK_SAPLING
+        name: "#26de81Oak Sapling"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂200"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:200] [back:GemShop]" # BUY
+      "17":
+        material: SPRUCE_SAPLING
+        name: "#26de81Spruce Sapling"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂200"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:200] [back:GemShop]" # BUY
+      "18":
+        material: BIRCH_SAPLING
+        name: "#26de81Birch Sapling"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂200"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:200] [back:GemShop]" # BUY
+      "19":
+        material: JUNGLE_SAPLING
+        name: "#26de81Jungle Sapling"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂200"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:200] [back:GemShop]" # BUY
+      "20":
+        material: ACACIA_SAPLING
+        name: "#26de81Acacia Sapling"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂200"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:200] [back:GemShop]" # BUY
+      "21":
+        material: DARK_OAK_SAPLING
+        name: "#26de81Dark Oak Sapling"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂200"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:200] [back:GemShop]" # BUY
+      "22":
+        material: MANGROVE_PROPAGULE
+        name: "#26de81Mangrove Propagule"
+        lore:
+          - ""
+          - "&a→ &7Buy&f ⛂1000"
+        commands:
+          - "left= open= Buy [m:%cp-clicked%] [amount:1] [price:1000] [back:GemShop]" # BUY
+
+      #
+      #   SHOP CATEGORIES
+      #
+      "45":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMxZGYzYjA5NWU2YTc3NGUyNjg1MjkwMWRiMjM0MDAzOTc5YzdhNzVjZTM1ZDhkMjY5YmIzNjUxZTA5Y2ZhMiJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #ff793fᴄʀᴏᴘs"
+        lore: []
+        commands:
+          - "open= GemShop"
+
+      "46":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE5ZTg1NmVhYjRlZmU5Mzc4OTI3MDFkNjk2NGRlNmFiYmVhNGU1ZDVmMjA3MmMzZmQ2YjM4OWNmODgzYjViOSJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #706fd3ʙʟᴏᴄᴋs"
+        lore: []
+        commands:
+          - "open= BlockShop1"
+      "47":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJiNDFmMWYwZDhlZmM2ZmM5MzgzYTZiODE0NjE1OWUxNjVhMzlhNDA5ZWYwZmVkYmM0NTg0MmI2NTY0NDFlNyJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #ffb8b8ꜰʟᴏᴡᴇʀs"
+        lore: []
+        commands:
+          - "open= FlowerShop"
+
+      "48":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNlN2Y2ZDhmYzY4Y2Q1OWYzYTc5Yjc2MjE4ZWUzNWFiZTQyNjM2YWMzZWM4ZDA0NjY3MzlmY2YwNDM0NTc5ZiJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #fff200ᴍᴏʙ ᴅʀᴏᴘs"
+        lore: []
+        commands:
+          - "open= MobShop"
+
+      "49":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5YzE5YjA1ZGY0ZTQ2N2E3OTEzNjk2NGU2ZmM4MzE1ZmY0NTU5YWYzNGQzOTA3YjQzNGQzMTk1ODg4MTUzNCJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #ffb142ᴍɪɴᴇʀᴀʟs"
+        lore: []
+        commands:
+          - "open= MineralShop"
+      "50":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVlNGNiNGZjMTRiYTY5ZDQ5YjJkZDJiMDQxOGQ2NTYyZGZmZGViZDBlYmYwMTY1YzQ0MTZhMDczZTYyZGRmOCJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #cd6133ᴍɪsᴄᴇʟʟᴀɴᴇᴏᴜs"
+        lore: []
+        commands:
+          - "open= MicsShop"
+      "51":
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdmMjQzYTA3MmZjZmE2ZTZmZTU3OTJkZGU2YTM5NzQwNGU5M2JkZWQyMTExMGQyZGViNDc5NmUyYTA1N2UyNSJ9fX0=
+        stack: 1
+        name: "&7ᴄᴀᴛᴇɢᴏʀʏ: #25CCF7ᴘʟᴀʏᴇʀ ᴀᴜᴄᴛɪᴏɴ"
+        lore: []
+        commands:
+          - "ah"
+
+      #
+      #   SHOP CONTROLLER
+      #
+
+      "40":
+        material: PAPER
+        customdata: 9999
+        name: "&fɢᴇᴍs: &f⛂%vault_eco_balance_commas%"
+        duplicate: "39,39,40,41,42"
+
+      "37":
+        material: PAPER
+        customdata: 9999
+        name: "#ffda79← ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ"
+        duplicate: "37,36"
+
+      "43":
+        material: PAPER
+        customdata: 9999
+        name: "#ffda79→ ɴᴇxᴛ ᴘᴀɢᴇ"
+        duplicate: "43,44"

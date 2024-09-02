@@ -1,0 +1,113 @@
+# jetpack id is VIP
+default:
+  # Display the item name
+  DisplayName: '&fHyronic Flying Boots'
+  # Lore item
+  Lore:
+    - '&8Allows you to fly in your'
+    - '&8islands. Shift to toggle.'
+    - '&7ʀᴇᴍᴀɪɴɪɴɢ ꜰᴜᴇʟ: &f#{fuel_value}'
+  # Permission to use this jetpack
+  # use #id will replace the jetpack id
+  # example: fjetpack2reloaded.#id -> fjetpack2reloaded.vip
+  Permission: 'fjetpack2reloaded.default'
+  # The minecraft item id (Supports all items)
+  Item: LEATHER_BOOTS
+  # ItemColor for leather armor only!
+  # Example for colored leather armor:
+  # Red armor -> R=255 G=0 B=0
+  ItemColor:
+    R: 0
+    G: 144
+    B: 208
+  # Set jetpack to unbreakable
+  Unbreakable: false
+  # Event when player out of fuel!
+  # Bypass using permission fjetpack2reloaded.#id.keep.on.empty
+  # Remove - Remove Jetpack on Fuel is empty
+  # Drop - Drop Jetpack on Fuel is empty
+  # None - Nothing to do
+  OnEmptyFuel: NONE
+  # Event when player died
+  # Bypass using permission fjetpack2reloaded.#id.keep.on.death
+  # Remove - Remove Jetpack on Player died
+  # Drop - Drop Jetpack on Player died
+  # None - Nothing to do
+  OnDeath: NONE
+  # Set Custom Model Data, -1 to disable
+  CustomModelData: 503
+  # Set jetpack fly speed in float
+  # Maximum speed value is -10 to 10!
+  Speed: 1.1
+  # If you don't want to use flags set to []
+  Flags:
+    - HIDE_ATTRIBUTES
+    - HIDE_ENCHANTS
+  # If you don't want to use enchantment set to []
+  # Enchant under version 1.17 server, use old method enchantments. Like "DURABILITY:3"
+  # unbreaking:3 for newer server version 1.17+
+  Enchantments: []
+  # Blocked worlds
+  BlockedWorlds:
+    - 'world_nether'
+    - 'world_the_end'
+    - 'world_resource'
+  # Allow player to use jetpack item only in offhand
+  RunInOffHandOnly: false
+
+  # Refill fuel only work survival mode not creative!
+  # Refill permission fjetpack2reloaded.#id.fuel.refill
+  Fuel:
+    # Custom Fuel set NONE to disable
+    # Case sensitive
+    CustomFuel: CVIP
+    # The Fuel Item Material ID
+    # If using custom fuel set item material from custom fuel
+    Item: COAL
+    # Fuel cost amount
+    Cost: 1
+    # Sprint Fuel cost amount
+    SprintCost: 1
+    # Set Custom Model Data, -1 to disable
+    CustomModelData: -1
+    # Burn rate in seconds
+    BurnRate: 5
+    # Warn Out of Fuel equals/below than 5
+    # Disable set to -1
+    WarnRunOutBelow: 5
+    # Allow player to bypass fuel cost with permission fjetpack2reloaded.#id.bypass.fuel
+    AllowBypassCost: false
+    # Allow player to bypass fuel sprint cost with permission fjetpack2reloaded.#id.bypass.fuel.sprint
+    AllowBypassSprintCost: false
+
+  # optional - can be removed
+  Particle:
+    # active particle effect?
+    Enable: true
+    # particle effect name
+    Effect: CLOUD
+    # Amount of particle
+    Amount: 0
+    # Particle delay in ticks
+    Delay: 4
+
+  # optional
+  GriefPrevention:
+    # active hook to GriefPrevention?
+    Enable: false
+    # Only allow jetpack to fly inside player own Grief Prevention claim
+    # this is not work if allowInsideAllClaim is true
+    OnlyAllowInsideOwnClaim: true
+    # Allow to bypass claim with permission fjetpack2reloaded.#id.bypass.gp.claim
+    AllowBypassClaim: false
+    # Only allow jetpack to fly inside all Grief Prevention claim
+    AllowInsideAllClaim: false
+
+  # optional
+  SuperiorSkyblock2:
+    # active hook to SuperiorSkyblock2?
+    Enable: false
+    # fjetpack2reloaded.#id.bypass.ss2.flag
+    AllowBypassFlag: true
+    # fjetpack2reloaded.#id.bypass.ss2.privilege
+    AllowBypassPrivilege: true

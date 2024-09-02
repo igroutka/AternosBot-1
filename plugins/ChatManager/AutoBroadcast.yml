@@ -1,0 +1,94 @@
+Auto_Broadcast:
+  Global_Messages:
+    Enable: true
+    Header_And_Footer: true
+    Interval: 600
+    Prefix: ''
+    Header: '%hrn_getIcon:avt_small_soma% &f&lSoma &8(Random Tips)'
+    Footer: ''
+    Messages:
+    - "&r           &cSpawner Fragment&7 has &a50%&7 to\n&r           &7drop from\
+      \ any Spawner when \n&r           &7you break it.\n"
+    - "&r           &7Bring &aTotem of Keeping&7 along\n&r           &7with you to\
+      \ avoid lose items & \n&r           &7experience when you die.\n"
+    - "&r           &7Dont forget to join &eFishing Contest&7\n&r           &7everyday\
+      \ at &b09:00&7 and&b 18:00&7. There \n&r           &7are a lot of custom fish\
+      \ to be caught.\n"
+    - "&r           &7There're new ores in &2Resource World&7,\n
+      &r           &7can be used in forging weapons, armors.\n
+      &r           &7(Take a look on Blacksmith NPC - Rumble)"
+    - "&r           &7Visit our web store to buy: &fRanks&7,\n
+      &r           &aCrate Key&7, &eCosmetics&7 and more.\n
+      &r           &7View now: &cstore.hyronic.dev"
+    - "&r           &7Dont forget to vote for us. All you,\n
+      &r           &7have to do is&a /vote&7 There are.\n
+      &r           &7good rewards for voting."
+    Sound: 'ENTITY_VILLAGER_CELEBRATE'
+  Per_World_Messages:
+    Enable: false
+    Header_And_Footer: true
+    Interval: 60
+    Prefix: '&7[&6AutoBroadcast&7]'
+    Header: '&7*&7&m--------------------------------&7*'
+    Footer: '&7*&7&m--------------------------------&7*'
+    Messages:
+      world:
+      - '{Prefix} &aWelcome to the server!'
+      - '{Prefix} &aHope you enjoy our server!'
+      - '{Prefix} &aJoin our discord <Link>'
+      - '{Prefix} &bYou can edit these in the ChatManager > AutoBroadcast.yml'
+      world_nether:
+      - '{Prefix} &7The nether is a scary place'
+      - '{Prefix} &aWelcome to the server!'
+      - '{Prefix} &aHope you enjoy our server!'
+      - '{Prefix} &aJoin our discord <Link>'
+      - '{Prefix} &aThis server is running the plugin ChatManager by H1DD3NxN1NJA'
+      - '{Prefix} &bYou can edit these in the ChatManager > AutoBroadcast.yml'
+      world_the_end:
+      - '{Prefix} &aThe end is a scary place'
+      - '{Prefix} &aWatch out for the ender dragon!'
+      - '{Prefix} &cDon''t make eye contact with the enderman!'
+    sound:
+      toggle: false
+      value: 'ENTITY_VILLAGER_CELEBRATE'
+      pitch: 1.0
+      volume: 1.0
+  Actionbar_Messages:
+    Enable: false
+    Interval: 60
+    Prefix: '&7[&6AutoBroadcast&7]'
+    Messages:
+    - '{Prefix} &7Auto-Broadcast action bar message.'
+    - '{Prefix} &7Plugin created by H1DD3NxN1NJA.'
+    - '{Prefix} &7Hello &c{player} &7there are &c{online} &7players online.'
+    sound:
+      toggle: false
+      value: 'ENTITY_VILLAGER_CELEBRATE'
+      pitch: 1.0
+      volume: 1.0
+  Title_Messages:
+    Enable: false
+    Interval: 60
+    Title: '&cTitle'
+    Messages:
+    - '&7Auto-Broadcast title message.'
+    - '&7Plugin created by H1DD3NxN1NJA.'
+    - '&7Hello &c{player} &7there are &c{online} &7players online.'
+    sound:
+      toggle: false
+      value: 'ENTITY_VILLAGER_CELEBRATE'
+      pitch: 1.0
+      volume: 1.0
+  Bossbar_Messages: # 1.9+
+    Enable: false
+    Interval: 60
+    Bar_Time: 10 # How long the boss bar stays on for.
+    Messages:
+    - '&7Auto-Broadcast bossbar message.'
+    - '&7Plugin created by H1DD3NxN1NJA.'
+    - '&7Hello &c{player} &7there are &c{online} &7players online.'
+    sound:
+      toggle: false
+      value: 'ENTITY_VILLAGER_CELEBRATE'
+      pitch: 1.0
+      volume: 1.0

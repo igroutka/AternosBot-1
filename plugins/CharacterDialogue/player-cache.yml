@@ -1,0 +1,77 @@
+players:
+  7b0b0988-b799-4dae-b696-52e823b3079f:
+    readed-dialogues:
+    - choice-sample
+    - blacksmith
+    - rewards
+    - quest
+    - gem_shop
+    - exp_exchange
+    - enchanter
+    - soma
+    - auction
+    - fishy
+    - jarvis
+    - abigail
+    last-speed: 0.2
+    remove-effect: false
+  07227199-bb37-380d-a6bd-e310e30e3d7e:
+    readed-dialogues:
+    - blacksmith
+  66150f00-66bc-31c6-808e-495821e03312:
+    readed-dialogues:
+    - blacksmith
+    - rewards
+  32807c17-84b5-4702-87a8-21228d27d7f6:
+    readed-dialogues:
+    - blacksmith
+    - rewards
+    - quest
+  fb31996f-8cb7-4d9c-ab3f-5296b27e4aee:
+    readed-dialogues:
+    - rewards
+    - quest
+    - gem_shop
+    - exp_exchange
+    - auction
+    - abigail
+    - blacksmith
+    - soma
+    - fishy
+    - enchanter
+  e7ad6b38-b108-4ffa-bda0-bfcbd2c2b76a:
+    readed-dialogues:
+    - quest
+    - gem_shop
+    - abigail
+    - auction
+    - rewards
+  7a8201d2-bdf0-311c-bdde-80d1dc6602a7:
+    readed-dialogues:
+    - quest
+    - exp_exchange
+    - rewards
+    - blacksmith
+    - jarvis
+    - fishy
+    - soma
+    - gem_shop
+    - auction
+    - abigail
+    - enchanter
+  bb8350ae-4c5a-3b9f-9713-ae4e855b274f:
+    readed-dialogues:
+    - quest
+    - gem_shop
+    - abigail
+    - auction
+    - exp_exchange
+  a987c8f9-f849-31e9-9d0b-9ba6c3de553e:
+    readed-dialogues:
+    - jarvis
+    - quest
+    - blacksmith
+    - gem_shop
+  f0d47a9b-d43b-3025-800a-97c9704a7072:
+    readed-dialogues:
+    - blacksmith

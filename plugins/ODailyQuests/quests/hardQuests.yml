@@ -1,0 +1,247 @@
+quests:
+  1:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to nether world and"
+      - " #95afc0kill &66 Piglin."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7600&f⛂"
+    quest_type: KILL
+    required_entity: PIGLIN
+    required_amount: 10
+    reward:
+      reward_type: MONEY
+      amount: 600
+  2:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0kill &b1 Warden."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &71.200&f⛂"
+    quest_type: KILL
+    required_entity: WARDEN
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 1200
+  3:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0kill &d16 Enderman."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7800&f⛂"
+    quest_type: KILL
+    required_entity: ENDERMAN
+    required_amount: 16
+    reward:
+      reward_type: MONEY
+      amount: 800
+  4:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0kill &d4 Frogs."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7500&f⛂"
+    quest_type: KILL
+    required_entity: FROG
+    required_amount: 4
+    reward:
+      reward_type: MONEY
+      amount: 500
+  6:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0kill &f4 Vindicator."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7900&f⛂"
+    quest_type: KILL
+    required_entity: VINDICATOR
+    required_amount: 4
+    reward:
+      reward_type: MONEY
+      amount: 900
+  7:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0kill &88 Witches."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &71.000&f⛂"
+    quest_type: KILL
+    required_entity: WITCH
+    required_amount: 8
+    reward:
+      reward_type: MONEY
+      amount: 1000
+  8:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ʜᴜɴᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f28 Iron Ore."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7235&f⛂"
+    quest_type: BREAK
+    required_item: IRON_ORE
+    required_amount: 28
+    reward:
+      reward_type: MONEY
+      amount: 1000
+
+  9:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f4 Emerald Ore."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7800&f⛂"
+    quest_type: BREAK
+    required_item: EMERALD_ORE
+    required_amount: 4
+    reward:
+      reward_type: MONEY
+      amount: 800
+
+  10:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f4 Emerald Ore."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7800&f⛂"
+    quest_type: BREAK
+    required_item: EMERALD_ORE
+    required_amount: 4
+    reward:
+      reward_type: MONEY
+      amount: 800
+
+  11:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f2 Ancient Debris."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &71.500&f⛂"
+    quest_type: BREAK
+    required_item: ANCIENT_DEBRIS
+    required_amount: 2
+    reward:
+      reward_type: MONEY
+      amount: 1500
+
+
+  12:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ᴍɪɴɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Go to resource world and"
+      - " #95afc0break &f1 Spawner."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &71.000&f⛂"
+    quest_type: BREAK
+    required_item: SPAWNER
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 1000
+
+  13:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ᴄʀᴀꜰᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Craft &f1 Shulker Box#95afc0 to"
+      - " #95afc0finish this task."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7900&f⛂"
+    quest_type: CRAFT
+    required_item: SHULKER_BOX
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 900
+
+  14:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ᴄʀᴀꜰᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Craft &f1 Recovery Compass#95afc0 to"
+      - " #95afc0finish this task."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7800&f⛂"
+    quest_type: CRAFT
+    required_item: RECOVERY_COMPASS
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 800
+
+  15:
+    name: "&8[#ff3f34ʜᴀʀᴅ&8]&f ᴄʀᴀꜰᴛɪɴɢ ǫᴜᴇsᴛ"
+    menu_item: "custommodeldata:book:3"
+    custom_model_data: 3
+    description:
+      - ""
+      - "&fᴅᴇsᴄʀɪᴘᴛɪᴏɴ:"
+      - " #95afc0Craft &f1 Music Disc 5#95afc0 to"
+      - " #95afc0finish this task."
+      - ""
+      - "&fʀᴇᴡᴀʀᴅs: &7900&f⛂"
+    quest_type: CRAFT
+    required_item: MUSIC_DISC_5
+    required_amount: 1
+    reward:
+      reward_type: MONEY
+      amount: 900

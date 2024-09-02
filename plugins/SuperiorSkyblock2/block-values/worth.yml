@@ -1,0 +1,12 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+# Here you can set all the block values for your blocks.
+# To set specific spawner types, use 'MOB_SPAWNER:<ENTITY>': <AMOUNT>
+
+
+DIAMOND_BLOCK: 300

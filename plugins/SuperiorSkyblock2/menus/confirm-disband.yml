@@ -1,0 +1,47 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+title: '&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:confirm%'
+previous-menu: true
+
+pattern:
+  - '         '
+  - '#@@#$#^^#'
+  - ''
+
+confirm: '@'
+cancel: '^'
+
+items:
+  '@':
+    type: PAPER
+    customModel: 9999
+    name: '&aConfirm'
+    lore:
+      - '&7Are you sure you want to delete your island?'
+  '^':
+    type: PAPER
+    customModel: 9999
+    name: '&4Cancel'
+  '$':
+    type: PAPER
+    customModel: 9999
+    name: ' '
+    lore:
+      - ' &7This action will disband your '
+      - ' &7island forever and cant undo. '
+      - ''
+
+sounds:
+  '@':
+    type: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '^':
+    type: BLOCK_ANVIL_PLACE
+    volume: 0.2
+    pitch: 0.2

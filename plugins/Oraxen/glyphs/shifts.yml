@@ -1,0 +1,115 @@
+shift_1:
+  texture: required/null
+  ascent: -32768
+  height: -1
+  char: ꑯ
+shift_2:
+  texture: required/null
+  ascent: -32768
+  height: 0
+  char: ꑰ
+shift_4:
+  texture: required/null
+  ascent: -32768
+  height: 2
+  char: ꑱ
+shift_8:
+  texture: required/null
+  ascent: -32768
+  height: 6
+  char: ꑲ
+shift_16:
+  texture: required/null
+  ascent: -32768
+  height: 14
+  char: ꑳ
+shift_32:
+  texture: required/null
+  ascent: -32768
+  height: 30
+  char: ꑴ
+shift_64:
+  texture: required/null
+  ascent: -32768
+  height: 62
+  char: ꑵ
+shift_128:
+  texture: required/null
+  ascent: -32768
+  height: 126
+  char: ꑶ
+shift_256:
+  texture: required/null
+  ascent: -32768
+  height: 254
+  char: ꑷ
+shift_512:
+  texture: required/null
+  ascent: -32768
+  height: 510
+  char: ꑸ
+shift_1024:
+  texture: required/null
+  ascent: -32768
+  height: 1022
+  char: ꑹ
+neg_shift_1:
+  texture: required/null
+  ascent: -32768
+  height: -3
+  char: ꑺ
+neg_shift_2:
+  texture: required/null
+  ascent: -32768
+  height: -4
+  char: ꑻ
+neg_shift_4:
+  texture: required/null
+  ascent: -32768
+  height: -6
+  char: ꑼ
+neg_shift_8:
+  texture: required/null
+  ascent: -32768
+  height: -10
+  char: ꑽ
+neg_shift_16:
+  texture: required/null
+  ascent: -32768
+  height: -18
+  char: ꑾ
+neg_shift_32:
+  texture: required/null
+  ascent: -32768
+  height: -34
+  char: ꑿ
+neg_shift_64:
+  texture: required/null
+  ascent: -32768
+  height: -66
+  char: ꒀ
+neg_shift_128:
+  texture: required/null
+  ascent: -32768
+  height: -130
+  char: ꒁ
+neg_shift_176:
+  texture: required/null
+  ascent: -32768
+  height: -178
+  char: ꒂ
+neg_shift_256:
+  texture: required/null
+  ascent: -32768
+  height: -258
+  char: ꒃ
+neg_shift_512:
+  texture: required/null
+  ascent: -32768
+  height: -514
+  char: ꒄ
+neg_shift_1024:
+  texture: required/null
+  ascent: -32768
+  height: -1026
+  char: ꒅ

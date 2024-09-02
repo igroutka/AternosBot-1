@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1723632135282
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1723634246464
+  login: 1723648750317
+money: '51967.99999999999994'
+last-account-name: sev4ikgame
+lastlocation:
+  world: 79cb02c2-64ef-4607-81dd-66a9043891fb
+  world-name: world_islands
+  x: 600.5
+  y: 100.0
+  z: 600.5
+  yaw: -74.76947021484375
+  pitch: 43.26713562011719
+logoutlocation:
+  world: 79cb02c2-64ef-4607-81dd-66a9043891fb
+  world-name: world_islands
+  x: 612.1407114589008
+  y: 102.0
+  z: -609.8871239505235
+  yaw: -8.286572456359863
+  pitch: 19.958276748657227

@@ -1,0 +1,326 @@
+Name: '#f79f1f&lCosmetic Crate'
+Preview_Config: hyronic
+Animation_Config: spin_1
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 0
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: false
+    Template: cosmetic
+  Effect:
+    Model: NONE
+    Particle:
+      Name: VILLAGER_HAPPY
+      Data: ''
+Rewards:
+  List:
+    top_hat:
+      Name: '&fো &2Top Hat'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qcdnn0s35e9fmirj7dtq0k003ehgme0o01t1nasrkdtmkqrr4clm48obkc400000c0c00ii39chikcr31ctpg0000fs5001r4d5pn0r31f440012ec5mma030fch6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24pboehp628hqbdti4orfdhnn48hq49i62sjbbtjn4pb5doh2o8jkcls788hq49a6us1091gn88jtbkm24t35f1q24eh2s2jom812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% top_hat'
+      Items: []
+      Ignored_For_Permissions: []
+    box_head:
+      Name: '&fো &2Box Head'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg5000rkc5jg600f8dqn6t3fdl6mup35dh262t3100000403004kgqb4cl36oob7ec00003v1800ep39edo6oobp10008jj1dlig0obr49kn8obcd5hi4ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh6au3ke9gi4eirfch66rrcdtp24eh2chgn4qqvctp6apbe48m24t35f1q24eh289nng828clgm88jtbkm24t35f1q24eh2s2jom812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% box_head'
+      Items: []
+      Ignored_For_Permissions: []
+    safety_helmet:
+      Name: '&f৊ &7Safety Helmet'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qcdnn0s35e9fmirj7dtq0k003ehgme0o01t1nasrkdtmkqrr4clm48obkc40000070c00ii39chikcr31ctpg0000fs5001r4d5pn0r31f440012ec5mma030fch6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24pboehp628hqbdti4orfdhnn48hq49jn4obp48m24t35f1q24eh2adgmcpbkf4g4gpbcdlin88jtbkm24t35f1q24eh2s2jok812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% safety_helmet'
+      Items: []
+      Ignored_For_Permissions: []
+    teddy_head:
+      Name: '&fৌ &9Teddy Head'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3korfe1o6asivd5n6errk18006t31cs1g03q3elpn8rrd9lnm8pbc8hgn8o800000u0o01546ip358pm62prj00000voa003m8qbje1m62u880024sobdck05qup2d5q62r39cch3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49ingt3ic4h3kmrr49hmur3fe8h3k8j2dhqma8hc49q6au3k48t24l35chi7i828clgm88jtbkm24t35f1q24eh2s2joo812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% teddy_head'
+      Items: []
+      Ignored_For_Permissions: []
+    bunny_ear:
+      Name: '&fৌ &9Bunny Ear'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg5000rkc5jg600f8dqn6t3fdl6mup35dh262t31000004g3004kgqb4cl36oob7ec00003v1800ep39edo6oobp10008jj1dlig0n3r49kn8obcd5hi4ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh6au3ke9gi4eirfch66rrcdtp24eh2c9m7ap925gh78pboegh3k8i2eln6su908lgn48jtbkm24t35f1q24eh2s2joo812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% bunny_ear'
+      Items: []
+      Ignored_For_Permissions: []
+    propeller_hat:
+      Name: '&f৊ &7Propeller Hat'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qcdnn0s35e9fmirj7dtq0k003ehgme0o01t1nasrkdtmkqrr4clm48obkc40000060c00ii39chikcr31ctpg0000fs5001r4d5pn0r31f440012ec5mma030fch6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24pboehp628hqbdti4orfdhnn48hq49jn4obp48m24t35f1q24eh2a1p6us35dhm6ash091gn88jtbkm24t35f1q24eh2s2jok812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% propeller_hat'
+      Items: []
+      Ignored_For_Permissions: []
+    crown_hat:
+      Name: '&f্ &6Crown Hat'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg5000rkc5jg600f8dqn6t3fdl6mup35dh262t3100000083004kgqb4cl36oob7ec00003v1800ep39edo6oobp10008jj1dlig0n3r49kn8obcd5hi4ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh6au3ke9gi4eirfch66rrcdtp24eh2ctnmop125gh78pboegh3k8i3e9nnerh091gn88jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% crown_hat'
+      Items: []
+      Ignored_For_Permissions: []
+    straw_hat:
+      Name: '&f৊ &7Straw Hat'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg5000rkc5jg600f8dqn6t3fdl6mup35dh262t31000002g3004kgqb4cl36oob7ec00003v1800ep39edo6oobp10008jj1dlig0n3r49kn8obcd5hi4ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh6au3ke9gi4eirfch66rrcdtp24eh2ctp62u925gh78pboegh3k8ijehp62tp091gn88jtbkm24t35f1q24eh2s2jok812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% straw_hat'
+      Items: []
+      Ignored_For_Permissions: []
+    dino_helmet:
+      Name: '&f্ &6Dino Helmet'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt66rrge1in4nr9dpjmut0a001n8ob70c00ugrledq6uraddti6ar24c5q6200000a0600991km8pa6dhgmeso00007u2g00ti6isrgdhgni2000h762rb501f7m8j9ehgmoqb348t6cobcediio8j3dtm6ush278h7eq39ehii4b12cls78sj148t5mup2cdnmorri48t24prfdhi24b12ehingt1278h48qbedsg4gpbcdlin88jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% dino_helmet'
+      Items: []
+      Ignored_For_Permissions: []
+    mushroom_hat:
+      Name: '&fো &2Mushroom Hat'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qcdnn0s35e9fmirj7dtq0k003ehgme0o01t1nasrkdtmkqrr4clm48obkc40000050c00ii39chikcr31ctpg0000fs5001r4d5pn0r31f440012ec5mma035fch6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24pboehp628hqbdti4orfdhnn48hq49i62sjbbtjn4pb5doh2o8jkcls788hq496nasr8e9nmur9091gn88jtbkm24t35f1q24eh2s2jom812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% mushroom_hat'
+      Items: []
+      Ignored_For_Permissions: []
+    elf_hat:
+      Name: '&f্ &6Elf Hat'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002pmmirj5cdp62pjk79hmus3gclp5uqbectnn82g00dq62po3007k6tbjehnmqjbfchimoh31ehgg00000g1g02a8d5i6ahjcc5jn600001vgk007chkn6s3cc5sgg0049pgmqp80b9ti4qbkc5m6iop279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8j5f1q74o9279dnm8j3dtm6ush278h6errccgh2o8jkcls788hq492moph091gn88jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% elf_hat'
+      Items: []
+      Ignored_For_Permissions: []
+    new_year_2023_hat:
+      Name: '&f্ &6New Year 2023 Hat'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002pmmirj5cdp62pjk79hmus3gclp5uqbectnn82g00dq62po3007k6tbjehnmqjbfchimoh31ehgg00001k1g02a8d5i6ahjcc5jn600001vgk007chkn6s3cc5sgg0049pgmqp80chti4qbkc5m6iop279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8j5f1q74o9279dnm8j3dtm6ush278h6errccgh2o8jkcls788hq4976atp0b5im2sh068o34cp091gn88jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% new_year_2023_hat'
+      Items: []
+      Ignored_For_Permissions: []
+    stalker_gas_mask:
+      Name: '&fৌ &9Stalker Gas Mask'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt66rrge1in4nr9dpjmut0a001n8ob70c00ugrledq6uraddti6ar24c5q62000004g600991km8pa6dhgmeso00007u2g00ti6isrgdhgni2000h762rb501hnm8j9ehgmoqb348t6cobcediio8j3dtm6ush278h7eq39ehii4b12cls78sj148t5mup2cdnmorri48t24ojcelii4b12ehingt1278h56t31dhlmash08tgn682dc5pmm8jtbkm24t35f1q24eh2s2joo812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% stalker_gas_mask'
+      Items: []
+      Ignored_For_Permissions: []
+    sombrero:
+      Name: '&fৌ &9Sombrero'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qcdnn0s35e9fmirj7dtq0k003ehgme0o01t1nasrkdtmkqrr4clm48obkc40000080c00ii39chikcr31ctpg0000fs5001r4d5pn0r31f440012ec5mma02rfch6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24pboehp628hqbdti4orfdhnn48hq49h6otb548m24t35f1q24eh2adnmqojiclp6u8jtbkm24t35f1q24eh2s2joo812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% permission set mccosmetics.sombrero.top_hat'
+      Items: []
+      Ignored_For_Permissions: []
+    frog_head:
+      Name: '&f্ &6Frog Head'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg5000rkc5jg600f8dqn6t3fdl6mup35dh262t31000004o3004kgqb4cl36oob7ec00003v1800ep39edo6oobp10008jj1dlig0n3r49kn8obcd5hi4ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh6au3ke9gi4eirfch66rrcdtp24eh2ctnmop125gh78pboegh3k8i6e9nme828clgm88jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% frog_head'
+      Items: []
+      Ignored_For_Permissions: []
+    tall_top_hat:
+      Name: '&fৌ &9Tall Top Hat'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002pmmirj5cdp62pjk79hmus3gclp5uqbectnn82g00dq62po3007k6tbjehnmqjbfchimoh31ehgg00001c1g02a8d5i6ahjcc5jn600001vgk007chkn6s3cc5sgg0049pgmqp80btti4qbkc5m6iop279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8j5f1q74o9279dnm8j3dtm6ush278h64r3lckh2o8jkcls788hq49a62r3c41a6us1091gn88jtbkm24t35f1q24eh2s2joo812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% tall_top_hat'
+      Items: []
+      Ignored_For_Permissions: []
+    bear_helmet:
+      Name: '&f্ &6Bear Helmet'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt66rrge1in4nr9dpjmut0a001n8ob70c00ugrledq6uraddti6ar24c5q620000010600991km8pa6dhgmeso00007u2g00ti6isrgdhgni2000h762rb501f7m8j9ehgmoqb348t6cobcediio8j3dtm6ush278h7eq39ehii4b12cls78sj148t5mup2cdnmorri48t24prfdhi24b12ehingt1278h44pb1e8g4gpbcdlin88jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% bear_helmet'
+      Items: []
+      Ignored_For_Permissions: []
+    cowboy_hat:
+      Name: '&fৌ &9Cowboy Hat'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3korfe1o6asivd5n6errk18006t31cs1g03q3elpn8rrd9lnm8pbc8hgn8o80000060o01546ip358pm62prj00000voa003m8qbje1m62u880024sobdck05qup2d5q62r39cch3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49ingt3ic4h3kmrr49hmur3fe8h3k8j2dhqma8hc49q6au3k48t24grfeth6uu9091gn88jtbkm24t35f1q24eh2s2joo812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% cowboy_hat'
+      Items: []
+      Ignored_For_Permissions: []
+    hook_head:
+      Name: '&f৊ &7Hook Head'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg5000rkc5jg600f8dqn6t3fdl6mup35dh262t3100000483004kgqb4cl36oob7ec00003v1800ep39edo6oobp10008jj1dlig0n3r49kn8obcd5hi4ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh6au3ke9gi4eirfch66rrcdtp24eh2ctp62u925gh78pboegh3k8i8dtnmm828clgm88jtbkm24t35f1q24eh2s2jok812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% hook_head'
+      Items: []
+      Ignored_For_Permissions: []
+    wolf_helmet:
+      Name: '&f্ &6Wolf Helmet'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400b6qqbeclhn4ob6egt66rrge1in4nr9dpjmut0a001n8ob70c00ugrledq6uraddti6ar24c5q620000070600991km8pa6dhgmeso00007u2g00ti6isrgdhgni2000h762rb501f7m8j9ehgmoqb348t6cobcediio8j3dtm6ush278h7eq39ehii4b12cls78sj148t5mup2cdnmorri48t24prfdhi24b12ehingt1278h5errccog4gpbcdlin88jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% wolf_helmet'
+      Items: []
+      Ignored_For_Permissions: []
+    new_year_2023_bag:
+      Name: '&f্ &6New Year 2023 Bag'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002pmmirj5cdp62pjk79hmus3gclp5uqbectnn82g00dq62po3007k6tbjehnmqjbfchimoh31ehgg0000p41g02a8d5i6ahjcc5jn600001vgk007chkn6s3cc5sgg0049pgmqp80chti4qbkc5m6iop279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8j5f1q74o9279dnm8j3dtm6ush278h6errccgh2o8jkcls788hq4976atp0b5im2sh068o34cp089gme8jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% new_year_2023_bag'
+      Items: []
+      Ignored_For_Permissions: []
+    dino_backpack:
+      Name: '&f্ &6Dino Backpack'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800mdlkmspb3e9gmct1qcdnn0s35e9fmirj7dtq0k003ehgme0o01t1nasrkdtmkqrr4clm48obkc400006b0c00ii39chikcr31ctpg0000fs5001r4d5pn0r31f440012ec5mma030fch6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24pboehp628hqbdti4orfdhnn48hq49jmur3448m24t35f1q24eh28hkmsrp089gm6qrgc5hmm8jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% dino_backpack'
+      Items: []
+      Ignored_For_Permissions: []
+    wolf_tail:
+      Name: '&f্ &6Wolf Tail'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg5000rkc5jg600f8dqn6t3fdl6mup35dh262t3100001ig3004kgqb4cl36oob7ec00003v1800ep39edo6oobp10008jj1dlig0n3r49kn8obcd5hi4ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh6au3ke9gi4eirfch66rrcdtp24eh2ctnmop125gh78pboegh3k8indtm6c82kc5kmo8jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% wolf_tail'
+      Items: []
+      Ignored_For_Permissions: []
+    wolf_claw:
+      Name: '&f্ &6Wolf Claw'
+      Chance: 100.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005jdd5n6aoric5j78ej3dto70pbibtkmsprfeg5000rkc5jg600f8dqn6t3fdl6mup35dh262t3100002b83004kgqb4cl36oob7ec00003v1800ep39edo6oobp10008jj1dlig0n3r49kn8obcd5hi4ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh6au3ke9gi4eirfch66rrcdtp24eh2ctnmop125gh78pboegh3k8indtm6c823dhgne8jtbkm24t35f1q24eh2s2joq812fk4g012cdtp6a000000000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] voucher give CosmeticBox 1 %player% wolf_claw'
+      Items: []
+      Ignored_For_Permissions: []
+Item:
+  Material: PAPER
+  Name: '#F79F1F&lCosmetic Crate Key'
+  Lore:
+  - ''
+  - '#D2DAE2Right click to open your'
+  - '#D2DAE2crate key. Please do not'
+  - '#D2DAE2open if your inventory is'
+  - '#D2DAE2full.'
+  - ''
+  - '&f্'
+  Custom_Model_Data: 504

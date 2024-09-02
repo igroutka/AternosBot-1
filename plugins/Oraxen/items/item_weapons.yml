@@ -1,0 +1,159 @@
+grand_jade_blade:
+  displayname: <#55E6C1>ɢʀᴀɴᴅ ᴊᴀᴅᴇ ʙʟᴀᴅᴇ
+  lore:
+  - ''
+  - <#535c68>When you attack will deal <#55E6C1><bold>2
+  - <#535c68>extra damage to the player
+  - ''
+  - '<#d2dae2>Give you <red><bold>1<reset> <#d2dae2>heart when you '
+  - <#d2dae2>hold the sword in your hand
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: DIAMOND_SWORD
+  unbreakable: true
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 2
+    operation: 0
+    uuid: ad79933d-6b50-4a6c-92e1-1b813da27cfd
+    slot: HAND
+  - name: oraxen
+    attribute: GENERIC_ATTACK_DAMAGE
+    amount: 7
+    operation: 0
+    uuid: c6343be8-2fd7-46bd-9b1f-d830ebe853e1
+    slot: HAND
+  - name: oraxen
+    attribute: GENERIC_ATTACK_SPEED
+    amount: -2.2
+    operation: 0
+    uuid: 1a416d84-4225-435f-9a39-b1cdc173f3c4
+    slot: HAND
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/items/weapons/grand_jade_blade
+
+light_dagger:
+  displayname: <#c8d6e5>ʟɪɢʜᴛ ᴅᴀɢɢᴇʀ
+  lore:
+  - ''
+  - <#535c68>Has weak base damage but
+  - <#535c68>fast attack speed.
+  - ''
+  - <white><glyph:ability_asssasins_instinct> <white>Assassin's Instinct
+  - <gray>Instantly boost your <#e84118>Attack
+  - <#e84118>Speed <gray>and <#fbc531>Movement Speed
+  - <gray>for a short period then you
+  - <gray>will be <#273c75>Slow <gray>for 2 seconds.
+  - ''
+  - <#ffffff><glyph:epic>
+  material: DIAMOND_SWORD
+  unbreakable: true
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ATTACK_DAMAGE
+    amount: 3
+    operation: 0
+    uuid: c6343be8-2fd7-46bd-9b1f-d830ebe853e1
+    slot: HAND
+  - name: oraxen
+    attribute: GENERIC_ATTACK_SPEED
+    amount: 2
+    operation: 0
+    uuid: 1a416d84-4225-435f-9a39-b1cdc173f3c4
+    slot: HAND
+  Pack:
+    custom_model_data: 2
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/items/weapons/light_dagger
+
+hellfire_blade:
+  displayname: <#e67e22>ʜᴇʟʟꜰɪʀᴇ ʙʟᴀᴅᴇ
+  lore:
+  - ''
+  - <#535c68>Get <#e67e22>2 <#535c68>more armor points when
+  - <#535c68>holding it in your main hand
+  - ''
+  - <#FFFEFD><glyph:ability_hellfire_spread> <white>Hellfire Burn
+  - <gray>Instantly deals <#e84118>3 Damage <gray>and
+  - <#e67e22>Burns<gray> enemies within 7 blocks
+  - <gray>in 5 seconds.
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: DIAMOND_SWORD
+  unbreakable: true
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 2
+    operation: 0
+    uuid: 350cee6b-82bf-461f-b290-83b747cf72dc
+    slot: HAND
+  - name: oraxen
+    attribute: GENERIC_ATTACK_DAMAGE
+    amount: 8
+    operation: 0
+    uuid: c6343be8-2fd7-46bd-9b1f-d830ebe853e1
+    slot: HAND
+  - name: oraxen
+    attribute: GENERIC_ATTACK_SPEED
+    amount: -2.2
+    operation: 0
+    uuid: 1a416d84-4225-435f-9a39-b1cdc173f3c4
+    slot: HAND
+  Pack:
+    custom_model_data: 3
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/items/weapons/hellfire_blade
+
+icy_blue_hammer:
+  displayname: <#54a0ff>ɪᴄʏ ʙʟᴜᴇ ʜᴀᴍᴍᴇʀ
+  lore:
+  - ''
+  - <#535c68>This hammer has high damage
+  - <#535c68>but slow attack speed.
+  - ''
+  - <#FFFEFD><glyph:ability_frozen_smash> <white>Frozen Smash
+  - <gray>Throw your hammer at enemies
+  - <gray>near you, dealing <#e84118>5 damage <gray>and
+  - <#54a0ff>Freezing <gray>the enemy for 3s, turn
+  - <gray>their location into <blue>Ice Floor.
+  - ''
+  - <#ffffff><glyph:legendary>
+  material: DIAMOND_AXE
+  unbreakable: true
+  ItemFlags:
+  - HIDE_ATTRIBUTES
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ATTACK_DAMAGE
+    amount: 12
+    operation: 0
+    uuid: c6343be8-2fd7-46bd-9b1f-d830ebe853e1
+    slot: HAND
+  - name: oraxen
+    attribute: GENERIC_ATTACK_SPEED
+    amount: -2.9
+    operation: 0
+    uuid: 1a416d84-4225-435f-9a39-b1cdc173f3c4
+    slot: HAND
+  Pack:
+    custom_model_data: 1
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - custom/items/weapons/icy_blue_hammer

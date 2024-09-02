@@ -1,0 +1,283 @@
+panels:
+  BlackSmithTool:
+    perm: "default"
+    commands:
+      - blacksmithtool
+      - bsw
+    pre-load-commands:
+      - "sound= ITEM_BOOK_PAGE_TURN 1 1"
+    rows: 6
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:blacksmith_list%"
+    item:
+      "10":
+        material: BOW
+        customdata: 1
+        name: "#ffa801Gilded Netherite Bow"
+        lore:
+          - ""
+          - "#535c68Slightly increase the flight"
+          - "#535c68speed of arrows and dmg."
+          - ""
+          - "&fIncreases damage dealt to"
+          - "&fthe #ffa801Piglin&f, #ffa801Piglin Brute&f and "
+          - "#ffa801Zombified Piglin &fby #ffa8013.0"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+          - "&8- #18dcffᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛ"
+        commands:
+          - "open= GildedNetheriteBow"
+
+      "11":
+        material: BOW
+        customdata: 2
+        name: "#55E6C1Soul Netherite Bow"
+        lore:
+          - ""
+          - "#535c68Slightly increase the flight"
+          - "#535c68speed of arrows and dmg."
+          - ""
+          - "&fIncreases damage dealt to"
+          - "&fthe #9c88ffWither Boss &fby #9c88ff20%"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+          - "&8- #18dcffᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛ"
+        commands:
+          - "open= SoulNetheriteBow"
+
+      "19":
+        material: BOW
+        customdata: 3
+        name: "#00d2d3Warden Bow"
+        lore:
+          - ""
+          - "#535c68Slightly increase the flight"
+          - "#535c68speed of arrows and dmg."
+          - ""
+          - "&fIncreases damage dealt to"
+          - "&fthe #00d2d3Warden Boss &fby #00d2d320%"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+          - "&8- #18dcffᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛ"
+        commands:
+          - "open= WardenBow"
+
+      "20":
+        material: NETHERITE_SWORD
+        customdata: 3
+        name: "#00d2d3Warden Sword"
+        lore:
+          - ""
+          - "&fIncreases damage dealt to"
+          - "&fthe #00d2d3Warden Boss &fby #00d2d320%"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= WardenSword"
+
+      "21":
+        material: NETHERITE_AXE
+        customdata: 3
+        name: "#00d2d3Warden Axe"
+        lore:
+          - ""
+          - "&fIncreases damage dealt to"
+          - "&fthe #00d2d3Warden Boss &fby #00d2d320%"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= WardenAxe"
+
+      "22":
+        material: NETHERITE_PICKAXE
+        customdata: 3
+        name: "#00d2d3Warden Pickaxe"
+        lore:
+          - ""
+          - "&fIncreases damage dealt to"
+          - "&fthe #00d2d3Warden Boss &fby #00d2d320%"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= WardenPickaxe"
+
+      "23":
+        material: NETHERITE_SHOVEL
+        customdata: 3
+        name: "#00d2d3Warden Shovel"
+        lore:
+          - ""
+          - "&fIncreases damage dealt to"
+          - "&fthe #00d2d3Warden Boss &fby #00d2d320%"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= WardenShovel"
+
+      "24":
+        material: NETHERITE_HOE
+        customdata: 3
+        name: "#00d2d3Warden Hoe"
+        lore:
+          - ""
+          - "&fIncreases damage dealt to"
+          - "&fthe #00d2d3Warden Boss &fby #00d2d320%"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= WardenHoe"
+
+      "12":
+        material: DIAMOND_SWORD
+        customdata: 1
+        name: "#55E6C1ɢʀᴀɴᴅ ᴊᴀᴅᴇ ʙʟᴀᴅᴇ"
+        lore:
+          - ""
+          - "#535c68When you attack will deal #55E6C1&l2"
+          - "#535c68extra damage to the player"
+          - ""
+          - "#d2dae2Give you &c&l1&r #d2dae2heart when you "
+          - "#d2dae2hold the sword in your hand"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= GrandJadeBlade"
+
+      "13":
+        material: DIAMOND_SWORD
+        customdata: 2
+        name: "#c8d6e5ʟɪɢʜᴛ ᴅᴀɢɢᴇʀ"
+        lore:
+          - ""
+          - "#535c68Has weak base damage but"
+          - "#535c68fast attack speed."
+          - ""
+          - "#FFFEFD%hrn_getIcon:ability_asssasins_instinct% &fAssassin's Instinct"
+          - "&7Instantly boost your #e84118Attack"
+          - "#e84118Speed &7and #fbc531Movement Speed"
+          - "&7for a short period then you"
+          - "&7will be #273c75Slow &7for 2 seconds."
+          - "&8ᴄᴏᴏʟᴅᴏᴡɴ: #9c88ff10 seconds"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+          - "&8- #4cd137ᴀʙɪʟɪᴛʏ ɪᴛᴇᴍ"
+        commands:
+          - "open= LightDagger"
+
+      "14":
+        material: DIAMOND_SWORD
+        customdata: 3
+        name: "#e67e22ʜᴇʟʟꜰɪʀᴇ ʙʟᴀᴅᴇ"
+        lore:
+          - ""
+          - "#535c68Get #e67e222 #535c68more armor points when"
+          - "#535c68holding it in your main hand"
+          - ""
+          - "#FFFEFD%hrn_getIcon:ability_hellfire_spread% &fHellfire Burn"
+          - "&7Instantly deals #e841183 Damage &7and"
+          - "&7#e67e22Burns&7 enemies within 7 blocks"
+          - "&7in 5 seconds."
+          - "&8ᴄᴏᴏʟᴅᴏᴡɴ: #9c88ff20 seconds"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+          - "&8- #4cd137ᴀʙɪʟɪᴛʏ ɪᴛᴇᴍ"
+        commands:
+          - "open= HellfireBlade"
+
+      "15":
+        material: DIAMOND_AXE
+        customdata: 1
+        name: "#54a0ffɪᴄʏ ʙʟᴜᴇ ʜᴀᴍᴍᴇʀ"
+        lore:
+          - ""
+          - "#535c68This hammer has high damage"
+          - "#535c68but slow attack speed."
+          - ""
+          - "#FFFEFD%hrn_getIcon:ability_frozen_smash% &fFrozen Smash"
+          - "&7Throw your hammer at enemies"
+          - "&7near you, dealing #e841185 damage &7and"
+          - "#54a0ffFreezing &7the enemy for 3s, turn"
+          - "&7their location into &bIce Floor."
+          - "&8ᴄᴏᴏʟᴅᴏᴡɴ: #9c88ff30 seconds"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+          - "&8- #4cd137ᴀʙɪʟɪᴛʏ ɪᴛᴇᴍ"
+        commands:
+          - "open= IcyBlueHammer"
+
+      "28":
+        material: NETHERITE_SWORD
+        customdata: 4
+        name: "#c7eceeIce Sword"
+        lore:
+          - ""
+          - "&fCan only be forged during"
+          - "&fthe #c7eceeWinter Event 2023"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= IceSword"
+
+      "29":
+        material: NETHERITE_PICKAXE
+        customdata: 4
+        name: "#c7eceeIce Pickaxe"
+        lore:
+          - ""
+          - "&fCan only be forged during"
+          - "&fthe #c7eceeWinter Event 2023"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= IcePickaxe"
+
+      "30":
+        material: NETHERITE_AXE
+        customdata: 4
+        name: "#c7eceeIce Axe"
+        lore:
+          - ""
+          - "&fCan only be forged during"
+          - "&fthe #c7eceeWinter Event 2023"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= IceAxe"
+
+      "31":
+        material: NETHERITE_SHOVEL
+        customdata: 4
+        name: "#c7eceeIce Shovel"
+        lore:
+          - ""
+          - "&fCan only be forged during"
+          - "&fthe #c7eceeWinter Event 2023"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= IceShovel"
+
+      "32":
+        material: NETHERITE_HOE
+        customdata: 4
+        name: "#c7eceeIce Hoe"
+        lore:
+          - ""
+          - "&fCan only be forged during"
+          - "&fthe #c7eceeWinter Event 2023"
+          - ""
+          - "&8- #cd84f1ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ɪᴛᴇᴍ"
+        commands:
+          - "open= IceHoe"
+
+      "49":
+        material: PAPER
+        customdata: 9999
+        name: "&fBack"
+        commands:
+          - "open= BlackSmith"
+      "50":
+        material: PAPER
+        customdata: 9999
+        name: "&fBack"
+        commands:
+          - "open= BlackSmith"

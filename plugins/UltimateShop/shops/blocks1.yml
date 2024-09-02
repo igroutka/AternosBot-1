@@ -1,0 +1,685 @@
+settings:
+  menu: 'shop-layout'
+  buy-more: true
+  shop-name: 'Blocks 2'
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COBBLESTONE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 12
+        placeholder: '{amount}⛂'
+        start-apply: 0  
+  
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.1
+        placeholder: '{amount}⛂'
+        start-apply: 0
+  
+
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: STONE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 12
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GRANITE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 12
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DIORITE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 12
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ANDESITE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 12
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MUD
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 10
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DIRT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 6.25
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.7
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  H:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GRASS_BLOCK
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 12
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1.1
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  I:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COARSE_DIRT
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 64
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  J:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SAND
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 15.6
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  K:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: RED_SAND
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 15.6
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  L:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GLASS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 31.2
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  M:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CLAY
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 9.3
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  N:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: TERRACOTTA
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 31.25
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  O:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: QUARTZ_BLOCK
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 60
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  P:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: OAK_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 24
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.22
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  Q:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPRUCE_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 24
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.22
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  R:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BIRCH_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 24
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.22
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  S:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: JUNGLE_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 24
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.22
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  T:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ACACIA_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 24
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.22
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  U:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DARK_OAK_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 24
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.22
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  V:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MANGROVE_LOG
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 30
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 3
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  W:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MANGROVE_ROOTS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 24
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 2.22
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  X:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PRISMARINE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 47
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  Y:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DARK_PRISMARINE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 100
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  Z:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SEA_LANTERN
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 350
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  1:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WHITE_WOOL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 47
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 0.5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  2:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GRAVEL
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 31.25
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  3:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MOSSY_COBBLESTONE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 62.5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  4:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MOSSY_STONE_BRICKS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 62.5
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  5:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PURPUR_BLOCK
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 75
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  6:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ICE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 75
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  7:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BLUE_ICE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 375
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  8:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPONGE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 3.200
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  9:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GLOWSTONE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 70
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  a:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: NETHERRACK
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 31.25
+        placeholder: '{amount}⛂'
+        start-apply: 0
+buttons:
+  "<":
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&#ffda79← ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ'
+    actions:
+      - 'shop_menu: blocks1'
+  ">":
+    display-item:
+      material: PAPER
+      custom-model-data: 9999
+      name: '&#ffda79→ ɴᴇxᴛ ᴘᴀɢᴇ'
+    actions:
+      - 'shop_menu: blocks2'

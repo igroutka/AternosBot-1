@@ -1,0 +1,259 @@
+settings:
+  menu: 'shop-layout'
+  buy-more: true
+  shop-name: 'Flowers'
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPORE_BLOSSOM
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 100
+        placeholder: '{amount}⛂'
+        start-apply: 0  
+  
+
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DANDELION
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0  
+  
+
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: RED_TULIP
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ORANGE_TULIP
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WHITE_TULIP
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PINK_TULIP
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CORNFLOWER
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  H:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BLUE_ORCHID
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  I:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ALLIUM
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  J:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: AZURE_BLUET
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  K:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SEA_PICKLE
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  L:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SEAGRASS
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  M:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: LILAC
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  N:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ROSE_BUSH
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  O:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PEONY
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  P:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SUNFLOWER
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0
+
+
+  Q:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: OXEYE_DAISY
+        amount: 1
+    buy-prices:
+      1:
+        economy-plugin: Vault
+        amount: 50
+        placeholder: '{amount}⛂'
+        start-apply: 0

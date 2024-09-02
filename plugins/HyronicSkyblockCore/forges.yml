@@ -1,0 +1,191 @@
+recipes:
+  gilded_netherite_bow:
+    materials:
+      # Pattern: "<item-source>;<name>;amount"
+      # minecraft mean the vanilla default material
+      # hyronic mean the item from Oraxen or ItemsAdder
+      - "minecraft;BOW;1"
+      - "hyronic;gilded_netherite_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;16"
+      - "hyronic;hyronium_ingot;16"
+  soul_netherite_bow:
+    materials:
+      - "minecraft;BOW;1"
+      - "hyronic;soul_netherite_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;16"
+      - "hyronic;hyronium_ingot;16"
+  warden_bow:
+    materials:
+      - "minecraft;BOW;1"
+      - "hyronic;warden_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;64"
+      - "hyronic;hyronium_ingot;64"
+  warden_sword:
+    materials:
+      - "minecraft;NETHERITE_SWORD;1"
+      - "hyronic;warden_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;64"
+      - "hyronic;hyronium_ingot;64"
+  warden_axe:
+    materials:
+      - "minecraft;NETHERITE_AXE;1"
+      - "hyronic;warden_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;64"
+      - "hyronic;hyronium_ingot;64"
+  warden_pickaxe:
+    materials:
+      - "minecraft;NETHERITE_PICKAXE;1"
+      - "hyronic;warden_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;64"
+      - "hyronic;hyronium_ingot;64"
+  warden_shovel:
+    materials:
+      - "minecraft;NETHERITE_SHOVEL;1"
+      - "hyronic;warden_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;64"
+      - "hyronic;hyronium_ingot;64"
+  warden_hoe:
+    materials:
+      - "minecraft;NETHERITE_SWORD;1"
+      - "hyronic;warden_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;64"
+      - "hyronic;hyronium_ingot;64"
+  ice_sword:
+    materials:
+      - "minecraft;NETHERITE_SWORD;1"
+      - "hyronic;ice_star;32"
+  ice_pickaxe:
+    materials:
+      - "minecraft;NETHERITE_PICKAXE;1"
+      - "hyronic;ice_star;32"
+  ice_axe:
+    materials:
+      - "minecraft;NETHERITE_AXE;1"
+      - "hyronic;ice_star;32"
+  ice_shovel:
+    materials:
+      - "minecraft;NETHERITE_SHOVEL;1"
+      - "hyronic;ice_star;32"
+  ice_hoe:
+    materials:
+      - "minecraft;NETHERITE_HOE;1"
+      - "hyronic;ice_star;32"
+  ice_helmet:
+    materials:
+      - "minecraft;NETHERITE_HELMET;1"
+      - "hyronic;ice_star;48"
+  ice_chestplate:
+    materials:
+      - "minecraft;NETHERITE_CHESTPLATE;1"
+      - "hyronic;ice_star;48"
+  ice_leggings:
+    materials:
+      - "minecraft;NETHERITE_LEGGINGS;1"
+      - "hyronic;ice_star;48"
+  ice_boots:
+    materials:
+      - "minecraft;NETHERITE_BOOTS;1"
+      - "hyronic;ice_star;48"
+  gilded_netherite_ingot:
+    materials:
+      - "minecraft;NETHERITE_INGOT;2"
+      - "minecraft;GOLD_INGOT;4"
+      - "hyronic;piglin_coin;6"
+  soul_netherite_ingot:
+    materials:
+      - "minecraft;NETHERITE_INGOT;2"
+      - "minecraft;GOLD_INGOT;4"
+      - "minecraft;NETHER_STAR;2"
+  warden_ingot:
+    materials:
+      - "minecraft;NETHERITE_INGOT;2"
+      - "minecraft;GOLD_INGOT;4"
+      - "minecraft;ECHO_SHARD;6"
+  grand_jade_blade:
+    materials:
+      - "minecraft;DIAMOND_SWORD;1"
+      - "minecraft;ECHO_SHARD;3"
+      - "minecraft;NETHERITE_SCRAP;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;hyronium_ingot;16"
+  warden_helmet:
+    materials:
+      - "minecraft;NETHERITE_HELMET;1"
+      - "hyronic;warden_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;64"
+      - "hyronic;hyronium_ingot;64"
+  warden_chestplate:
+    materials:
+      - "minecraft;NETHERITE_CHESTPLATE;1"
+      - "hyronic;warden_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;64"
+      - "hyronic;hyronium_ingot;64"
+  warden_leggings:
+    materials:
+      - "minecraft;NETHERITE_LEGGINGS;1"
+      - "hyronic;warden_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;64"
+      - "hyronic;hyronium_ingot;64"
+  warden_boots:
+    materials:
+      - "minecraft;NETHERITE_BOOTS;1"
+      - "hyronic;warden_ingot;2"
+      - "hyronic;topaz_ingot;64"
+      - "hyronic;ruby_ingot;64"
+      - "hyronic;hyronium_ingot;64"
+  hellfire_blade:
+    materials:
+      - "minecraft;GOLDEN_SWORD;1"
+      - "minecraft;EMERALD;32"
+      - "hyronic;blaze_heart;3"
+      - "hyronic;topaz_ingot;16"
+      - "hyronic;ruby_ingot;16"
+      - "hyronic;hyronium_ingot;8"
+  icy_blue_hammer:
+    materials:
+      - "minecraft;DIAMOND_AXE;1"
+      - "minecraft;EMERALD;32"
+      - "minecraft;HEART_OF_THE_SEA;1"
+      - "hyronic;topaz_ingot;16"
+      - "hyronic;ruby_ingot;16"
+      - "hyronic;hyronium_ingot;16"
+  light_dagger:
+    materials:
+      - "minecraft;IRON_SWORD;1"
+      - "minecraft;EMERALD;32"
+      - "minecraft;NETHER_STAR;1"
+      - "hyronic;topaz_ingot;16"
+      - "hyronic;ruby_ingot;16"
+      - "hyronic;hyronium_ingot;8"
+  30_flying_boots:
+    materials:
+      - "minecraft;LEATHER_BOOTS;1"
+      - "minecraft;IRON_INGOT;48"
+      - "minecraft;FIREWORK_ROCKET;128"
+      - "hyronic;hyronium_ingot;10"
+      - "hyronic;topaz_ingot;30"
+  invisible_shears:
+    materials:
+      - "minecraft;SHEARS;1"
+      - "minecraft;AMETHYST_SHARD;5"
+      - "hyronic;topaz_ingot;10"
+      - "hyronic;ruby_ingot;5"
+  any_spawner:
+    materials:
+      - "minecraft;NETHERITE_SCRAP;3"
+      - "hyronic;spawner_fragment;9"
+  ruby_ingot:
+    materials:
+      - "minecraft;IRON_INGOT;2"
+      - "hyronic;topaz_ingot;1"

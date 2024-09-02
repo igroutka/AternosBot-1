@@ -1,0 +1,15 @@
+ability_asssasins_instinct:
+  texture: custom/ui/abilities/assassins_instince
+  ascent: 9
+  height: 10
+  char: ל
+ability_hellfire_spread:
+  texture: custom/ui/abilities/hellfire_spread
+  ascent: 9
+  height: 10
+  char: ם
+ability_frozen_smash:
+  texture: custom/ui/abilities/frozen_smash
+  ascent: 9
+  height: 10
+  char: מ

@@ -1,0 +1,4 @@
+{
+	"parent":"item/bow",
+	"textures":{"layer0":"custom/sets/gilded_netherite/gilded_netherite_bow"}
+}

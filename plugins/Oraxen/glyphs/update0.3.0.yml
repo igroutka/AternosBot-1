@@ -1,0 +1,5 @@
+gem_shop_select_amount:
+  texture: custom/ui/containers/gem_shop_select_amount
+  ascent: 19
+  height: 256
+  char: ꐻ

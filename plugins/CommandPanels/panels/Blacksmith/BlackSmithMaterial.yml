@@ -1,0 +1,132 @@
+panels:
+  BlackSmithMaterial:
+    perm: "default"
+    commands:
+      - blacksmithmaterial
+      - bsm
+    pre-load-commands:
+      - "sound= ITEM_BOOK_PAGE_TURN 1 1"
+    rows: 6
+    title: "&f%hrn_getIcon:neg_shift_8%%hrn_getIcon:blacksmith_list%"
+    item:
+      "10":
+        material: LEATHER_BOOTS
+        leatherarmor: 0,144,208
+        customdata: 503
+        name: "&fHyronic Flying Boots"
+        lore:
+          - ""
+          - "&8Allows you to fly in your"
+          - "&8islands. Shift to toggle."
+          - "&7ʀᴇᴍᴀɪɴɪɴɢ ꜰᴜᴇʟ: &f30"
+          - ""
+          - "&f%hrn_getIcon:epic%"
+        commands:
+          - "open= 30_FlyingBoots"
+
+      "11":
+        material: SHEARS
+        customdata: 1
+        name: "&fInvisible Shears"
+        lore:
+          - ""
+          - "&8Allows you to cut your"
+          - "&8Item Frame (Invisible)"
+          - "&8to make the item look"
+          - "&8even better."
+          - ""
+          - "&f%hrn_getIcon:common%"
+        commands:
+          - "open= InvisibleShears"
+
+      "12":
+        material: PAPER
+        customdata: 600
+        name: "&fGilded Netherite Ingot"
+        lore:
+          - ""
+          - "&8Can be used to upgrade"
+          - "&8netherite equipments."
+          - ""
+          - "&f%hrn_getIcon:legendary%"
+        commands:
+          - "open= GildedNetheriteIngot"
+
+      "13":
+        material: PAPER
+        customdata: 601
+        name: "&fSoul Netherite Ingot"
+        lore:
+          - ""
+          - "&8Can be used to upgrade"
+          - "&8netherite equipments."
+          - ""
+          - "&f%hrn_getIcon:legendary%"
+        commands:
+          - "open= SoulNetheriteIngot"
+
+      "14":
+        material: PAPER
+        customdata: 602
+        name: "&fWarden Ingot"
+        lore:
+          - ""
+          - "&8Can be used to forge"
+          - "&8Warden equipments."
+          - ""
+          - "&f%hrn_getIcon:legendary%"
+        commands:
+          - "open= WardenIngot"
+
+      "15":
+        material: SPAWNER
+        name: "&fSkeleton Spawner"
+        lore:
+          - "&f%hrn_getIcon:legendary%"
+        commands:
+          - "open= SkeletonSpawner"
+
+      "16":
+        material: SPAWNER
+        name: "&fZombie Spawner"
+        lore:
+          - "&f%hrn_getIcon:legendary%"
+        commands:
+          - "open= ZombieSpawner"
+
+      "19":
+        material: SPAWNER
+        name: "&fSpider Spawner"
+        lore:
+          - "&f%hrn_getIcon:legendary%"
+        commands:
+          - "open= SpiderSpawner"
+
+      "20":
+        material: SPAWNER
+        name: "&fBlaze Spawner"
+        lore:
+          - "&f%hrn_getIcon:legendary%"
+        commands:
+          - "open= BlazeSpawner"
+
+      "21": # The slot in the menu
+        material: PAPER # the material of ruby
+        customdata: 203 # the model data of ruby
+        name: "&fRuby Ingot"
+        lore: []
+        commands:
+          - "open= RubyIngotForge" # Open the RubyIngotFoge panel, let create it in step 3
+
+      "49":
+        material: PAPER
+        customdata: 9999
+        name: "&fBack"
+        commands:
+          - "open= BlackSmith"
+      "50":
+        material: PAPER
+        customdata: 9999
+        name: "&fBack"
+        commands:
+          - "open= BlackSmith"

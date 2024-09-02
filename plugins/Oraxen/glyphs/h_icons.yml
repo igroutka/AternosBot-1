@@ -1,0 +1,75 @@
+free_hyronic:
+  texture: custom/icons/hyronic
+  ascent: 9
+  height: 9
+  char: ऄ
+free_pride:
+  texture: custom/icons/pride
+  ascent: 8
+  height: 8
+  char: अ
+free_snowball:
+  texture: custom/icons/snowball
+  ascent: 8
+  height: 9
+  char: आ
+pre_bough:
+  texture: custom/icons/bough
+  ascent: 9
+  height: 10
+  char: इ
+pre_clover:
+  texture: custom/icons/clover
+  ascent: 9
+  height: 10
+  char: ई
+pre_bell:
+  texture: custom/icons/bell
+  ascent: 9
+  height: 10
+  char: उ
+pre_dual_swords:
+  texture: custom/icons/dual_swords
+  ascent: 9
+  height: 10
+  char: ऊ
+pre_knife:
+  texture: custom/icons/knife
+  ascent: 10
+  height: 12
+  char: ऋ
+pre_axe:
+  texture: custom/icons/axe
+  ascent: 9
+  height: 10
+  char: ऌ
+pre_shield:
+  texture: custom/icons/shield
+  ascent: 9
+  height: 10
+  char: ऍ
+pre_clown_hat:
+  texture: custom/icons/clown_hat
+  ascent: 9
+  height: 10
+  char: ऎ
+pre_hyronium:
+  texture: custom/icons/hyronium
+  ascent: 10
+  height: 12
+  char: ए
+pre_ruby:
+  texture: custom/icons/ruby
+  ascent: 10
+  height: 12
+  char: ऐ
+pre_diamond:
+  texture: custom/icons/diamond
+  ascent: 10
+  height: 12
+  char: ऑ
+pre_heart:
+  texture: custom/icons/heart
+  ascent: 10
+  height: 12
+  char: ऒ

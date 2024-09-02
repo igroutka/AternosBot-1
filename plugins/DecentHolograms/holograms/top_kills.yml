@@ -1,0 +1,33 @@
+location: world_spawn:16.632:120.5:-63.850
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '%hrn_getIcon:top_kills%'
+    height: 0.3
+  - content: '&8&m &r &8&m  &r &8&m                &r &8&m  &r &8&m '
+    height: 0.3
+  - content: '%hrn_getIcon:top_1% &6%ajlb_lb_statistic_player_kills_1_alltime_name%
+      &8- &f%ajlb_lb_statistic_player_kills_1_alltime_value%'
+    height: 0.3
+  - content: '%hrn_getIcon:top_2% &b%ajlb_lb_statistic_player_kills_2_alltime_name%
+      &8- &f%ajlb_lb_statistic_player_kills_2_alltime_value%'
+    height: 0.3
+  - content: '%hrn_getIcon:top_3% &f%ajlb_lb_statistic_player_kills_3_alltime_name%
+      &8- &f%ajlb_lb_statistic_player_kills_3_alltime_value%'
+    height: 0.3
+  - content: '&74. &7%ajlb_lb_statistic_player_kills_4_alltime_name% &8- &f%ajlb_lb_statistic_player_kills_4_alltime_value%'
+    height: 0.3
+  - content: '&75. &7%ajlb_lb_statistic_player_kills_5_alltime_name% &8- &f%ajlb_lb_statistic_player_kills_5_alltime_value%'
+    height: 0.3
+  - content: '&76. &7%ajlb_lb_statistic_player_kills_6_alltime_name% &8- &f%ajlb_lb_statistic_player_kills_6_alltime_value%'
+    height: 0.3
+  - content: '&8&m &r &8&m  &r &8&m       &r &8&m  &r &8&m '
+    height: 0.3
+  - content: '&c%ajlb_position_statistic_player_kills_alltime%. &fYou &8- &f%statistic_player_kills%'
+    height: 0.3
+  actions: {}

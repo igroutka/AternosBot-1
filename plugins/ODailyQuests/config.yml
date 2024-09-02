@@ -1,0 +1,187 @@
+categories_rewards:
+  easy:
+    enabled: true
+    reward_type: COMMAND
+    commands:
+    - give %player% diamond 16
+  medium:
+    enabled: true
+    reward_type: COMMAND
+    commands:
+    - give %player% diamond 32
+  hard:
+    enabled: true
+    reward_type: COMMAND
+    commands:
+    - give %player% diamond 64
+use_itemsadder: 'false'
+progression_message:
+  enabled: true
+  text: '#57e600%player% #00b35dhas progressed in the quest #57e600%questName%
+    &7(#00b35d%progress%&7/#00b35d%required%)'
+  type: ACTIONBAR
+store_placed_blocks: 'true'
+store_broken_blocks: 'false'
+store_dropped_items: 'false'
+# plugin prefix for messaging
+prefix: '&7[O''DailyQuests&7]'
+
+# storage mode for quests & progression
+# AVAILABLE MODES: YAML, MySQL,H2
+# RECOMMENDED: H2
+storage_mode: H2
+
+# never touch this line
+version: 2.1.0
+
+
+# MySQL Database Connection
+database:
+  name: MyDatabase # Database name
+  host: 127.0.0.1 # Database host
+  user: admin # Database user
+  password: '1234' # Database password
+  port: '3306' # Database port
+
+# Select the mode of the quests.
+# ==========================================================
+# 1 : only the global quests will be loaded.
+# The player's quests will only come from there.
+# ==========================================================
+# 2 : easy, medium and hard quests will be loaded.
+# One quest per difficulty will be assigned to the players.
+# ==========================================================
+# You need to reset progressions if you change this mode.
+quests_mode: 2
+
+# Select the amount of daily quests given to the player.
+# Apply to quests mode 1 (global).
+global_quests_amount: 3
+
+# Select the amount of daily quests given to the player.
+# Apply to quests mode 2 (categorized).
+easy_quests_amount: 3
+medium_quests_amount: 3
+hard_quests_amount: 2
+
+# Select the mode of timestamp.
+# ============================================================================
+# 1 : quests will be reloaded at midnight for all players.
+# ============================================================================
+# 2 : player quests will be reloaded if active quests are older
+# than the duration selected temporality mode.
+# This means that each player will have new quests at a different login time.
+# ============================================================================
+# The timestamp depends on the machine on which your server is installed.
+# Set the right time zone!
+# ============================================================================
+# You need to reset progressions if you change this mode.
+timestamp_mode: 1
+
+# Select the mode of temporality.
+# ===================================
+# 1 : daily quests.
+# ===================================
+# 2 : weekly quests.
+# ===================================
+# 3 : monthly quests.
+# ===================================
+# You need to reset progressions
+# if you change this mode.
+temporality_mode: 1
+
+# Initials that will be displayed
+# between the values on the placeholders.
+# ex: 6d9h24m
+temporality_initials:
+  days: d
+  hours: h
+  minutes: m
+  few_seconds: Few seconds
+
+# Global Reward
+# Will be given when the player has completed all their daily quests.
+# The syntax is the same as for quest rewards.
+global_reward:
+  enabled: true
+  reward_type: COMMAND
+  commands:
+  - hyronic run-random-command %player% gem 500-1000
+  - excellentcrates give %player% cosmetic 1
+  - hyronic give-relic %player% lucky_clover 1
+  - run-cmd %player% "lp user %player_name% meta set quest_streaks %math_{luckperms_meta_quest_streaks}+1[precision:0]%"
+
+# If a player has two quests of the same type and with the same item/entity,
+# choose if they should progress simultaneously
+# or if the first should be completed before the second progresses.
+synchronised_progression: false
+
+# Set a title that will be displayed when a player completes a quest.
+# Reminder: 20 ticks is equal to one second.
+# Available placeholders : %player% , %questName%
+title:
+  enabled: true
+  fadeIn: 10 # The default number of ticks for the title to fade in.
+  stay: 70 # The default number of ticks for the title to stay.
+  fadeOut: 20 # The default number of ticks for the title to fade out.
+  text: '&aWell done, %player%'
+  subtitle: '&aYou have completed the quest %questName% &a!' # Leave this field blank if you do not want a subtitle
+
+# Set a message that will be displayed in the actionbar when a player completes a quest.
+# Available placeholders : %player% , %questName%
+actionbar:
+  enabled: false
+  text: '&eNot bad for an old men!'
+
+# Disables the progression of quests where you have to kill an entity if it comes from a Spawner.
+disable_spawners_progression: false
+
+# Determines if the player loses required items when completing a GET quest.
+take_items_for_get_quests: false
+
+#
+# LAUNCH - PLACE - PICKUP - BREAK
+#
+store_used_items: false
+
+# interfaces settings
+# NEVER DELETE A %variable%
+# %progress% is replaced by the progression of the quest.
+# %required% is replaced by the required amount to complete the quest.
+# %achieved% is replaced by the number of completed quests.
+# %drawIn% is replaced by the time remaining before the next quests draw.
+interfaces:
+  next_item_name: '&a&lNext Page'
+  previous_item_name: '&e&lPrevious Page'
+  global_quests:
+    inventory_name: Quests - Global
+    empty_item: BLACK_STAINED_GLASS_PANE
+  easy_quests:
+    inventory_name: Quests - Easy
+    empty_item: GREEN_STAINED_GLASS_PANE
+  medium_quests:
+    inventory_name: Quests - Medium
+    empty_item: YELLOW_STAINED_GLASS_PANE
+  hard_quests:
+    inventory_name: Quests - Hard
+    empty_item: RED_STAINED_GLASS_PANE
+
+# You can disable quest progression in certain worlds.
+# You must put here the name of the world (in theory the name of its directory).
+# If you don't want to disable worlds, just put a single line with no name (- "").
+disabled_worlds:
+- world_nether
+- world_the_end
+
+# Citizens Implementation
+# Here you can select NPCs names for each category.
+# The player have to interact with the NPC to open an interface.
+npcs:
+  name_player: '&7Player Quests'
+  name_global: '&4Global Quests'
+  name_easy: '&a&lEasy &mQuests'
+  name_medium: '&e&lMedium &rQuests'
+  name_hard: '&cHard &b&lQuests'
+
+# If you use WildStacker on your server to group mobs, set this parameter to "true".
+use_wildstacker: false

@@ -1,0 +1,29 @@
+location: world_spawn:-5.290:121.712:-9.253
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: COPPER_INGOT {CustomModelData:17}'
+    height: 0.6
+  - content: '&8&m &r &8&m  &r &8&m                                    &r &8&m  &r
+      &8&m '
+    height: 0.3
+  - content: The &2Resource World&f is a dangerous place
+    height: 0.3
+  - content: where &cPvP is enable&f, and there are &eNew Ores,
+    height: 0.3
+  - content: '&4Stronger Mobs&f. Players will lose their items'
+    height: 0.3
+  - content: when they die, be careful.
+    height: 0.3
+  - content: ' '
+    height: 0.3
+  - content: '&7ᴘʟᴀʏᴇʀs ɪɴ ᴡᴏʀʟᴅ: &a%server_online_world%'
+    height: 0.3
+  - content: '&8&m                            &r'
+    height: 0.3
+  actions: {}

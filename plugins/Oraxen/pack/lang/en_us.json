@@ -1,0 +1,9 @@
+{
+  "connect.joining": "",
+  "menu.disconnect": "§7             Please Dont Go §f<glyph:emoji_innocent>§f<shift:-143><glyph:esc_banner>",
+  "menu.returnToGame": "§7Back to §bHyronic §fSkyblock",
+  "menu.game": "<glyph:server_logo_big>",
+  "item.dyed": "",
+  "container.inventory": "",
+  "resourcePack.server.name": "Vanilla Mod"
+}

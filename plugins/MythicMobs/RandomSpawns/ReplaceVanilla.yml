@@ -1,0 +1,10 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+RandomEliteBlaze:
+  MobType: EliteBlaze
+  Worlds: world_nether
+  Chance: 0.01
+  Priority: 1
+  Action: ADD

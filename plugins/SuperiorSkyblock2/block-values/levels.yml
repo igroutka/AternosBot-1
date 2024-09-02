@@ -1,0 +1,18 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+# Here you can set all the level values for your blocks.
+# To set specific spawner types, use 'MOB_SPAWNER:<ENTITY>': <AMOUNT>
+# If no level is found, the formula from config will be used.
+
+DRAGON_EGG: 5000
+BEACON: 50
+NETHERITE_BLOCK: 20
+EMERALD_BLOCK: 10
+DIAMOND_BLOCK: 5
+GOLD_BLOCK: 4
+IRON_BLOCK: 3

@@ -1,0 +1,89 @@
+empty_armor:
+  displayname: <#ffffff>armor
+  material: PAPER
+  Pack:
+    custom_model_data: 700
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/profile/armor
+
+empty_backpack:
+  displayname: <#ffffff>backpack
+  material: PAPER
+  Pack:
+    custom_model_data: 701
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/profile/backpack
+
+empty_boots:
+  displayname: <#ffffff>boots
+  material: PAPER
+  Pack:
+    custom_model_data: 702
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/profile/boots
+
+empty_handheld:
+  displayname: <#ffffff>handheld
+  material: PAPER
+  Pack:
+    custom_model_data: 703
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/profile/handheld
+
+empty_hat:
+  displayname: <#ffffff>hat
+  material: PAPER
+  Pack:
+    custom_model_data: 704
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/profile/hat
+
+empty_helmet:
+  displayname: <#ffffff>helmet
+  material: PAPER
+  Pack:
+    custom_model_data: 705
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/profile/helmet
+
+empty_leggings:
+  displayname: <#ffffff>leggings
+  material: PAPER
+  Pack:
+    custom_model_data: 706
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/profile/leggings
+
+empty_mainhand:
+  displayname: <#ffffff>mainhand
+  material: PAPER
+  Pack:
+    custom_model_data: 707
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/profile/mainhand
+
+empty_balloon:
+  displayname: <#ffffff>balloon
+  material: PAPER
+  Pack:
+    custom_model_data: 708
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - custom/ui/profile/balloon

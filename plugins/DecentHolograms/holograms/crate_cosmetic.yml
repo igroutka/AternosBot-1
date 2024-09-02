@@ -1,0 +1,16 @@
+location: world_spawn:-27.639:120:-88.270
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 30
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#F79F1Fᴄᴏsᴍᴇᴛɪᴄ ᴄʀᴀᴛᴇ'
+    height: 0.3
+  - content: '%hrn_getCrate:cosmetic%'
+    height: 0.3
+  - content: '&7(ᴘʀᴇᴠɪᴇᴡ)'
+    height: 0.3
+  actions: {}
